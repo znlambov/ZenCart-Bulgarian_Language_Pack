@@ -614,14 +614,14 @@
   define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">Грешка 0071: Изглежда има проблем с базата данни. Необходима е поддръжка.</a>');
 
   // EZ-PAGES Alerts
-  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'Внимание: EZ-PAGES HEADER - On for Admin IP Only');
-  define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', 'Внимание: EZ-PAGES FOOTER - On for Admin IP Only');
-  define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', 'Внимание: EZ-PAGES SIDEBOX - On for Admin IP Only');
+  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'Внимание: EZ-PAGES HEADER - Включвно само за Admin IP');
+  define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', 'Внимание: EZ-PAGES FOOTER - Включено само за Admin IP');
+  define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', 'Внимание: EZ-PAGES SIDEBOX - Включено само за Admin IP');
 
 // extra product listing sorter
   define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER', '');
-  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES', 'Items starting with ...');
-  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES_RESET', '-- Reset --');
+  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES', 'Продукти започващи с...');
+  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES_RESET', '-- Нулиране --');
 
 ///////////////////////////////////////////////////////////
 // include email extras
