@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,21 +7,21 @@
  * @version $Id: account_notifications.php 3007 2006-02-11 09:17:12Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Product Notifications');
+define('NAVBAR_TITLE_1', 'Моят профил');
+define('NAVBAR_TITLE_2', 'Известия за продукти');
 
-define('HEADING_TITLE', 'Product Notifications');
+define('HEADING_TITLE', 'Известия за продукти');
 
-define('MY_NOTIFICATIONS_TITLE', 'My Product Notifications');
-define('MY_NOTIFICATIONS_DESCRIPTION', 'The product notification list allows you to stay up to date on products you find of interest.<br /><br />To be up to date on all product changes, select <strong>Global Product Notifications</strong>.');
+define('MY_NOTIFICATIONS_TITLE', 'Моите известия за продукти');
+define('MY_NOTIFICATIONS_DESCRIPTION', 'Списъкът с известия за продукти Ви дава възможност да сте винаги в крак с промените свързани с определени продукт.<br /><br />За да получавате известия за промяна на който и да е продукт, изберете <strong>Известия за всички продукти</strong>.');
 
-define('GLOBAL_NOTIFICATIONS_TITLE', 'Global Product Notifications');
-define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Receive notifications on all available products.');
+define('GLOBAL_NOTIFICATIONS_TITLE', 'Известия за всички продукти');
+define('GLOBAL_NOTIFICATIONS_DESCRIPTION', 'Получавай известия за всички продукти.');
 
-define('NOTIFICATIONS_TITLE', 'Product Notifications');
-define('NOTIFICATIONS_DESCRIPTION', 'To remove a product notification, clear that product\'s checkbox and click on Update.');
-define('NOTIFICATIONS_NON_EXISTING', 'There are currently no products marked to be notified of.<br /><br />To add products to your product notification list, click on the notification link available on the detailed product information page.');
-define('TEXT_NO_PURCHASES', 'No Purchases');
+define('NOTIFICATIONS_TITLE', 'Известия за продукти');
+define('NOTIFICATIONS_DESCRIPTION', 'За да изключите известия за продукт, размаркирайте продукта и натиснете Обнови.');
+define('NOTIFICATIONS_NON_EXISTING', 'Към момента няма маркирани продукти за които да получавате известия.<br /><br />За да добавите продукти към списъка за известия, натиснете връзката за извесия, намираща се в страницата на продукта.');
+define('TEXT_NO_PURCHASES', 'Няма покупки');
 
-define('SUCCESS_NOTIFICATIONS_UPDATED', 'Your product notifications have been updated.');
+define('SUCCESS_NOTIFICATIONS_UPDATED', 'Известията за продукта бяха обновени.');
 ?>
