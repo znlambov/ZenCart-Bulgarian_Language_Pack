@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,19 +7,19 @@
  * @version $Id: account_history.php 2989 2006-02-08 04:07:25Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'History');
+define('NAVBAR_TITLE_1', 'Моят профил');
+define('NAVBAR_TITLE_2', 'История');
 
-define('HEADING_TITLE', 'My Order History');
+define('HEADING_TITLE', 'История на поръчките');
 
-define('TEXT_ORDER_NUMBER', 'Order Number: ');
-define('TEXT_ORDER_STATUS', 'Order Status: ');
-define('TEXT_ORDER_DATE', 'Order Date: ');
-define('TEXT_ORDER_SHIPPED_TO', 'Shipped To: ');
-define('TEXT_ORDER_BILLED_TO', 'Billed To: ');
-define('TEXT_ORDER_PRODUCTS', 'Products: ');
-define('TEXT_ORDER_COST', 'Order Cost: ');
-define('TEXT_VIEW_ORDER', 'View Order');
+define('TEXT_ORDER_NUMBER', 'Номер поръчка: ');
+define('TEXT_ORDER_STATUS', 'Статус на поръчката: ');
+define('TEXT_ORDER_DATE', 'Дата на поръчката: ');
+define('TEXT_ORDER_SHIPPED_TO', 'Изпратена до: ');
+define('TEXT_ORDER_BILLED_TO', 'Адрес на платеца: ');
+define('TEXT_ORDER_PRODUCTS', 'Продукти: ');
+define('TEXT_ORDER_COST', 'Стойност на поръчката: ');
+define('TEXT_VIEW_ORDER', 'Разгледай поръчката');
 
-define('TEXT_NO_PURCHASES', 'You have not yet made any purchases.');
+define('TEXT_NO_PURCHASES', 'До момента нямате никакви поръчки.');
 ?>
