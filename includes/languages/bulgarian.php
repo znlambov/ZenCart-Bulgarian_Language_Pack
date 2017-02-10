@@ -480,45 +480,45 @@
   define('WARNING_PRODUCT_QUANTITY_ADJUSTED', 'Количествата бяха коригирани, според това, което е налично. ');
 
 // error on checkout when $_SESSION['customers_id' does not exist in customers table
-  define('ERROR_CUSTOMERS_ID_INVALID', 'Информацията за потребителя не може да бъде валидирана!<br />Please login or recreate your account ...');
+  define('ERROR_CUSTOMERS_ID_INVALID', 'Информацията за потребителя не може да бъде валидирана!<br />Моля, влезте отново или създайте нов профил...');
 
-  define('TABLE_HEADING_FEATURED_PRODUCTS','Featured Products');
+  define('TABLE_HEADING_FEATURED_PRODUCTS','Продукти на фокус');
 
-  define('TABLE_HEADING_NEW_PRODUCTS', 'New Products For %s');
-  define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Upcoming Products');
-  define('TABLE_HEADING_DATE_EXPECTED', 'Date Expected');
-  define('TABLE_HEADING_SPECIALS_INDEX', 'Monthly Specials For %s');
+  define('TABLE_HEADING_NEW_PRODUCTS', 'Нови продукти за %s');
+  define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Предстоящи продукти');
+  define('TABLE_HEADING_DATE_EXPECTED', 'Очаквани на');
+  define('TABLE_HEADING_SPECIALS_INDEX', 'Месечни промоции за %s');
 
-  define('CAPTION_UPCOMING_PRODUCTS','These items will be in stock soon');
-  define('SUMMARY_TABLE_UPCOMING_PRODUCTS','table contains a list of products that are due to be in stock soon and the dates the items are expected');
+  define('CAPTION_UPCOMING_PRODUCTS','Тези продукти скоро ще са налични');
+  define('SUMMARY_TABLE_UPCOMING_PRODUCTS','списъкът съдържа продукти, кото се очаква скоро да бъдат налични, както и датите, на които се очаква да са налични');
 
 // meta tags special defines
-  define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT','It\'s Free!');
+  define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT','Безплатно!');
 
 // customer login
-  define('TEXT_SHOWCASE_ONLY','Contact Us');
+  define('TEXT_SHOWCASE_ONLY','Контакти');
 // set for login for prices
-  define('TEXT_LOGIN_FOR_PRICE_PRICE','Price Unavailable');
-  define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE','Login for price');
+  define('TEXT_LOGIN_FOR_PRICE_PRICE','Цената не е на разположение');
+  define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE','Влез, за да видиш цените');
 // set for show room only
   define('TEXT_LOGIN_FOR_PRICE_PRICE_SHOWROOM', ''); // blank for prices or enter your own text
-  define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM','Show Room Only');
+  define('TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM','Стоките са само изложени');
 
 // authorization pending
-  define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Price Unavailable');
-  define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'APPROVAL PENDING');
-  define('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE','Login to Shop');
-  define('TEXT_AUTHORIZATION_PENDING_CHECKOUT', 'Checkout Unavailable - Approval Pending');
+  define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Цената не е на разположение');
+  define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'Очаква одобрение');
+  define('TEXT_LOGIN_TO_SHOP_BUTTON_REPLACE','Влез, за да пазаруваш');
+  define('TEXT_AUTHORIZATION_PENDING_CHECKOUT', 'Не може да се приключи поръчка - Очаква одобрение');
 
 // text pricing
-  define('TEXT_CHARGES_WORD','Calculated Charge:');
-  define('TEXT_PER_WORD','<br />Price per word: ');
-  define('TEXT_WORDS_FREE',' Word(s) free ');
-  define('TEXT_CHARGES_LETTERS','Calculated Charge:');
-  define('TEXT_PER_LETTER','<br />Price per letter: ');
-  define('TEXT_LETTERS_FREE',' Letter(s) free ');
-  define('TEXT_ONETIME_CHARGES','*onetime charges = ');
-  define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . '*onetime charges = ');
+  define('TEXT_CHARGES_WORD','Изчисли такса:');
+  define('TEXT_PER_WORD','<br />Цена за дума: ');
+  define('TEXT_WORDS_FREE',' Безплатна(и) дума(и) ');
+  define('TEXT_CHARGES_LETTERS','Изчисли такса:');
+  define('TEXT_PER_LETTER','<br />Цена за буква: ');
+  define('TEXT_LETTERS_FREE',' Безплтна(и) буква(и) ');
+  define('TEXT_ONETIME_CHARGES','*еднократни такси = ');
+  define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . '*еднократни такси = ');
   define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Option Quantity Discounts');
   define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','QTY');
   define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','PRICE');
