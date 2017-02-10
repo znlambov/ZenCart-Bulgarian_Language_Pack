@@ -31,5 +31,3 @@ Installation:
  includes/templates/template_default/buttons/bulgarian/>  
 
 5. Go to admin panel, Admin > Localization > Languages and click the new language button.
-
-!!! Testing, testing... 1, 2, 3...

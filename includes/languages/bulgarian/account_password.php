@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,13 +20,13 @@
 // $Id: account_password.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Change Password');
+define('NAVBAR_TITLE_1', 'Моят профил');
+define('NAVBAR_TITLE_2', 'Смяна на паролата');
 
-define('HEADING_TITLE', 'My Password');
+define('HEADING_TITLE', 'Моята парола');
 
-define('MY_PASSWORD_TITLE', 'My Password');
+define('MY_PASSWORD_TITLE', 'Моята парола');
 
-define('SUCCESS_PASSWORD_UPDATED', 'Your password has been successfully updated.');
-define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', 'Your Current Password did not match the password in our records. Please try again.');
+define('SUCCESS_PASSWORD_UPDATED', 'Паролата Ви бе успешно обновена.');
+define('ERROR_CURRENT_PASSWORD_NOT_MATCHING', 'Текущата Ви парола не съвпада с паролата в базата ни данни. Моля, опитайте отново.');
 ?>
