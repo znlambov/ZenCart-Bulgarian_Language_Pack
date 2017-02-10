@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2008 Zen Cart Development Team
@@ -7,30 +7,30 @@
  * @version $Id: address_book_process.php 9647 2008-09-17 00:10:08Z drbyte $
  */
 
-define('NAVBAR_TITLE_1', 'My Account');
-define('NAVBAR_TITLE_2', 'Address Book');
+define('NAVBAR_TITLE_1', 'Моят профил');
+define('NAVBAR_TITLE_2', 'Адресна книга');
 
-define('NAVBAR_TITLE_ADD_ENTRY', 'New Entry');
-define('NAVBAR_TITLE_MODIFY_ENTRY', 'Update Entry');
-define('NAVBAR_TITLE_DELETE_ENTRY', 'Delete Entry');
+define('NAVBAR_TITLE_ADD_ENTRY', 'Нов запис');
+define('NAVBAR_TITLE_MODIFY_ENTRY', 'Обнови записа');
+define('NAVBAR_TITLE_DELETE_ENTRY', 'Изтрий записа');
 
-define('HEADING_TITLE_ADD_ENTRY', 'New Address Book Entry');
-define('HEADING_TITLE_MODIFY_ENTRY', 'Update Address Book Entry');
-define('HEADING_TITLE_DELETE_ENTRY', 'Delete Address Book Entry');
-define('HEADING_TITLE', 'Address Details');
+define('HEADING_TITLE_ADD_ENTRY', 'Нов запис в адресната книга');
+define('HEADING_TITLE_MODIFY_ENTRY', 'Обнови записите в адресната книга');
+define('HEADING_TITLE_DELETE_ENTRY', 'Изтрий записа от адресната книга');
+define('HEADING_TITLE', 'Детайли за адреса');
 
-define('DELETE_ADDRESS_TITLE', 'Delete Address');
-define('DELETE_ADDRESS_DESCRIPTION', 'Are you sure you would like to delete the selected address from your address book?');
+define('DELETE_ADDRESS_TITLE', 'Изтрий адреса');
+define('DELETE_ADDRESS_DESCRIPTION', 'Сигурни ли сте, че искате да изтриете избрания адрес от адресната книга?');
 
-define('NEW_ADDRESS_TITLE', 'New Address Book Entry');
+define('NEW_ADDRESS_TITLE', 'Нов запис в адресната книга');
 
-define('SELECTED_ADDRESS', 'Selected Address');
-define('SET_AS_PRIMARY', 'Set as primary address.');
+define('SELECTED_ADDRESS', 'Избран адрес');
+define('SET_AS_PRIMARY', 'Задай, като основен адрес.');
 
-define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'The selected address has been successfully removed from your address book.');
-define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'Your address book has been successfully updated.');
+define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'Избраният адрес бе успешно изтрит от адресната книга.');
+define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'Адресната Ви книга бе успешно обновена.');
 
-define('WARNING_PRIMARY_ADDRESS_DELETION', 'The primary address cannot be deleted. Please set another address as the primary address and try again.');
+define('WARNING_PRIMARY_ADDRESS_DELETION', 'Основният адрес не може да бъде изтрит. Моля, задайте друг адрес, като основен, след което опитайте отново.');
 
 define('ERROR_NONEXISTING_ADDRESS_BOOK_ENTRY', 'The address book entry does not exist.');
-define('ERROR_ADDRESS_BOOK_FULL', 'Your address book is full. Please delete an unneeded address to save a new one.');
+define('ERROR_ADDRESS_BOOK_FULL', 'Адресната Ви книга е пълна. Моля, изтрийте един от наличните адреси, за да можете да въведете и запишете нов.');
