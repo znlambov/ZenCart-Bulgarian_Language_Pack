@@ -32,5 +32,5 @@ define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'Адресната Ви книга
 
 define('WARNING_PRIMARY_ADDRESS_DELETION', 'Основният адрес не може да бъде изтрит. Моля, задайте друг адрес, като основен, след което опитайте отново.');
 
-define('ERROR_NONEXISTING_ADDRESS_BOOK_ENTRY', 'The address book entry does not exist.');
+define('ERROR_NONEXISTING_ADDRESS_BOOK_ENTRY', 'Записът в адресната книга не съществува.');
 define('ERROR_ADDRESS_BOOK_FULL', 'Адресната Ви книга е пълна. Моля, изтрийте един от наличните адреси, за да можете да въведете и запишете нов.');

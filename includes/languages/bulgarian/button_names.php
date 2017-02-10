@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -62,45 +62,45 @@ define('BUTTON_IMAGE_LOG_OFF', 'button_logoff.gif');
  * ALT text is used as Button Text, or for the ALT tag on image-buttons
  */
 
-define('BUTTON_CREATE_ACCOUNT_ALT', 'Sign Up');
-define('BUTTON_LOG_OFF_ALT', 'Log Off');
-define('BUTTON_ADD_TO_CART_ALT', 'Add This to My Cart');
-define('BUTTON_ADD_ADDRESS_ALT', 'Add Address');
-define('BUTTON_ADD_PRODUCTS_TO_CART_ALT','Add Selected to Cart');
-define('BUTTON_BACK_ALT', 'Back');
-define('BUTTON_BUY_NOW_ALT', 'Buy Now');
-define('BUTTON_CANCEL_ALT', 'Cancel');
-define('BUTTON_CHANGE_ADDRESS_ALT', 'Change Address');
-define('BUTTON_CHECKOUT_ALT', 'Checkout');
-define('BUTTON_CONFIRM_SEND_ALT', 'Send Gift Certificate');
-define('BUTTON_CONFIRM_ORDER_ALT', 'Confirm Order');
-define('BUTTON_CONTINUE_ALT', 'Continue');
-define('BUTTON_CONTINUE_SHOPPING_ALT', 'Continue Shopping');
-define('BUTTON_DELETE_ALT', 'Delete');
-define('BUTTON_DELETE_SMALL_ALT', 'Delete');
-define('BUTTON_DOWNLOAD_ALT', 'Download Now');
-define('BUTTON_EDIT_SMALL_ALT', 'Edit');
-define('BUTTON_IN_CART_ALT', 'Add to Cart');
-define('BUTTON_LOGIN_ALT', 'Sign In');
+define('BUTTON_CREATE_ACCOUNT_ALT', 'Регистрация');
+define('BUTTON_LOG_OFF_ALT', 'Изход');
+define('BUTTON_ADD_TO_CART_ALT', 'Добави в количката');
+define('BUTTON_ADD_ADDRESS_ALT', 'Добави адрес');
+define('BUTTON_ADD_PRODUCTS_TO_CART_ALT','Добави избраните в количката');
+define('BUTTON_BACK_ALT', 'Назад');
+define('BUTTON_BUY_NOW_ALT', 'Купи сега');
+define('BUTTON_CANCEL_ALT', 'Откажи');
+define('BUTTON_CHANGE_ADDRESS_ALT', 'Смени адреса');
+define('BUTTON_CHECKOUT_ALT', 'Приключи');
+define('BUTTON_CONFIRM_SEND_ALT', 'Изпрати Подаръчен ваучер');
+define('BUTTON_CONFIRM_ORDER_ALT', 'Потвърди поръчката');
+define('BUTTON_CONTINUE_ALT', 'Продължи');
+define('BUTTON_CONTINUE_SHOPPING_ALT', 'Продължи пазаруването');
+define('BUTTON_DELETE_ALT', 'Изтрий');
+define('BUTTON_DELETE_SMALL_ALT', 'Изтрий');
+define('BUTTON_DOWNLOAD_ALT', 'Свали сега');
+define('BUTTON_EDIT_SMALL_ALT', 'Редактирай');
+define('BUTTON_IN_CART_ALT', 'Добави в количката');
+define('BUTTON_LOGIN_ALT', 'Вход');
 define('BUTTON_LOOKUP_ALT', 'Lookup');
-define('BUTTON_NEXT_ALT', 'Next');
-define('BUTTON_PREVIOUS_ALT', 'Previous');
-define('BUTTON_REDEEM_ALT', 'Redeem');
-define('BUTTON_RETURN_TO_PROD_LIST_ALT', 'Return to the Product List');
-define('BUTTON_REVIEWS_ALT', 'Go to the Reviews Page');
-define('BUTTON_SEARCH_ALT', 'Search');
-define('BUTTON_SEND_ALT', 'Send Now');
-define('BUTTON_SEND_ANOTHER_ALT', 'Send Another Gift Certificate');
-define('BUTTON_SEND_A_GIFT_CERT_ALT', 'Send A Gift Certificate');
-define('BUTTON_SHIPPING_ESTIMATOR_ALT', 'Shipping Estimator');
-define('BUTTON_SOLD_OUT_ALT', 'Sold Out');
-define('BUTTON_SOLD_OUT_SMALL_ALT', 'Sold Out');
-define('BUTTON_SUBMIT_ALT', 'Submit the Information');
-define('BUTTON_UNSUBSCRIBE', 'Unsubscribe');
-define('BUTTON_UPDATE_ALT', 'Update');
-define('BUTTON_VIEW_SMALL_ALT', 'View');
-define('BUTTON_WRITE_REVIEW_ALT', 'Write Review');
-define('BUTTON_READ_REVIEWS_ALT', 'Read the Review');
-define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Go To This Product\'s Details');
-define('BUTTON_MORE_REVIEWS_ALT', 'Read More Reviews');
-define('BUTTON_VIEW_ALL_ALT', 'View All');
+define('BUTTON_NEXT_ALT', 'Следващ');
+define('BUTTON_PREVIOUS_ALT', 'Предишен');
+define('BUTTON_REDEEM_ALT', 'Осребри');
+define('BUTTON_RETURN_TO_PROD_LIST_ALT', 'Обратно към списъка с продукти');
+define('BUTTON_REVIEWS_ALT', 'Към предишната страница');
+define('BUTTON_SEARCH_ALT', 'Търси');
+define('BUTTON_SEND_ALT', 'Изпрати сега');
+define('BUTTON_SEND_ANOTHER_ALT', 'Изпрати друг Подаръчен ваучер');
+define('BUTTON_SEND_A_GIFT_CERT_ALT', 'Изпрати Подаръчен ваучер');
+define('BUTTON_SHIPPING_ESTIMATOR_ALT', 'Изчисли доставката');
+define('BUTTON_SOLD_OUT_ALT', 'Продадено');
+define('BUTTON_SOLD_OUT_SMALL_ALT', 'Продадено');
+define('BUTTON_SUBMIT_ALT', 'Потвърди информацията');
+define('BUTTON_UNSUBSCRIBE', 'Отпиши се');
+define('BUTTON_UPDATE_ALT', 'Обнови');
+define('BUTTON_VIEW_SMALL_ALT', 'Разгледай');
+define('BUTTON_WRITE_REVIEW_ALT', 'Напиши отзив');
+define('BUTTON_READ_REVIEWS_ALT', 'Прочети отзива');
+define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Към детайлите на продукта');
+define('BUTTON_MORE_REVIEWS_ALT', 'Прочети още отзиви');
+define('BUTTON_VIEW_ALL_ALT', 'Виж всички');

@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2005 Zen Cart Development Team
@@ -8,20 +8,20 @@
  */
 
 
-define('NAVBAR_TITLE_1', 'Checkout');
-define('NAVBAR_TITLE_2', 'Change Billing Address');
+define('NAVBAR_TITLE_1', 'Плащане');
+define('NAVBAR_TITLE_2', 'Промени адреса на платеца');
 
-define('HEADING_TITLE', 'Change the Billing Information');
+define('HEADING_TITLE', 'Промени информацията за адреса на платеца');
 
-define('TABLE_HEADING_PAYMENT_ADDRESS', 'Billing Address');
-define('TEXT_SELECTED_PAYMENT_DESTINATION', 'This is the current billing address. Please make sure it matches the information on your credit card statement or correct it using the form below.');
-define('TITLE_PAYMENT_ADDRESS', 'Billing Address');
+define('TABLE_HEADING_PAYMENT_ADDRESS', 'Адрес на платеца');
+define('TEXT_SELECTED_PAYMENT_DESTINATION', 'Това е настоящият адрес на платеца. Моля, уверете се, че съответства с информацията от банковата Ви карта или го коригирайте, като използвате формата по-долу.');
+define('TITLE_PAYMENT_ADDRESS', 'Адрес на платеца');
 
-define('TEXT_SELECT_OTHER_PAYMENT_DESTINATION', 'Please select the preferred billing address if the invoice to this order is to be delivered elsewhere.');
-define('TITLE_PLEASE_SELECT', 'Change the Billing Address for This Order');
+define('TEXT_SELECT_OTHER_PAYMENT_DESTINATION', 'Моля, изберете предпочитан от Вас адрес на платеца, ако поръчката Ви ще бъде доставена до различен от него адрес.');
+define('TITLE_PLEASE_SELECT', 'Промени адреса на платеца за тази поръчка');
 
-define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', '...Or Choose From Your Address Book Entries');
+define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', '...Или избери от записаните в адресната книга');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Continue</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- to payment method.');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Продължи</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- към начин на плащане.');
 ?>
