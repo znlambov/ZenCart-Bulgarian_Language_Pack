@@ -519,109 +519,109 @@
   define('TEXT_LETTERS_FREE',' Безплтна(и) буква(и) ');
   define('TEXT_ONETIME_CHARGES','*еднократни такси = ');
   define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . '*еднократни такси = ');
-  define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Option Quantity Discounts');
-  define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','QTY');
-  define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','PRICE');
-  define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'Option Quantity Discounts Onetime Charges');
+  define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Възможност за количествени отстъпки');
+  define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','Количество');
+  define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','Цена');
+  define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'Еднократна такса Възможност за количествени отстъпки');
 
 // textarea attribute input fields
-  define('TEXT_MAXIMUM_CHARACTERS_ALLOWED',' maximum characters allowed');
-  define('TEXT_REMAINING','remaining');
+  define('TEXT_MAXIMUM_CHARACTERS_ALLOWED',' Максимален брой разрешени знаци');
+  define('TEXT_REMAINING','оставащи');
 
 // Shipping Estimator
-  define('CART_SHIPPING_OPTIONS', 'Estimate Shipping Costs');
-  define('CART_SHIPPING_OPTIONS_LOGIN', 'Please <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">Log In</span></a>, to display your personal shipping costs.');
-  define('CART_SHIPPING_METHOD_TEXT', 'Available Shipping Methods');
-  define('CART_SHIPPING_METHOD_RATES', 'Rates');
-  define('CART_SHIPPING_METHOD_TO','Ship to: ');
-  define('CART_SHIPPING_METHOD_TO_NOLOGIN', 'Ship to: <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">Log In</span></a>');
-  define('CART_SHIPPING_METHOD_FREE_TEXT','Free Shipping');
-  define('CART_SHIPPING_METHOD_ALL_DOWNLOADS','- Downloads');
-  define('CART_SHIPPING_METHOD_RECALCULATE','Recalculate');
-  define('CART_SHIPPING_METHOD_ZIP_REQUIRED','true');
-  define('CART_SHIPPING_METHOD_ADDRESS','Address:');
-  define('CART_OT','Total Cost Estimate:');
-  define('CART_OT_SHOW','true'); // set to false if you don't want order totals
-  define('CART_ITEMS','Items in Cart: ');
-  define('CART_SELECT','Select');
-  define('ERROR_CART_UPDATE', '<strong>Please update your order.</strong> ');
-  define('IMAGE_BUTTON_UPDATE_CART', 'Update');
-  define('EMPTY_CART_TEXT_NO_QUOTE', 'Whoops! Your session has expired ... Please update your shopping cart for Shipping Quote ...');
-  define('CART_SHIPPING_QUOTE_CRITERIA', 'Shipping quotes are based on the address information you selected:');
+  define('CART_SHIPPING_OPTIONS', 'Изчисли разходи за доставка');
+  define('CART_SHIPPING_OPTIONS_LOGIN', 'Моля, <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">Влезте</span></a>, за да видите разходите за доставка.');
+  define('CART_SHIPPING_METHOD_TEXT', 'Налични методи за доставка');
+  define('CART_SHIPPING_METHOD_RATES', 'Цени');
+  define('CART_SHIPPING_METHOD_TO','Доставка до: ');
+  define('CART_SHIPPING_METHOD_TO_NOLOGIN', 'Доставка до: <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">Вход</span></a>');
+  define('CART_SHIPPING_METHOD_FREE_TEXT','Безплатна доставка');
+  define('CART_SHIPPING_METHOD_ALL_DOWNLOADS','- Даунлоъдс');
+  define('CART_SHIPPING_METHOD_RECALCULATE','Преизчисли');
+  define('CART_SHIPPING_METHOD_ZIP_REQUIRED','вярно');
+  define('CART_SHIPPING_METHOD_ADDRESS','Адрес:');
+  define('CART_OT','Общо възлиза на:');
+  define('CART_OT_SHOW','вярно'); // set to false if you don't want order totals
+  define('CART_ITEMS','Продукти в количката: ');
+  define('CART_SELECT','Избери');
+  define('ERROR_CART_UPDATE', '<strong>Обнови поръчката си.</strong> ');
+  define('IMAGE_BUTTON_UPDATE_CART', 'Обнови');
+  define('EMPTY_CART_TEXT_NO_QUOTE', 'Сесията Ви е изтекла... Моля, обновете пазарната си количка за да видите цена за доставка...');
+  define('CART_SHIPPING_QUOTE_CRITERIA', 'Цената за доставка се базира на адресната информация, която сте избрали:');
 
 // multiple product add to cart
-  define('TEXT_PRODUCT_LISTING_MULTIPLE_ADD_TO_CART', 'Add: ');
-  define('TEXT_PRODUCT_ALL_LISTING_MULTIPLE_ADD_TO_CART', 'Add: ');
-  define('TEXT_PRODUCT_FEATURED_LISTING_MULTIPLE_ADD_TO_CART', 'Add: ');
-  define('TEXT_PRODUCT_NEW_LISTING_MULTIPLE_ADD_TO_CART', 'Add: ');
+  define('TEXT_PRODUCT_LISTING_MULTIPLE_ADD_TO_CART', 'Добави: ');
+  define('TEXT_PRODUCT_ALL_LISTING_MULTIPLE_ADD_TO_CART', 'Добави: ');
+  define('TEXT_PRODUCT_FEATURED_LISTING_MULTIPLE_ADD_TO_CART', 'Добави: ');
+  define('TEXT_PRODUCT_NEW_LISTING_MULTIPLE_ADD_TO_CART', 'Добави: ');
   //moved SUBMIT_BUTTON_ADD_PRODUCTS_TO_CART to button_names.php as BUTTON_ADD_PRODUCTS_TO_CART_ALT
 
 // discount qty table
-  define('TEXT_HEADER_DISCOUNT_PRICES_PERCENTAGE', 'Qty Discounts Off Price');
-  define('TEXT_HEADER_DISCOUNT_PRICES_ACTUAL_PRICE', 'Qty Discounts New Price');
-  define('TEXT_HEADER_DISCOUNT_PRICES_AMOUNT_OFF', 'Qty Discounts Off Price');
-  define('TEXT_FOOTER_DISCOUNT_QUANTITIES', '* Discounts may vary based on options above');
-  define('TEXT_HEADER_DISCOUNTS_OFF', 'Qty Discounts Unavailable ...');
+  define('TEXT_HEADER_DISCOUNT_PRICES_PERCENTAGE', 'Количествени отстъпки от цената');
+  define('TEXT_HEADER_DISCOUNT_PRICES_ACTUAL_PRICE', 'Количествени отстъпки Нова цената');
+  define('TEXT_HEADER_DISCOUNT_PRICES_AMOUNT_OFF', 'Количествени отстъпки от цената');
+  define('TEXT_FOOTER_DISCOUNT_QUANTITIES', '* Отстъпките могат да варират, според опциите по-горе');
+  define('TEXT_HEADER_DISCOUNTS_OFF', 'Количествени отстъпки не са налични...');
 
 // sort order titles for dropdowns
-  define('PULL_DOWN_ALL_RESET','- RESET - ');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_NAME', 'Product Name');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_NAME_DESC', 'Product Name - desc');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Price - low to high');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Price - high to low');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Model');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Date Added - New to Old');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Date Added - Old to New');
-  define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'Default Display');
+  define('PULL_DOWN_ALL_RESET','- НУЛИРАЙ - ');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_NAME', 'Име на продукт');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_NAME_DESC', 'Име на продукт - низходящо');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE', 'Цена - ниска към висока');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_PRICE_DESC', 'Цена - висока към ниска');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_MODEL', 'Модел');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE_DESC', 'Добавено на - нови към стари');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_DATE', 'Добавено на - стари към нови');
+  define('TEXT_INFO_SORT_BY_PRODUCTS_SORT_ORDER', 'По подразбиране');
 
 // downloads module defines
-  define('TABLE_HEADING_DOWNLOAD_DATE', 'Link Expires');
-  define('TABLE_HEADING_DOWNLOAD_COUNT', 'Remaining');
-  define('HEADING_DOWNLOAD', 'To download your files click the download button and choose "Save to Disk" from the popup menu.');
-  define('TABLE_HEADING_DOWNLOAD_FILENAME','Filename');
-  define('TABLE_HEADING_PRODUCT_NAME','Item Name');
-  define('TABLE_HEADING_BYTE_SIZE','File Size');
-  define('TEXT_DOWNLOADS_UNLIMITED', 'Unlimited');
+  define('TABLE_HEADING_DOWNLOAD_DATE', 'Връзката изтича');
+  define('TABLE_HEADING_DOWNLOAD_COUNT', 'Оставащи');
+  define('HEADING_DOWNLOAD', 'За да свалите файловете си, натиснете бутона за Даунлоъд и изберете "Запази на диска" от появилото се меню.');
+  define('TABLE_HEADING_DOWNLOAD_FILENAME','Име на файл');
+  define('TABLE_HEADING_PRODUCT_NAME','Име на продукт');
+  define('TABLE_HEADING_BYTE_SIZE','Размер на файла');
+  define('TEXT_DOWNLOADS_UNLIMITED', 'Неограничен');
   define('TEXT_DOWNLOADS_UNLIMITED_COUNT', '--- *** ---');
 
 // misc
   define('COLON_SPACER', ':&nbsp;&nbsp;');
-  define('PAYMENT_JAVASCRIPT_DISABLED', 'We could not continue with checkout as Javascript is disabled. You must enable it to continue');
+  define('PAYMENT_JAVASCRIPT_DISABLED', 'Не може да продължите към приключване на поръчката, защото Javascript е изключен. Трябва да го разрешите, за да продължите');
 
 // table headings for cart display and upcoming products
-  define('TABLE_HEADING_QUANTITY', 'Qty.');
-  define('TABLE_HEADING_PRODUCTS', 'Item Name');
-  define('TABLE_HEADING_TOTAL', 'Total');
+  define('TABLE_HEADING_QUANTITY', 'Бройки');
+  define('TABLE_HEADING_PRODUCTS', 'Име');
+  define('TABLE_HEADING_TOTAL', 'Общо');
 
 // create account - login shared
-  define('TABLE_HEADING_PRIVACY_CONDITIONS', 'Privacy Statement');
-  define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Please acknowledge you agree with our privacy statement by ticking the following box. The privacy statement can be read <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">here</span></a>.');
-  define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'I have read and agreed to your privacy statement.');
-  define('TABLE_HEADING_ADDRESS_DETAILS', 'Address Details');
-  define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Additional Contact Details');
-  define('TABLE_HEADING_DATE_OF_BIRTH', 'Verify Your Age');
-  define('TABLE_HEADING_LOGIN_DETAILS', 'Login Details');
-  define('TABLE_HEADING_REFERRAL_DETAILS', 'Were You Referred to Us?');
+  define('TABLE_HEADING_PRIVACY_CONDITIONS', 'Декларазия за поверителност');
+  define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Моля, потвърдете, че сте съгласни с декларацията за поверителност, като маркирате кутийката долу. Можете да прочетете Декларацията за поверителност <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">тук</span></a>.');
+  define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'Прочетох и съм съгласен с Декларацията за съответствие.');
+  define('TABLE_HEADING_ADDRESS_DETAILS', 'Детайли за адреса');
+  define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Допълнителни контакти');
+  define('TABLE_HEADING_DATE_OF_BIRTH', 'Потвърди възрастта си');
+  define('TABLE_HEADING_LOGIN_DETAILS', 'Детайли за вход');
+  define('TABLE_HEADING_REFERRAL_DETAILS', 'Кой Ви насочи към нас?');
 
-  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Sorry, but we no longer accept billing or shipping addresses in "%s".  Please update this address to continue.');
+  define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Извинете, но вече не приемаме адрес за доставка или адрес на платеца в "%s".  Моля, редактирайте адреса за да продължите.');
 
-  define('ENTRY_EMAIL_PREFERENCE','Newsletter and Email Details');
+  define('ENTRY_EMAIL_PREFERENCE','Детайли за новини и мейл');
   define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
-  define('ENTRY_EMAIL_TEXT_DISPLAY','TEXT-Only');
-  define('EMAIL_SEND_FAILED','ERROR: Failed sending email to: "%s" <%s> with subject: "%s"');
+  define('ENTRY_EMAIL_TEXT_DISPLAY','Само текст');
+  define('EMAIL_SEND_FAILED','Грешка: неуспешно изпращане на електронна поща до: "%s" <%s> относно: "%s"');
 
-  define('DB_ERROR_NOT_CONNECTED', 'Error - Could not connect to Database');
-  define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: There appears to be a problem with the database. Maintenance is required.</a>');
+  define('DB_ERROR_NOT_CONNECTED', 'Грешка - неуспешно свързване с базата данни');
+  define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">Грешка 0071: Изглежда има проблем с базата данни. Необходима е поддръжка.</a>');
 
   // EZ-PAGES Alerts
-  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'WARNING: EZ-PAGES HEADER - On for Admin IP Only');
-  define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', 'WARNING: EZ-PAGES FOOTER - On for Admin IP Only');
-  define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', 'WARNING: EZ-PAGES SIDEBOX - On for Admin IP Only');
+  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'Внимание: EZ-PAGES HEADER - Включвно само за Admin IP');
+  define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', 'Внимание: EZ-PAGES FOOTER - Включено само за Admin IP');
+  define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', 'Внимание: EZ-PAGES SIDEBOX - Включено само за Admin IP');
 
 // extra product listing sorter
   define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER', '');
-  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES', 'Items starting with ...');
-  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES_RESET', '-- Reset --');
+  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES', 'Продукти започващи с...');
+  define('TEXT_PRODUCTS_LISTING_ALPHA_SORTER_NAMES_RESET', '-- Нулиране --');
 
 ///////////////////////////////////////////////////////////
 // include email extras
