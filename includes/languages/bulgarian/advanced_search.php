@@ -19,10 +19,10 @@
   define('ENTRY_CATEGORIES', 'Ограничения по категории:');
   define('ENTRY_INCLUDE_SUBCATEGORIES', 'Включи подкатегориите');
   define('ENTRY_MANUFACTURERS', 'Ограничение по производители');
-define('ENTRY_PRICE_RANGE', 'Търси по цена');
+  define('ENTRY_PRICE_RANGE', 'Търси по цена');
   define('ENTRY_PRICE_FROM', 'Цена от:');
   define('ENTRY_PRICE_TO', 'Цена до:');
-define('ENTRY_DATE_RANGE', 'Търси по дата на добавяне');
+  define('ENTRY_DATE_RANGE', 'Търси по дата на добавяне');
   define('ENTRY_DATE_FROM', 'От дата:');
   define('ENTRY_DATE_TO', 'До дата:');
 
