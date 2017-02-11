@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2012 Zen Cart Development Team
@@ -7,39 +7,39 @@
  * @version GIT: $Id: Author: DrByte  Sat Jul 21 16:05:31 2012 -0400 Modified in v1.5.1 $
  */
 
-define('NAVBAR_TITLE', 'Create an Account');
+define('NAVBAR_TITLE', 'Създай профил');
 
-define('HEADING_TITLE', 'My Account Information');
+define('HEADING_TITLE', 'Информация за моя профил');
 
-define('TEXT_ORIGIN_LOGIN', '<strong class="note">NOTE:</strong> If you already have an account with us, please login at the <a href="%s">login page</a>.');
+define('TEXT_ORIGIN_LOGIN', '<strong class="note">Забележка:</strong> Ако вече имате профил при нас, моля влезте от <a href="%s">тук</a>.');
 
-define('ERROR_CREATE_ACCOUNT_SPAM_DETECTED', 'Thank you, your account request has been submitted for review.');
+define('ERROR_CREATE_ACCOUNT_SPAM_DETECTED', 'Благодарим Ви! Вашата заявка бе приета и чака одобрение.');
 
 
 // greeting salutation
-define('EMAIL_SUBJECT', 'Welcome to ' . STORE_NAME);
-define('EMAIL_GREET_MR', 'Dear Mr. %s,' . "\n\n");
-define('EMAIL_GREET_MS', 'Dear Ms. %s,' . "\n\n");
-define('EMAIL_GREET_NONE', 'Dear %s' . "\n\n");
+define('EMAIL_SUBJECT', 'Добре дошли в ' . STORE_NAME);
+define('EMAIL_GREET_MR', 'Уважаеми г-н %s,' . "\n\n");
+define('EMAIL_GREET_MS', 'Уважаема г-жа %s,' . "\n\n");
+define('EMAIL_GREET_NONE', 'Уважаеми %s' . "\n\n");
 
 // First line of the greeting
-define('EMAIL_WELCOME', 'We wish to welcome you to <strong>' . STORE_NAME . '</strong>.');
+define('EMAIL_WELCOME', 'Бихме искали да Ви приветстваме в <strong>' . STORE_NAME . '</strong>.');
 define('EMAIL_SEPARATOR', '--------------------');
-define('EMAIL_COUPON_INCENTIVE_HEADER', 'Congratulations! To make your next visit to our online shop a more rewarding experience, listed below are details for a Discount Coupon created just for you!' . "\n\n");
+define('EMAIL_COUPON_INCENTIVE_HEADER', 'Поздравления! За да направим Вашето следващо посещение още по-приятно, по-долу са детайлите на Купон за отстъпка, който създадохме специално за Вас!' . "\n\n");
 // your Discount Coupon Description will be inserted before this next define
-define('EMAIL_COUPON_REDEEM', 'To use the Discount Coupon, enter the ' . TEXT_GV_REDEEM . ' code during checkout:  <strong>%s</strong>' . "\n\n");
-define('TEXT_COUPON_HELP_DATE', '<p>The coupon is valid between %s and %s</p>');
+define('EMAIL_COUPON_REDEEM', 'За да се възползвате от Купона за отстъпка, въведете ' . TEXT_GV_REDEEM . ' кода при приключване на поръчка:  <strong>%s</strong>' . "\n\n");
+define('TEXT_COUPON_HELP_DATE', '<p>Купонът е валиден между %s и %s</p>');
 
-define('EMAIL_GV_INCENTIVE_HEADER', 'Just for stopping by today, we have sent you a ' . TEXT_GV_NAME . ' for %s!' . "\n");
-define('EMAIL_GV_REDEEM', 'The ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . ' is: %s ' . "\n\n" . 'You can enter the ' . TEXT_GV_REDEEM . ' during Checkout, after making your selections in the store. ');
-define('EMAIL_GV_LINK', ' Or, you may redeem it now by following this link: ' . "\n");
+define('EMAIL_GV_INCENTIVE_HEADER', 'Само заради това, че се отбихте днес при нас, ние Ви изпращаме ' . TEXT_GV_NAME . ' за %s!' . "\n");
+define('EMAIL_GV_REDEEM', '  ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . ' е: %s ' . "\n\n" . 'Можете да въведете ' . TEXT_GV_REDEEM . ' по време на приключване на поръчка, след като изберете желаните от Вас продукти. ');
+define('EMAIL_GV_LINK', ' Или можете да го осребрите, като следвате връзката по-долу: ' . "\n");
 // GV link will automatically be included before this line
 
-define('EMAIL_GV_LINK_OTHER','Once you have added the ' . TEXT_GV_NAME . ' to your account, you may use the ' . TEXT_GV_NAME . ' for yourself, or send it to a friend!' . "\n\n");
+define('EMAIL_GV_LINK_OTHER','След като въведете ' . TEXT_GV_NAME . ' във Вашия профил, може да използвате ' . TEXT_GV_NAME . ' за себе си, или да го изпратите на приятел!' . "\n\n");
 
-define('EMAIL_TEXT', 'You are now registered with our store and have account privileges:  With your account, you can now take part in the <strong>various services</strong> we have to offer you. Some of these many services include:' . "\n\n<ul>" . '<li><strong>Order History</strong> - View the details of orders you have completed with us.' . "\n\n" . '<li><strong>Permanent Cart</strong> - Any products added to your online cart remain there until you remove them, or check them out.' . "\n\n" . '<li><strong>Address Book</strong> - We can deliver your products to an address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.' . "\n\n" . '<li><strong>Products Reviews</strong> - Share your opinions on our products with other customers.' . "\n\n</ul>");
-define('EMAIL_CONTACT', 'For help with any of our online services, please email the store-owner: <a href="mailto:' . STORE_OWNER_EMAIL_ADDRESS . '">'. STORE_OWNER_EMAIL_ADDRESS ." </a>\n\n");
-define('EMAIL_GV_CLOSURE', "\n" . 'Sincerely,' . "\n\n" . STORE_OWNER . "\nStore Owner\n\n". '<a href="' . HTTP_SERVER . DIR_WS_CATALOG . '">'.HTTP_SERVER . DIR_WS_CATALOG ."</a>\n\n");
+define('EMAIL_TEXT', 'Вие се регистрирахте успешно в нашия магазин и можете да се възползвате от <strong>различни привилегии</strong> , някои от които са:' . "\n\n<ul>" . '<li><strong>История на поръчките</strong> - Където виждате детайли за вече направени Ваши поръчки.' . "\n\n" . '<li><strong>Пазарна количка</strong> - Всички продукти, които добавите онлайн, остават там, докато не ги премахнете изришно или не ги закупите.' . "\n\n" . '<li><strong>Адресна книга</strong> - Поръчките Ви могат да бъдат доставени до адрес, различен от Вашия! Това е удобно, в случай, че искате да изненадата някого с неочакван подарък например.' . "\n\n" . '<li><strong>Отзиви за продукти</strong> - Споделете мнението относно продуктите с другите потребители.' . "\n\n</ul>");
+define('EMAIL_CONTACT', 'Ако имате нужда от помощ, за която и да е от услугите ни, моля пишете ни на: <a href="mailto:' . STORE_OWNER_EMAIL_ADDRESS . '">'. STORE_OWNER_EMAIL_ADDRESS ." </a>\n\n");
+define('EMAIL_GV_CLOSURE', "\n" . 'С уважение,' . "\n\n" . STORE_OWNER . "\nЕкипът на магазина\n\n". '<a href="' . HTTP_SERVER . DIR_WS_CATALOG . '">'.HTTP_SERVER . DIR_WS_CATALOG ."</a>\n\n");
 
 // email disclaimer - this disclaimer is separate from all other email disclaimers
-define('EMAIL_DISCLAIMER_NEW_CUSTOMER', 'This email address was given to us by you or by one of our customers. If you did not signup for an account, or feel that you have received this email in error, please send an email to %s ');
+define('EMAIL_DISCLAIMER_NEW_CUSTOMER', 'Този имейл адрес ни бе предоставен от Вас или от някой от нашите клиенти. Ако не сте се регистрирали при нас или считате, че сме изпратили това писмо по погрешка, моля изпратете ни имейл на %s ');

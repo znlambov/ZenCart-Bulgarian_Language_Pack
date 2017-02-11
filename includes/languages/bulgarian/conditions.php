@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,8 +20,8 @@
 // $Id: conditions.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Conditions of Use');
-define('HEADING_TITLE', 'Conditions of Use');
+define('NAVBAR_TITLE', 'Общи условия');
+define('HEADING_TITLE', 'Общи условия');
 
-define('TEXT_INFORMATION', 'Your Conditions of Use information should be on this page.');
+define('TEXT_INFORMATION', 'На тази страница се въвежда информацията за Общоте условия.');
 ?>

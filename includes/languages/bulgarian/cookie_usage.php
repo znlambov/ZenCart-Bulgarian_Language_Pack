@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,15 +20,15 @@
 // $Id: cookie_usage.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Cookie Usage');
-define('HEADING_TITLE', 'Cookie Usage');
+define('NAVBAR_TITLE', 'Бисквитки');
+define('HEADING_TITLE', 'Бисквитки');
 
-define('TEXT_INFORMATION', 'We have detected that your browser does not support cookies, or cookies have been disabled.');
-define('TEXT_INFORMATION_2', 'To continue shopping online, we encourage you to enable cookies on your browser.');
-define('TEXT_INFORMATION_3', 'For <strong>Internet Explorer</strong> browsers, please follow these instructions:<br /><ol><li>Click on the Tools menubar, and select Internet Options</li><li>Select the Security tab, and reset the security level to Medium</li></ol>');
-define('TEXT_INFORMATION_4', 'We have taken this security measurement for your benefit, and apologize if this causes any inconvenience.');
-define('TEXT_INFORMATION_5', 'Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.');
+define('TEXT_INFORMATION', 'Вашият уеб браузър не разрешава използването на "бисквитки" (cookies), или употребата им е изключена.');
+define('TEXT_INFORMATION_2', 'За да продължите да пазарувате онлайн, Ви препоръчваме да активирате бисквитките на браузъра си.');
+define('TEXT_INFORMATION_3', 'За <strong>Internet Explorer</strong>, следвайте тези инструкции:<br /><ol><li>Натиснете меню Инструменти (Tools), изберете Интернет настройки (Internet Options)</li><li>Изберете таб Сигурност (Security) и настройте нивото за сигурност на Средно (Medium)</li></ol>');
+define('TEXT_INFORMATION_4', 'Тези настройки на сигурността ше са във Ваша ползва. Извинете ни, ако сме Ви причинили някакво неудобство.');
+define('TEXT_INFORMATION_5', 'Ако имате някави опасения, свързани с тези изисквания, моля, свържете се с администраторите на сайта или пазарувайте извън интернет.');
 
-define('BOX_INFORMATION_HEADING', '<strong>Cookie Privacy and Security</strong>');
-define('BOX_INFORMATION', 'Cookies must be enabled to purchase online on this store, this is to embrace privacy and security related issues regarding your visit to this site.<br /><br />By enabling cookie support on your browser, the communication between you and this site is strengthened to be certain it is you who are making transactions on your own behalf, and to prevent leakage of your privacy information.');
+define('BOX_INFORMATION_HEADING', '<strong>Бисквитки и сигурност</strong>');
+define('BOX_INFORMATION', 'Бисквитките трябва да бъдат разрешени, за да пазаруавте онлайн. Това обхваща въпроси свързани със сигурността на личната информация, използвайки този сайт.<br /><br />С активирането на бисквитките във Вашия браузър, комуникацията между Вас и този сайт бива подсигурена, че именно Вие извършвате съответните транзакции от Ваше име и за Ваша сметка. В случая, бисквитките са нужни и за да се предотврати изтичането на Ваша лична информация.');
 ?>
