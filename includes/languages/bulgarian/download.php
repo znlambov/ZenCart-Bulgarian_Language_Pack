@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2010 Zen Cart Development Team
@@ -7,4 +11,4 @@
  * @version $Id: download.php 15514 2010-02-18 07:27:05Z drbyte $
  */
 
-define('ERROR_CUSTOMER_DOWNLOAD_FAILURE', 'Customer Download Failure');
+define('ERROR_CUSTOMER_DOWNLOAD_FAILURE', 'Грешка при сваляне');

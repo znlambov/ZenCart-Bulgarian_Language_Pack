@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,8 +23,8 @@
 // $Id: customers_authorization.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Customers Authorization Pending');
-define('HEADING_TITLE', 'Customer Authorization Pending ...');
-define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', 'Thank you for requesting Authorization for our store.<br /><br />We will contact you as soon as possible.');
-define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'To verify your Authorization status ... Click here:');
+define('NAVBAR_TITLE', 'Чакащи оторизации на клиенти');
+define('HEADING_TITLE', 'Чакаща оторизация на клиент...');
+define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', 'Благодарим Ви, че изискахте оторизация за нашия магазин.<br /><br />Ще се свържем с Вас възможно най-скоро.');
+define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'За да проверите статуса на оторизацията си... Натиснете тук:');
 ?>

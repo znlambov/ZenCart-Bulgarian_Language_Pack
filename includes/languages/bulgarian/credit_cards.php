@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -23,7 +23,7 @@ echo TEXT_ACCEPTED_CREDIT_CARDS . zen_get_cc_enabled();
 
 */
 
-define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>We accept:</strong> ');
+define('TEXT_ACCEPTED_CREDIT_CARDS', '<strong>Ние приемаме:</strong> ');
 
 // cc enabled text
 define('TEXT_CC_ENABLED_VISA','Visa');

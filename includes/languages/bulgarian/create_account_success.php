@@ -1,4 +1,4 @@
-<?php
+<?php  //Bulgarian Language Pack for Zen Cart 1.5.5d
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2013 Zen Cart Development Team
@@ -7,8 +7,8 @@
  * @version GIT: $Id: Author: DrByte  Sun Feb 17 23:22:33 2013 -0500 Modified in v1.5.2 $
  */
 
-define('NAVBAR_TITLE_1', 'Create an Account');
-define('NAVBAR_TITLE_2', 'Success');
-define('HEADING_TITLE', 'Your Account Has Been Created!');
-define('TEXT_ACCOUNT_CREATED', 'Congratulations! Your new account has been successfully created! You can now take advantage of member privileges to enhance your online shopping experience with us. If you have <small><strong>ANY</strong></small> questions about the operation of this online shop, please email the <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">store owner</a>.<br /><br />A confirmation has been sent to the provided email address. If you have not received it within the hour, please <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">contact us</a>.');
-define('PRIMARY_ADDRESS_TITLE', 'Primary Address');
+define('NAVBAR_TITLE_1', 'Създай профил');
+define('NAVBAR_TITLE_2', 'Успешно');
+define('HEADING_TITLE', 'Профилът беше създаден!');
+define('TEXT_ACCOUNT_CREATED', 'Поздравления! Вашият нов профил бе успешно създаден! Можете да се възползвате от привилегиите и възможностите, които той Ви предлага. Ако имате <small><strong>каквито и да е</strong></small> въпроси, относно работата с този електронен магазин, моля, пишете на <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">екипа на магазина</a>.<br /><br />Изпратено е потвърждение до съответния имейл адрес. Ако не го получите до един час, моля <a href="' . zen_href_link(FILENAME_CONTACT_US, '', 'SSL') . '">свържете се с нас</a>.');
+define('PRIMARY_ADDRESS_TITLE', 'Основен адрес');

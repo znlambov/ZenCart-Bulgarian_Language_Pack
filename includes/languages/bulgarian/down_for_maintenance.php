@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -21,10 +24,10 @@
 // $Id: down_for_maintenance.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Down for Maintenance');
-define('HEADING_TITLE', 'Down for Maintenance ...');
-define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'The site is currently down for maintenance. Please excuse the dust, and try back later.');
-define('TEXT_MAINTENANCE_ON_AT_TIME', 'The Admin / Webmaster has enabled maintenance at : ');
-define('TEXT_MAINTENANCE_PERIOD', 'Maintenance period: ');
-define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'To verify the site status ... Click here:');
+define('NAVBAR_TITLE', 'Подлежи на профилактика');
+define('HEADING_TITLE', 'Подлежи на профилактика ...');
+define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'В момента сайтът е недостъпен, тъй като подлежи на профилактика. Молим да ни извините за създаденото неудобство. Заповядайте по-късно!');
+define('TEXT_MAINTENANCE_ON_AT_TIME', 'Администраторът е назначил профилактика за : ');
+define('TEXT_MAINTENANCE_PERIOD', 'Период на профилактиката: ');
+define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'За да проверите състоянието на сайта, натиснете тук:');
 ?>

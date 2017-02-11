@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -7,39 +11,36 @@
  * @version $Id: gv_faq.php $
  */
 
-define('NAVBAR_TITLE', TEXT_GV_NAME . ' FAQ');
-define('HEADING_TITLE', TEXT_GV_NAME . ' FAQ');
+define('NAVBAR_TITLE', TEXT_GV_NAME . ' ЧЗВ');
+define('HEADING_TITLE', TEXT_GV_NAME . ' ЧЗВ');
 
-define('TEXT_INFORMATION', '<a name="Top"></a>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Purchasing ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">How to send ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Buying with ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Redeeming ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">When problems occur</a><br />
+define('TEXT_INFORMATION', '<a name="Начало"></a>
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Придобиване ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Как да изпратя ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Пазарене с ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Осребряване ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">При проблеми</a><br />
 ');
 switch ($_GET['faq_item']) {
   case '1':
-define('SUB_HEADING_TITLE','Purchasing ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT', TEXT_GV_NAMES . ' are purchased just like any other item in our store. You can
-  pay for them using the store\'s standard payment method(s).
-  Once purchased the value of the ' . TEXT_GV_NAME . ' will be added to your own personal
-   ' . TEXT_GV_NAME . ' Balance. If you have funds in your ' . TEXT_GV_NAME . ' Balance, you will
-  notice that the amount now shows in the Shopping Cart box, and also provides a
-  link to a page where you can send the ' . TEXT_GV_NAME . ' to someone via email.');
+define('SUB_HEADING_TITLE','Придобиване ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT', TEXT_GV_NAMES . ' се придобиват, както всеки друг продукт в този сайт. Вие 
+  можете да ги закупите чрез наличните начини на плащане.
+  Веднъж закупени, стойността на ' . TEXT_GV_NAME . ' ще бъде добавена в личната Ви
+   ' . TEXT_GV_NAME . ' сметка. Ако имате капитал във Вашата ' . TEXT_GV_NAME . ' сметка, ще забележите,
+  че сумата се показва кутийката на вашата пазарна количка, а също Ви дава възможност да изпратите ' . TEXT_GV_NAME . ' до някой друг, посредством имейл.');
   break;
   case '2':
-define('SUB_HEADING_TITLE','How to Send ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT','To send a ' . TEXT_GV_NAME . ' you need to go to our Send ' . TEXT_GV_NAME . ' Page. You can
-  find the link to this page in the Shopping Cart Box in the right hand column of each page.
-  When you send a ' . TEXT_GV_NAME . ' you need to specify the following:
-  The name of the person to whom you are sending the ' . TEXT_GV_NAME . ';
-  The email address of the person to whom you are sending the ' . TEXT_GV_NAME . ';
-  The amount you want to send (Note you don\'t have to send the full amount that
-  is in your ' . TEXT_GV_NAME . ' Balance.);
-  An optional short message which will appear in the email;
-  Please ensure that you have entered all of the information correctly, although
-  you will be given the opportunity to change this as much as you want before
-  the email is actually sent.');
+define('SUB_HEADING_TITLE','Как да изпратя ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT','За да изпратите ' . TEXT_GV_NAME . ' трябва да влезете в страницата за изпращане на ' . TEXT_GV_NAME . ' . Линк може да намерите в кутийката с Пазарната количка в дясната колона на всяка страница.
+  Когато изпратите ' . TEXT_GV_NAME . ' е необходимо да уточните следното:
+  Името на човека, до когото изпращате този ' . TEXT_GV_NAME . ';
+  Имейл адресът, на човека за когото е предназначен съответният ' . TEXT_GV_NAME . ';
+  Стойността, която искате да бъде изпратена (Забележка: не е необходимо да изпращате цялата стойност от ' . TEXT_GV_NAME . ' баланса.);
+  Може да добавите послание, което ще бъде част от имейла;
+  Моля, уверете се, че сте въвели правилно цялята информация, въпреки че
+  Ви даваме възможност да променяте всичко това, толкова, колкото е необходимо,
+  преди имейлът да бъде окончателно изпратен.');
   break;
   case '3':
   define('SUB_HEADING_TITLE','Buying with ' . TEXT_GV_NAMES);
