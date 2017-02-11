@@ -157,11 +157,11 @@
   define('JS_REVIEW_TEXT', '* Моля, напишете още няколко думи към коментара си. Отзивът трябва да е минимум ' . REVIEW_TEXT_MIN_LENGTH . ' символа.');
   define('JS_REVIEW_RATING', '* Моля, изберете оценка за този продукт.');
 
-  define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Моля, изберете метод на плащане за поръчката си.');
+  define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Моля, изберете начин на плащане за поръчката си.');
 
   define('JS_ERROR_SUBMITTED', 'Тази форма, вече беше подадена. Моля, натиснете OK и изчакайте да приключи процесът.');
 
-  define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Моля, изберете метод на плащане за поръчката си.');
+  define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Моля, изберете начин на плащане за поръчката си.');
   define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Моля, потвърдете, че сте съгласни с условията свързани с тази поръчка, като маркирате кутийката долу.');
   define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Моля, потвърдете, че сте съгласни с декларацията за поверителност, като маркирате кутийката долу.');
 
@@ -531,7 +531,7 @@
 // Shipping Estimator
   define('CART_SHIPPING_OPTIONS', 'Изчисли разходи за доставка');
   define('CART_SHIPPING_OPTIONS_LOGIN', 'Моля, <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">Влезте</span></a>, за да видите разходите за доставка.');
-  define('CART_SHIPPING_METHOD_TEXT', 'Налични методи за доставка');
+  define('CART_SHIPPING_METHOD_TEXT', 'Налични начини за доставка');
   define('CART_SHIPPING_METHOD_RATES', 'Цени');
   define('CART_SHIPPING_METHOD_TO','Доставка до: ');
   define('CART_SHIPPING_METHOD_TO_NOLOGIN', 'Доставка до: <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">Вход</span></a>');
