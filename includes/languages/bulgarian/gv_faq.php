@@ -61,22 +61,22 @@ define('SUB_HEADING_TEXT','За да изпратите ' . TEXT_GV_NAME . ' т�
   Това ще Ви отведе до страницата за осребряване на ' . TEXT_GV_NAME . ' . След това, ще бъдете помолен
   да ъздадете потребителски профил, преди ' . TEXT_GV_NAME . ' да бъде потвърден и добавен към Вашия
    ' . TEXT_GV_NAME . ' баланс. В последствие можете да използвате средствата за покупка на стоки.<br /><br />
-  2. During the checkout process on the same page that you select a payment method,
-there will be a box to enter a ' . TEXT_GV_REDEEM . '. Enter the ' . TEXT_GV_REDEEM . ' here, and
-click the Redeem button. The code will be
-validated and the amount added to your ' . TEXT_GV_NAME . ' Balance. You can then use the amount to purchase any item from our store.');
+  2. В процеса на приключване на поръчка, там където избирате начин на плащане,
+има поле в което да въведете ' . TEXT_GV_REDEEM . '. Напишете ' . TEXT_GV_REDEEM . ' там, и
+натиснете бутона Осребри. Кодът ще бъде
+потвърден и стойността ще бъде добавена към вашия ' . TEXT_GV_NAME . ' баланс. След това можете да използвате сумата за покупка на стоки в този сайт.');
   break;
   case '5':
-  define('SUB_HEADING_TITLE','When problems occur.');
-  define('SUB_HEADING_TEXT','For any queries regarding the ' . TEXT_GV_NAME . ' System, please contact the store
-  by email at '. STORE_OWNER_EMAIL_ADDRESS . '. Please make sure you give
-  as much information as possible regarding the issue so that we can fully address the problem.');
+  define('SUB_HEADING_TITLE','Ако настъпят проблеми.');
+  define('SUB_HEADING_TEXT','Отностно въпроси свързани с ' . TEXT_GV_NAME . ' системата, моля свържете се с нас
+  чрез имейл на '. STORE_OWNER_EMAIL_ADDRESS . '. Уверете се, че ни давате
+  колкото се може, по точна и ясна информация относно настъпилия проблем, за да можем да го отстраним възможно най-бързо.');
   break;
   default:
   define('SUB_HEADING_TITLE','');
-  define('SUB_HEADING_TEXT','Please choose from one of the questions above.');
+  define('SUB_HEADING_TEXT','Моля, изберете един от въпросите горе.');
 
   }
 
-  define('TEXT_GV_REDEEM_INFO', 'Please enter your ' . TEXT_GV_NAME . ' redemption code: ');
-  define('TEXT_GV_REDEEM_ID', 'Redemption Code:');
+  define('TEXT_GV_REDEEM_INFO', 'Моля, въведете Вашия ' . TEXT_GV_NAME . ' код за осребряване: ');
+  define('TEXT_GV_REDEEM_ID', 'Код за осребряване:');
