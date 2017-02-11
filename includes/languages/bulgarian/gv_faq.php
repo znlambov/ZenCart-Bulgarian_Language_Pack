@@ -17,7 +17,7 @@ define('HEADING_TITLE', TEXT_GV_NAME . ' ЧЗВ');
 define('TEXT_INFORMATION', '<a name="Начало"></a>
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Придобиване ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Как да изпратя ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Пазарене с ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Пазаруване с ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Осребряване ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">При проблеми</a><br />
 ');
@@ -26,8 +26,8 @@ switch ($_GET['faq_item']) {
 define('SUB_HEADING_TITLE','Придобиване ' . TEXT_GV_NAMES);
 define('SUB_HEADING_TEXT', TEXT_GV_NAMES . ' се придобиват, както всеки друг продукт в този сайт. Вие 
   можете да ги закупите чрез наличните начини на плащане.
-  Веднъж закупени, стойността на ' . TEXT_GV_NAME . ' ще бъде добавена в личната Ви
-   ' . TEXT_GV_NAME . ' сметка. Ако имате капитал във Вашата ' . TEXT_GV_NAME . ' сметка, ще забележите,
+  Веднъж закупени, стойността на ' . TEXT_GV_NAME . ' ще бъде добавена в личния Ви
+   ' . TEXT_GV_NAME . ' баланс. Ако имате капитал във Вашия ' . TEXT_GV_NAME . ' баланс, ще забележите,
   че сумата се показва кутийката на вашата пазарна количка, а също Ви дава възможност да изпратите ' . TEXT_GV_NAME . ' до някой друг, посредством имейл.');
   break;
   case '2':
@@ -43,27 +43,24 @@ define('SUB_HEADING_TEXT','За да изпратите ' . TEXT_GV_NAME . ' т�
   преди имейлът да бъде окончателно изпратен.');
   break;
   case '3':
-  define('SUB_HEADING_TITLE','Buying with ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','If you have funds in your ' . TEXT_GV_NAME . ' Balance, you can use those funds to
-  purchase other items in our store. At the checkout stage an extra box will
-  appear showing your Balance. Enter the amount to apply from the funds in your ' . TEXT_GV_NAME . ' Balance.
-  Please note: you will still have to select another payment method if there
-  is not enough in your ' . TEXT_GV_NAME . ' Balance to cover the cost of your purchase.
-  If you have more funds in your ' . TEXT_GV_NAME . ' Balance than the total cost of
-  your purchase, the remaining balance will be left in your ' . TEXT_GV_NAME . ' Balance for 
-  future use.');
+  define('SUB_HEADING_TITLE','Пазаруване с ' . TEXT_GV_NAMES);
+  define('SUB_HEADING_TEXT','Ако разполагате със средства във Вашия ' . TEXT_GV_NAME . ' баланс, можете да ги използвате за
+  закупуване на продукти в нашия магазин. Преди да приключите поръчка, има допълнително поле
+  показващо Вашия баланс. Можете да въведете стойност, която да приложите от Вашия ' . TEXT_GV_NAME . ' баланс.
+  Обърнете внимание: необходимо е да изберете и друг метод на плащане, ако няма доставъчно средствата във Вашия ' . TEXT_GV_NAME . ' баланс, които да покрият поръчката Ви.
+  Ако имате повече средства във Вашия ' . TEXT_GV_NAME . ' баланс, отколкото са необходими за поръчката
+  остатъкът ще бъде наличен във Вашия ' . TEXT_GV_NAME . ' баланс, за следващи покупки.');
   break;
   case '4':
-  define('SUB_HEADING_TITLE','Redeeming ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','If you receive a ' . TEXT_GV_NAME . ' by email, it will contain details of who sent
-  you the ' . TEXT_GV_NAME . ', along with a short message from them. The email
-  will also contain the ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . '. It is probably a good idea to print
-  out this email for future reference. You can now redeem the ' . TEXT_GV_NAME . ' in
-  one of two ways:<br /><br />
-  1. By clicking on the link contained within the email for this express purpose.
-  This will take you to the store\'s Redeem ' . TEXT_GV_NAME . ' page. You will then be requested
-  to create an account before the ' . TEXT_GV_NAME . ' is validated and placed in your
-   ' . TEXT_GV_NAME . ' Balance. You can then use the amount to purchase any item from our store.<br /><br />
+  define('SUB_HEADING_TITLE','Осребряване ' . TEXT_GV_NAMES);
+  define('SUB_HEADING_TEXT','Ако получите ' . TEXT_GV_NAME . ' по имейл, ще намерите информация от кого е изпратен
+   ' . TEXT_GV_NAME . ', заедно с кратко съобщение от изпращача. Имейлът ще съдържа също и
+   ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . '. Добре е да принтирате този имейл
+  за бъдещи справки. Можете да осребрите ' . TEXT_GV_NAME . ' по тези два начина:<br /><br />
+  1. Като натиснете връзката съдържаща се в имейл съобщението.
+  Това ще Ви отведе до страницата за осребряване на ' . TEXT_GV_NAME . ' . След това, ще бъдете помолен
+  да ъздадете потребителски профил, преди ' . TEXT_GV_NAME . ' да бъде потвърден и добавен към Вашия
+   ' . TEXT_GV_NAME . ' баланс. В последствие можете да използвате средствата за покупка на стоки.<br /><br />
   2. During the checkout process on the same page that you select a payment method,
 there will be a box to enter a ' . TEXT_GV_REDEEM . '. Enter the ' . TEXT_GV_REDEEM . ' here, and
 click the Redeem button. The code will be
