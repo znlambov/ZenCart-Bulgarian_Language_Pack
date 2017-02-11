@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,18 +23,18 @@
 // $Id: popup_cvv_help.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_CVV', 'What is CVV?');
-define('TEXT_CVV_HELP1', 'Visa, Mastercard, Discover 3 Digit Card Verification Number<br /><br />
-                    For your safety and security, we require that you enter your card\'s verification number.<br /><br />
-                    The verification number is a 3-digit number printed on the back of your card.
-                    It appears after and to the right of your card number.<br />' .
+define('HEADING_CVV', 'Какво е CVV?');
+define('TEXT_CVV_HELP1', 'Visa, Mastercard, Discover имат 3-цифрен номер за потвърждение на картата<br /><br />
+                    За Ваша сигурност и защита, е необходимо да въведете номера за потвърждение от вашата карта.<br /><br />
+                    Той представлява 3-цифрен номер напечатан на гърба ѝ.
+                    Намира се непосредствено след и отдясно на Вашия картов номер.<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2visa.gif'));
 
-define('TEXT_CVV_HELP2', 'American Express 4 Digit Card Verification Number<br /><br />
-                    For your safety and security, we require that you enter your card\'s verification number.<br /><br />
-                    The American Express verification number is a 4-digit number printed on the front of your card.
-                    It appears after and to the right of your card number.<br />' .
+define('TEXT_CVV_HELP2', 'American Express 4-цифрен номер за потвърждение на карта<br /><br />
+                    За Ваша сигурност и защита, е необходимо да въведете номера за потвърждение от вашата карта.<br /><br />
+                    Номера за потвърждение на American Express е 4-цифрен и е напечатан на лицето на картата.
+                    Намира се непосредствено след и отдясно на Вашия картов номер.<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2amex.gif'));
 
-define('TEXT_CLOSE_CVV_WINDOW', 'Close Window [x]');
+define('TEXT_CLOSE_CVV_WINDOW', 'Затвори прозореца [x]');
 ?>

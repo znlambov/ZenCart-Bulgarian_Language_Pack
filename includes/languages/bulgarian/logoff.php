@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2007 Zen Cart Development Team
@@ -7,8 +11,8 @@
  * @version $Id: logoff.php 6992 2007-09-13 02:54:24Z ajeh $
  */
 
-define('HEADING_TITLE', 'Log Off');
-define('NAVBAR_TITLE', 'Log Off');
-define('TEXT_MAIN', 'You have been logged off your account. It is now safe to leave the computer.<br /><br />If you had items in your cart, they have been saved. The items inside it will be restored when you <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">log back into your account</span></a>.<br />');
+define('HEADING_TITLE', 'Изход');
+define('NAVBAR_TITLE', 'Изход');
+define('TEXT_MAIN', 'Вие излязохте успешно от профила си. Вече е безопасно да оставите компютъра.<br /><br />Ако сте имали продукти в Потребителската количка, те са запазени и ще бъдат възстановени, когато <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">влезете отново в профила си</span></a>.<br />');
 
 ?>

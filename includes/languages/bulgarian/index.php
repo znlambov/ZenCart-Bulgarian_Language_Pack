@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,16 +11,16 @@
  * @version $Id: index.php 19537 2011-09-20 17:14:44Z drbyte $
  */
 
-define('TEXT_MAIN','This is the main define statement for the page for english when no template defined file exists. It is located in: <strong>/includes/languages/english/index.php</strong>');
+define('TEXT_MAIN','This is the main define statement for the page for bulgarian when no template defined file exists. It is located in: <strong>/includes/languages/bulgarian/index.php</strong>');
 
 // Showcase vs Store
 if (STORE_STATUS == '0') {
-  define('TEXT_GREETING_GUEST', 'Welcome <span class="greetUser">Guest!</span> Would you like to <a href="%s">log yourself in</a>?');
+  define('TEXT_GREETING_GUEST', 'Добре дошъл <span class="greetUser">Посетителю!</span> Бихте ли желали да <a href="%s">влезете в профила си</a>?');
 } else {
-  define('TEXT_GREETING_GUEST', 'Welcome, please enjoy our online showcase.');
+  define('TEXT_GREETING_GUEST', 'Добре дошли и приятно прекарвне в нашия онлайн каталог.');
 }
 
-define('TEXT_GREETING_PERSONAL', 'Hello <span class="greetUser">%s</span>! Would you like to see our <a href="%s">newest additions</a>?');
+define('TEXT_GREETING_PERSONAL', 'Привет <span class="greetUser">%s</span>! Искате ли да видите нашите <a href="%s">нови попълнения</a>?');
 
 define('TEXT_INFORMATION', 'Define your main Index page copy here.');
 
@@ -29,30 +33,30 @@ define('TEXT_INFORMATION', 'Define your main Index page copy here.');
 
 if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   // This section deals with product-listing page contents
-  define('HEADING_TITLE', 'Available Products');
-  define('TABLE_HEADING_IMAGE', 'Product Image');
-  define('TABLE_HEADING_MODEL', 'Model');
-  define('TABLE_HEADING_PRODUCTS', 'Product Name');
-  define('TABLE_HEADING_MANUFACTURER', 'Manufacturer');
-  define('TABLE_HEADING_QUANTITY', 'Quantity');
-  define('TABLE_HEADING_PRICE', 'Price');
-  define('TABLE_HEADING_WEIGHT', 'Weight');
-  define('TABLE_HEADING_BUY_NOW', 'Buy Now');
-  define('TEXT_NO_PRODUCTS', 'There are no products to list in this category.');
-  define('TEXT_NO_PRODUCTS2', 'There is no product available from this manufacturer.');
-  define('TEXT_NUMBER_OF_PRODUCTS', 'Number of Products: ');
-  define('TEXT_SHOW', 'Filter Results by:');
-  define('TEXT_BUY', 'Buy 1 \'');
-  define('TEXT_NOW', '\' now');
-  define('TEXT_ALL_CATEGORIES', 'All Categories');
-  define('TEXT_ALL_MANUFACTURERS', 'All Manufacturers');
+  define('HEADING_TITLE', 'Налични продуки');
+  define('TABLE_HEADING_IMAGE', 'Снимка на продукта');
+  define('TABLE_HEADING_MODEL', 'Модел');
+  define('TABLE_HEADING_PRODUCTS', 'Име на продукта');
+  define('TABLE_HEADING_MANUFACTURER', 'Производител');
+  define('TABLE_HEADING_QUANTITY', 'Количество');
+  define('TABLE_HEADING_PRICE', 'Цена');
+  define('TABLE_HEADING_WEIGHT', 'Тегло');
+  define('TABLE_HEADING_BUY_NOW', 'Купи сега');
+  define('TEXT_NO_PRODUCTS', 'Няма продукти в тази категория.');
+  define('TEXT_NO_PRODUCTS2', 'Няма продукти от този производител.');
+  define('TEXT_NUMBER_OF_PRODUCTS', 'Брой продукти: ');
+  define('TEXT_SHOW', 'Филтрирай резултатите по:');
+  define('TEXT_BUY', 'Купи 1 \'');
+  define('TEXT_NOW', '\' сега');
+  define('TEXT_ALL_CATEGORIES', 'Всички категории');
+  define('TEXT_ALL_MANUFACTURERS', 'Всички производители');
 } elseif ($category_depth == 'top') {
   // This section deals with the "home" page at the top level with no options/products selected
   /*Replace this text with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
-  define('HEADING_TITLE', 'Congratulations! You have successfully installed your Zen Cart&reg; E-Commerce Solution.');
+  define('HEADING_TITLE', 'Поздравления! Вие успешно инсталирахте Zen Cart&reg; E-Commerce Solution.');
 } elseif ($category_depth == 'nested') {
   // This section deals with displaying a subcategory
   /*Replace this line with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
-  define('HEADING_TITLE', 'Congratulations! You have successfully installed your Zen Cart&reg; E-Commerce Solution.'); 
+  define('HEADING_TITLE', 'Поздравления! Вие успешно инсталирахте Zen Cart&reg; E-Commerce Solution.'); 
 }
 ?>

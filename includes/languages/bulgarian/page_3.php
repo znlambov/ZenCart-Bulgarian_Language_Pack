@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,8 +23,8 @@
 // $Id: page_3.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Page 3');
-define('HEADING_TITLE', 'Page 3');
+define('NAVBAR_TITLE', 'Страница 3');
+define('HEADING_TITLE', 'Страница 3');
 
-define('TEXT_INFORMATION', 'Page 3 text goes here.');
+define('TEXT_INFORMATION', 'Текстът за Страница 3 се попълва тук.');
 ?>

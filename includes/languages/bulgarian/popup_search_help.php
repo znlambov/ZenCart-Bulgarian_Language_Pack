@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,8 +23,8 @@
 // $Id: popup_search_help.php 2471 2005-11-29 01:14:18Z drbyte $
 //
 
-define('HEADING_SEARCH_HELP', 'Search Help');
-define('TEXT_SEARCH_HELP', 'Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, <span style="text-decoration:underline;">Microsoft AND mouse</span> would generate a result set that contain both words. However, for <u>mouse OR keyboard</u>, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, <span style="text-decoration:underline">"notebook computer"</span> would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, <span style="text-decoration:underline;">Microsoft and (keyboard or mouse or "visual basic")</span>.');
-define('TEXT_CLOSE_WINDOW', '<span class="pseudolink">Close Window</span> [x]');
+define('HEADING_SEARCH_HELP', 'Помощ при търсене');
+define('TEXT_SEARCH_HELP', 'Ключовите думи могат да бъдат разделени с AND и/или OR, за по-голям контрол при търсенето.<br /><br />Примерно: <span style="text-decoration:underline;">Microsoft AND mouse</span> ще генерира резултати, съдържащи и двете думи. Докато търсене от типа <u>mouse OR keyboard</u>, ще генерира резултати, съдържащи и двете или една от думите.<br /><br />Точни съвпадения могат да бъдат търсени, като се затворят ключовите думи в двойни кавички.<br /><br />Примерно, <span style="text-decoration:underline">"notebook computer"</span> ще генерира резултат, в който съвпада точната поредица от думи или символи.<br /><br />За по-голям контрол на търсенето могат да се използват и скоби.<br /><br />Примерно, <span style="text-decoration:underline;">Microsoft and (keyboard or mouse or "visual basic")</span>.');
+define('TEXT_CLOSE_WINDOW', '<span class="pseudolink">Затвори прозореца</span> [x]');
 
 ?>

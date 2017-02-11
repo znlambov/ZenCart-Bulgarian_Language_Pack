@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2013 Zen Cart Development Team
@@ -6,4 +10,4 @@
  * @version GIT: $Id: Author: DrByte  Tue Jan 15 15:50:09 2013 -0500 New in v1.5.2 $
  */
 
-define('ERROR_PAGE_NOT_FOUND', 'Sorry, the page you were attempting to access cannot be found.');
+define('ERROR_PAGE_NOT_FOUND', 'Извинете за неудобството, но страницата, която търсите не бе намерена.');

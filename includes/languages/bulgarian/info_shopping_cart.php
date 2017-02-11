@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,12 +23,12 @@
 // $Id: info_shopping_cart.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_TITLE', 'Visitors Cart / Members Cart');
-define('SUB_HEADING_TITLE_1', 'Visitors Cart');
-define('SUB_HEADING_TITLE_2', 'Members Cart');
-define('SUB_HEADING_TITLE_3', 'Info');
-define('SUB_HEADING_TEXT_1', 'Every visitor to our online shop will be given a \'Visitors Cart\'. This allows the visitor to store their products in a temporary shopping cart. Once the visitor leaves the online shop, so will the contents of their shopping cart.');
-define('SUB_HEADING_TEXT_2', 'Every member to our online shop that logs in is given a \'Members Cart\'. This allows the member to add products to their shopping cart, and come back at a later date to finalize their checkout. All products remain in their shopping cart until the member has  checked them out, or removed the products themselves.');
-define('SUB_HEADING_TEXT_3', 'If a member adds products to their \'Visitors Cart\' and decides to log in to the online shop to use their \'Members Cart\', the contents of their \'Visitors Cart\' will merge with their \'Members Cart\' contents automatically.');
-define('TEXT_CLOSE_WINDOW', '[ close window ]');
+define('HEADING_TITLE', 'Посетителска количка / Потребителкса количка');
+define('SUB_HEADING_TITLE_1', 'Посетителска количка');
+define('SUB_HEADING_TITLE_2', 'Потребителска количка');
+define('SUB_HEADING_TITLE_3', 'Информация');
+define('SUB_HEADING_TEXT_1', 'Всеки посетител на този онлайн магазин ще получи \'Посетителска количка\'. Това му дава възможност да съхранява продукти временно в количката. Когато посетителят напусне онлай магазина, съдържанието на \'Посетителската количка\' ще бъде заличено.');
+define('SUB_HEADING_TEXT_2', 'Всеки регистриран потребител, който е влязал в профила си има \'Потребителска количка\'. Тя му позволява да добавя продукти в нея и да се връща в сайта на по-късен етап, за да приключи поръчката си. Всички продукти, остават в \'Потребителската\' Ви количка, докато не го закупите или премахнете от там.');
+define('SUB_HEADING_TEXT_3', 'Когато регистриран потребител не е влязал в профила си, но използва сайта и добави продукти в \'Посетителската количка\', а след това реши да влезе в профла си, то тези продукти ще бъдат прехвърлени от \'Посетителската количка\' в \'Потребителската количка\', тоест тези две различни колички, ще бъдат обединени в една.');
+define('TEXT_CLOSE_WINDOW', '[ затвори прозореца ]');
 ?>

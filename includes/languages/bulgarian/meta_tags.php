@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2013 Zen Cart Development Team
@@ -40,7 +44,7 @@ define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store'
   define('META_TAG_TITLE_page_name', '');
 
 // Review Page can have a lead in:
-  define('META_TAGS_REVIEW', 'Reviews: ');
+  define('META_TAGS_REVIEW', 'Отзиви: ');
 
 // separators for meta tag definitions
 // Define Primary Section Output

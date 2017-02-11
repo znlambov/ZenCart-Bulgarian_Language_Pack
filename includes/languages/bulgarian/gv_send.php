@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,37 +11,37 @@
  * @version $Id: gv_send.php 3421 2006-04-12 04:16:14Z drbyte $
  */
 
-define('HEADING_TITLE', 'Send ' . TEXT_GV_NAME);
-define('HEADING_TITLE_CONFIRM_SEND', 'Send ' . TEXT_GV_NAME . ' Confirmation');
-define('HEADING_TITLE_COMPLETED', TEXT_GV_NAME . ' Sent');
-define('NAVBAR_TITLE', 'Send ' . TEXT_GV_NAME);
-define('EMAIL_SUBJECT', 'Message from ' . STORE_NAME);
-define('HEADING_TEXT','Please enter the name, email address and amount of the ' . TEXT_GV_NAME . ' you wish to send. For more information, please see our <a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '.</a>');
-define('ENTRY_NAME', 'Recipient\'s Name:');
-define('ENTRY_EMAIL', 'Recipient Email:');
-define('ENTRY_MESSAGE', 'Your Message:');
-define('ENTRY_AMOUNT', 'Amount to Send:');
-define('ERROR_ENTRY_TO_NAME_CHECK', 'We did not get the Recipient\'s Name. Please fill it in below. ');
-define('ERROR_ENTRY_AMOUNT_CHECK', 'The ' . TEXT_GV_NAME . ' amount does not appear to be correct. Please try again.');
-define('ERROR_ENTRY_EMAIL_ADDRESS_CHECK', 'Is the email address correct? Please try again.');
-define('MAIN_MESSAGE', 'You are sending a ' . TEXT_GV_NAME . ' worth %s to %s,  whose email address is %s. If these details are not correct, you may edit your message by clicking the <strong>edit</strong> button.<br /><br />The message you are sending is:<br /><br />');
-define('SECONDARY_MESSAGE', 'Dear %s,<br /><br />' . 'You have been sent a ' . TEXT_GV_NAME . ' worth %s by %s');
-define('PERSONAL_MESSAGE', '%s says:');
-define('TEXT_SUCCESS', 'Congratulations, your ' . TEXT_GV_NAME . ' has been sent.');
-define('TEXT_SEND_ANOTHER', 'Would you like to send another ' . TEXT_GV_NAME . '?');
-define('TEXT_AVAILABLE_BALANCE',  'Gift Certificate Account');
+define('HEADING_TITLE', 'Изпрати ' . TEXT_GV_NAME);
+define('HEADING_TITLE_CONFIRM_SEND', 'Изпрати ' . TEXT_GV_NAME . ' Потвърждение');
+define('HEADING_TITLE_COMPLETED', TEXT_GV_NAME . ' Изпратено');
+define('NAVBAR_TITLE', 'Изпрати ' . TEXT_GV_NAME);
+define('EMAIL_SUBJECT', 'Съобщение от ' . STORE_NAME);
+define('HEADING_TEXT','Въведете име, имейл и стойност на ' . TEXT_GV_NAME . ' който желаете да изпратите. За повече информация вижте <a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '.</a>');
+define('ENTRY_NAME', 'Име на получател:');
+define('ENTRY_EMAIL', 'Имейл на получател:');
+define('ENTRY_MESSAGE', 'Вашето съобщение:');
+define('ENTRY_AMOUNT', 'Стойност, което изпращате:');
+define('ERROR_ENTRY_TO_NAME_CHECK', 'Няма въведено име на получател. Моля, попълнете го по-долу. ');
+define('ERROR_ENTRY_AMOUNT_CHECK', 'Стойността на ' . TEXT_GV_NAME . ' не е вярна. Моля, попълнете отново.');
+define('ERROR_ENTRY_EMAIL_ADDRESS_CHECK', 'Вярно ли е въведен имейлът? Моля, опитайте отново.');
+define('MAIN_MESSAGE', 'Вие изпращате ' . TEXT_GV_NAME . ' на стойност %s до %s,  чийто имейл адрес е %s. Ако тези детайли не са верни, можете да редактирате съобщението си, като натиснете бутон <strong>редактирай</strong>.<br /><br />Съобщението, което изпращате гласи:<br /><br />');
+define('SECONDARY_MESSAGE', 'Уважаеми %s,<br /><br />' . 'Изпратен Ви е ' . TEXT_GV_NAME . ' на стойност %s от %s');
+define('PERSONAL_MESSAGE', '%s гласи:');
+define('TEXT_SUCCESS', 'Поздравления, Вашият ' . TEXT_GV_NAME . ' е изпратен.');
+define('TEXT_SEND_ANOTHER', 'Желаете ли да изпратите друг ' . TEXT_GV_NAME . '?');
+define('TEXT_AVAILABLE_BALANCE',  'Сметка Подаръчен ваучер');
 
-define('EMAIL_GV_TEXT_SUBJECT', 'A gift from %s');
+define('EMAIL_GV_TEXT_SUBJECT', 'Подаръ от %s');
 define('EMAIL_SEPARATOR', '----------------------------------------------------------------------------------------');
-define('EMAIL_GV_TEXT_HEADER', 'Congratulations, You have received a ' . TEXT_GV_NAME . ' worth %s');
-define('EMAIL_GV_FROM', 'This ' . TEXT_GV_NAME . ' has been sent to you by %s');
-define('EMAIL_GV_MESSAGE', 'with a message saying: ');
-define('EMAIL_GV_SEND_TO', 'Hi, %s');
-define('EMAIL_GV_REDEEM', 'To redeem this ' . TEXT_GV_NAME . ', please click on the link below. Please also write down the ' . TEXT_GV_REDEEM . ': %s  just in case you have problems.');
-define('EMAIL_GV_LINK', 'To redeem please click here');
-define('EMAIL_GV_VISIT', ' or visit ');
-define('EMAIL_GV_ENTER', ' and enter the ' . TEXT_GV_REDEEM . ' ');
-define('EMAIL_GV_FIXED_FOOTER', 'If you have problems redeeming the ' . TEXT_GV_NAME . ' using the automated link above, ' . "\n" .
-                                'you can also enter the ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . ' during the checkout process at our store.');
+define('EMAIL_GV_TEXT_HEADER', 'Поздравления, Вие получихте ' . TEXT_GV_NAME . ' на стойност %s');
+define('EMAIL_GV_FROM', 'Този ' . TEXT_GV_NAME . ' бе изпратен до вас от %s');
+define('EMAIL_GV_MESSAGE', 'със съобщение, гласящо: ');
+define('EMAIL_GV_SEND_TO', 'Привет, %s');
+define('EMAIL_GV_REDEEM', 'За да осребриш този ' . TEXT_GV_NAME . ', натисни връзката по-долу. Също така попълни ' . TEXT_GV_REDEEM . ': %s  за всеки случай.');
+define('EMAIL_GV_LINK', 'За да осребриш, натисни тук');
+define('EMAIL_GV_VISIT', ' или посети ');
+define('EMAIL_GV_ENTER', ' и въведи ' . TEXT_GV_REDEEM . ' ');
+define('EMAIL_GV_FIXED_FOOTER', 'Ако имате затруднения при осребряването на ' . TEXT_GV_NAME . ' с използването на връзката по-горе, ' . "\n" .
+                                'можете също да въведете ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . ' докато приключвате поръчка в нашия магазин.');
 define('EMAIL_GV_SHOP_FOOTER', '');
 ?>

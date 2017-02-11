@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -19,8 +22,8 @@
 // +----------------------------------------------------------------------+
 // $Id: popup_shipping_estimator.php 2642 2005-12-21 15:35:44Z ajeh $
 //
-define('HEADING_SEARCH_HELP', 'Shipping Estimator:');
-define('TEXT_TOTAL_ITEMS', 'Total Items: ');
-define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Weight: ');
-define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Amount: ');
+define('HEADING_SEARCH_HELP', 'Изчисли доставка:');
+define('TEXT_TOTAL_ITEMS', 'Общо продукти: ');
+define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Тегло: ');
+define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Стойност: ');
 ?>
