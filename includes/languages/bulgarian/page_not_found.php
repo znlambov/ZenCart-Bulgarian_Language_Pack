@@ -20,7 +20,7 @@ define('PAGE_ACCOUNT_HISTORY', 'История на поръчките');
 define('PAGE_ACCOUNT_NOTIFICATIONS', 'Записвания за новини');
 define('PAGE_SHOPPING_CART', 'Пазарна количка');
 define('PAGE_CHECKOUT_SHIPPING', 'Приключване');
-define('PAGE_ADVANCED_SEARCH', 'Подробно търсене');
+define('PAGE_ADVANCED_SEARCH', 'Разширено търсене');
 define('PAGE_PRODUCTS_NEW', 'Нови продукти');
 define('PAGE_SPECIALS', 'Промоции');
 define('PAGE_REVIEWS', 'Отзиви');

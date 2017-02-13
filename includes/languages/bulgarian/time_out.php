@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,13 +11,13 @@
  * @version $Id: time_out.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Login Time Out');
-define('HEADING_TITLE', 'Whoops! Your session has expired.');
-define('HEADING_TITLE_LOGGED_IN', 'Whoops! Sorry, but you are not allowed to perform the action requested. ');
-define('TEXT_INFORMATION', '<p>If you were placing an order, please login and your shopping cart will be restored. You may then go back to the checkout and complete your final purchases.</p><p>If you had completed an order and wish to review it' . (DOWNLOAD_ENABLED == 'true' ? ', or had a download and wish to retrieve it' : '') . ', please go to your <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">My Account</a> page to view your order.</p>');
+define('NAVBAR_TITLE', 'Време на сесията');
+define('HEADING_TITLE', 'Сесията Ви е изтекла.');
+define('HEADING_TITLE_LOGGED_IN', 'Извинявайте за неудобството, но не можете да извършите заявеното действие. ');
+define('TEXT_INFORMATION', '<p>Ако сте извършвали покупка, моля влезте отново в профила си и продължете от там, до където сте стигнали. Всички направени от Вас стъпки и маркирани продукти се съхраняват в профила Ви.</p><p>Ако сте приключили поръчка и желаете да я разгледате' . (DOWNLOAD_ENABLED == 'true' ? ', или имате дигитален продукт, който искате да свалите' : '') . ', моля натиснете странцицата <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Моят профил</a> за да видите поръчките си.</p>');
 
-define('TEXT_INFORMATION_LOGGED_IN', 'You are still logged in to your account and may continue shopping. Please choose a destination from a menu.');
+define('TEXT_INFORMATION_LOGGED_IN', 'Вие все още сте влезли с профила си и можете да продължите да пазарувате. Изберете дестинация от менюто.');
 
-define('HEADING_RETURNING_CUSTOMER', 'Login');
-define('TEXT_PASSWORD_FORGOTTEN', 'Forgot Your Password?')
+define('HEADING_RETURNING_CUSTOMER', 'Вход');
+define('TEXT_PASSWORD_FORGOTTEN', 'Забравена парола?')
 ?>

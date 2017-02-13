@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,8 +23,8 @@
 // $Id: shippinginfo.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Shipping &amp; Returns');
-define('HEADING_TITLE', 'Shipping &amp; Returns');
+define('NAVBAR_TITLE', 'Доставка и рекламации');
+define('HEADING_TITLE', 'Доставка и рекламации');
 
-define('TEXT_INFORMATION', 'Your Shipping &amp; Returns policy should be added here.');
+define('TEXT_INFORMATION', 'Текстът относно условията за Доставка и рекламации се помества в тази страница.');
 ?>

@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -7,5 +11,5 @@
  * @version $Id: Author: DrByte  Sun Oct 18 01:26:46 2015 -0400 Modified in v1.5.5 $
  */
 
-define('NAVBAR_TITLE', 'Specials');
-define('HEADING_TITLE', 'Specials');
+define('NAVBAR_TITLE', 'Промоции');
+define('HEADING_TITLE', 'Промоции');

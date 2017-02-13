@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -7,25 +11,25 @@
  * @version $Id: Author: DrByte  Fri Sep 11 15:56:13 2015 -0400 Modified in v1.5.5 $
  */
 
-define('TEXT_INFORMATION', 'You may proceed with your purchase by clicking the Checkout button below. Shipping and Taxes and Discounts will be handled on subsequent pages.');
+define('TEXT_INFORMATION', 'Можете да продължите, като натиснете бутона Приключи, намиращ се по-долу. Доставката, таксите и отстъпкитеще бъдат обработени на следващите страници.');
 
-define('NAVBAR_TITLE', 'The Shopping Cart');
-define('HEADING_TITLE', 'Your Shopping Cart Contents');
-define('HEADING_TITLE_EMPTY', 'Your Shopping Cart');
-define('TABLE_HEADING_REMOVE', 'Remove');
-define('TABLE_HEADING_QUANTITY', 'Qty.');
-define('TABLE_HEADING_MODEL', 'Model');
-define('TABLE_HEADING_PRICE','Unit');
-define('TEXT_CART_EMPTY', 'Your Shopping Cart is empty.');
-define('SUB_TITLE_SUB_TOTAL', 'Sub-Total:');
-define('SUB_TITLE_TOTAL', 'Total:');
+define('NAVBAR_TITLE', 'Пазарна количка');
+define('HEADING_TITLE', 'Съдържание на пазарната Ви количка');
+define('HEADING_TITLE_EMPTY', 'Пазарната Ви количка');
+define('TABLE_HEADING_REMOVE', 'Премахни');
+define('TABLE_HEADING_QUANTITY', 'Количество');
+define('TABLE_HEADING_MODEL', 'Модел');
+define('TABLE_HEADING_PRICE','Единици');
+define('TEXT_CART_EMPTY', 'Количката Ви е празна.');
+define('SUB_TITLE_SUB_TOTAL', 'Междинна сума:');
+define('SUB_TITLE_TOTAL', 'Общо:');
 
-define('OUT_OF_STOCK_CANT_CHECKOUT', 'Products marked with ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' are out of stock or there are not enough in stock to fill your order.<br />Please change the quantity of products marked with (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Thank you');
-define('OUT_OF_STOCK_CAN_CHECKOUT', 'Products marked with ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' are out of stock.<br />Items not in stock will be placed on backorder.');
+define('OUT_OF_STOCK_CANT_CHECKOUT', 'Продукти маркирани като ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' не са налични или няма достатъчни количества, за да удовлетворят вашата заявка.<br />Моля, променете количествата на продукти маркирани като (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Благодарим Ви');
+define('OUT_OF_STOCK_CAN_CHECKOUT', 'Продукти, маркирани като ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' не са налични.<br />Неналичните продукти ще бъдат заредени възможно най-скоро и ще можете да ги поръчате отново.');
 
-define('TEXT_TOTAL_ITEMS', 'Total Items: ');
-define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Weight: ');
-define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Amount: ');
+define('TEXT_TOTAL_ITEMS', 'Общо продукти: ');
+define('TEXT_TOTAL_WEIGHT', '&nbsp;&nbsp;Тегло: ');
+define('TEXT_TOTAL_AMOUNT', '&nbsp;&nbsp;Стойност: ');
 
-define('TEXT_VISITORS_CART', '<a href="javascript:session_win();">[help (?)]</a>');
+define('TEXT_VISITORS_CART', '<a href="javascript:session_win();">[помощ (?)]</a>');
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');

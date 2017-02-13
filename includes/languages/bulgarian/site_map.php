@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,19 +11,19 @@
  * @version $Id: site_map.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Site Map');
-define('HEADING_TITLE', 'Site Map');
+define('NAVBAR_TITLE', 'Карта на сайта');
+define('HEADING_TITLE', 'Карта на сайта');
 define('TEXT_INFORMATION','');
 
-define('PAGE_ACCOUNT', 'My Account');
-define('PAGE_ACCOUNT_EDIT', 'Account Information');
-define('PAGE_ADDRESS_BOOK', 'Address Book');
-define('PAGE_ACCOUNT_HISTORY', 'Order History');
-define('PAGE_ACCOUNT_NOTIFICATIONS', 'Newsletter Subscriptions');
-define('PAGE_SHOPPING_CART', 'Shopping Cart');
-define('PAGE_CHECKOUT_SHIPPING', 'Checkout');
-define('PAGE_ADVANCED_SEARCH', 'Advanced Search');
-define('PAGE_PRODUCTS_NEW', 'New Products');
-define('PAGE_SPECIALS', 'Specials');
-define('PAGE_REVIEWS', 'Reviews');
+define('PAGE_ACCOUNT', 'Моят профил');
+define('PAGE_ACCOUNT_EDIT', 'Информация за профила');
+define('PAGE_ADDRESS_BOOK', 'Адресна книга');
+define('PAGE_ACCOUNT_HISTORY', 'История на поръчките');
+define('PAGE_ACCOUNT_NOTIFICATIONS', 'Записвания за новини');
+define('PAGE_SHOPPING_CART', 'Пазарна количка');
+define('PAGE_CHECKOUT_SHIPPING', 'Приключване');
+define('PAGE_ADVANCED_SEARCH', 'Разширено търсене');
+define('PAGE_PRODUCTS_NEW', 'Нови продукти');
+define('PAGE_SPECIALS', 'Промоции');
+define('PAGE_REVIEWS', 'Отзиви');
 ?>

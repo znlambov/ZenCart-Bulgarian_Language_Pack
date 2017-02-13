@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,15 +23,15 @@
 // $Id: products_all.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'All Products');
-define('HEADING_TITLE', 'All Products');
+define('NAVBAR_TITLE', 'Всички продукти');
+define('HEADING_TITLE', 'Всичи продукти');
 
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_MANUFACTURER', 'Manufacturer:');
-define('TEXT_PRICE', 'Price:');
+define('TEXT_DATE_ADDED', 'Добавен на:');
+define('TEXT_MANUFACTURER', 'Производител:');
+define('TEXT_PRICE', 'Цена:');
 
-define('TEXT_PRODUCTS_MODEL','Model: ');
-define('TEXT_PRODUCTS_WEIGHT','Weight: ');
-define('TEXT_PRODUCTS_QUANTITY','In Stock: ');
-define('TEXT_OUT_OF_STOCK','Out of Stock');
+define('TEXT_PRODUCTS_MODEL','Модел: ');
+define('TEXT_PRODUCTS_WEIGHT','Тегло: ');
+define('TEXT_PRODUCTS_QUANTITY','Налични: ');
+define('TEXT_OUT_OF_STOCK','Изчерпано');
 ?>

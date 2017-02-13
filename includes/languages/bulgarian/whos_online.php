@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -19,14 +22,14 @@
 // +----------------------------------------------------------------------+
 // $Id: whos_online.php 1969 2005-09-13 06:57:21Z drbyte $
 //
-define('BOX_HEADING_WHOS_ONLINE', 'Who\'s Online');
-define('BOX_WHOS_ONLINE_THEREIS', 'There currently is');
-define('BOX_WHOS_ONLINE_THEREARE', 'There currently are');
-define('BOX_WHOS_ONLINE_GUEST', 'guest');
-define('BOX_WHOS_ONLINE_GUESTS', 'guests');
-define('BOX_WHOS_ONLINE_AND', 'and');
-define('BOX_WHOS_ONLINE_MEMBER', 'member');
-define('BOX_WHOS_ONLINE_MEMBERS', 'members');
+define('BOX_HEADING_WHOS_ONLINE', 'Кой е на линиа');
+define('BOX_WHOS_ONLINE_THEREIS', 'В момента има');
+define('BOX_WHOS_ONLINE_THEREARE', 'В момента има');
+define('BOX_WHOS_ONLINE_GUEST', 'гост');
+define('BOX_WHOS_ONLINE_GUESTS', 'госта');
+define('BOX_WHOS_ONLINE_AND', 'и');
+define('BOX_WHOS_ONLINE_MEMBER', 'член');
+define('BOX_WHOS_ONLINE_MEMBERS', 'члена');
 
-define('BOX_WHOS_ONLINE_ONLINE', 'online.');
+define('BOX_WHOS_ONLINE_ONLINE', 'онлайн.');
 ?>
