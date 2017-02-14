@@ -1,25 +1,26 @@
 <?php if ( $detect->isMobile() && !$detect->isTablet() || $_SESSION['layoutType'] == 'mobile' ) { ?>
 
-<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book-mobile.png" alt="get your manual today" title="Have you got yours yet? Join the 1000's of Zen Cart users that have bought the only comprehensive owners manual !" class="home-image" /></a>
+<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book-mobile.png" alt="вземи своето ръководство днес" title="Имаш ли вече свое? Присъедини се към хилядите Zen Cart потребители, които вече закупиха своето единствено и най-подробно ръководство на потребителя!" class="home-image" /></a>
   
 <?php  } else if ( $detect->isTablet() || $_SESSION['layoutType'] == 'tablet' ){ ?>
 
-<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book.png" alt="get your manual today" title="Have you got yours yet? Join the 1000's of Zen Cart users that have bought the only comprehensive owners manual !" class="home-image" /></a>
+<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book.png" alt="вземи своето ръководство днес" title="Имаш ли вече свое? Присъедини се към хилядите Zen Cart потребители, които вече закупиха своето единствено и най-подробно ръководство на потребителя!" class="home-image" /></a>
 
 <?php  } else if ( $_SESSION['layoutType'] == 'full' ) { ?>
 
-<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book.png" alt="get your manual today" title="Have you got yours yet? Join the 1000's of Zen Cart users that have bought the only comprehensive owners manual !" class="home-image" /></a>
+<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book.png" alt="вземи своето ръководство днес" title="Имаш ли вече свое? Присъедини се към хилядите Zen Cart потребители, които вече закупиха своето единствено и най-подробно ръководство на потребителя!" class="home-image" /></a>
 
 <?php  } else { ?>
 
-<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book.png" alt="get your manual today" title="Have you got yours yet? Join the 1000's of Zen Cart users that have bought the only comprehensive owners manual !" class="home-image" /></a>
+<a href="http://www.zen-cart.com/book"><img src="includes/templates/responsive_classic/images/zencart-book.png" alt="вземи своето ръководство днес" title="Имаш ли вече свое? Присъедини се към хилядите Zen Cart потребители, които вече закупиха своето единствено и най-подробно ръководство на потребителя!" class="home-image" /></a>
 
 <?php  } ?>
-<p class="biggerText">The template package uses PHP Mobile Detect to serve up the optimized layout based on device.  
-    If you are on a Desktop and want to view the Tablet layout <a class="red" href="index.php?main_page=index&amp;layoutType=tablet">use this link.</a>  
-    If you want to view the Mobile layout <a class="red" href="index.php?main_page=index&amp;layoutType=mobile">use this link.</a>  
-    To switch back to a Desktop <a class="red" href="index.php?main_page=index&amp;layoutType=default">use this link.</a></p>
+<p class="biggerText">Шаблонът използва PHP Mobile Detect за да оптимизира разположението на страницата според устройството.  
+    Ако сте на настолен компютър и искате да видите разположението за таблет <a class="red" href="index.php?main_page=index&amp;layoutType=tablet">използвйте тази връзка.</a>  
+    Ако искате да видите мобилното разположение <a class="red" href="index.php?main_page=index&amp;layoutType=mobile">използвайте тази връзка.</a>  
+    За да се върнете към стандартно разположение <a class="red" href="index.php?main_page=index&amp;layoutType=default">използвайте тази връзка.</a></p>
     
-<p>This content is located in the file at: <code> /languages/english/html_includes/YOUR_TEMPLATE/define_main_page.php</code></p>
-<p>You can quickly edit this content via Admin->Tools->Define Pages Editor, and select define_main_page from the pulldown.</p>
-<p><strong>NOTE: Always backup the files in<code> /languages/english/html_includes/your_template</code></strong></p>
+<p>Това съдържание се намира във файл: <code> /languages/bulgarian/html_includes/YOUR_TEMPLATE/define_main_page.php</code></p>
+<p>Можете бързо да редактирате съдържанието през Админ->Инструменти->Редактор на дефинирани страница, изберете define_main_page от падащото меню.</p>
+<p><strong>Забележка: Винаги правете резервно копие на файловете в<code> /languages/bulgarian/html_includes/your_template</code></strong></p>
+ 

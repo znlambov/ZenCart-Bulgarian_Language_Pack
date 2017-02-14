@@ -1,4 +1,4 @@
-<p><strong>Custom 404 Error Page with Site Map Sample Text ...</strong></p>
-<p>Put your custom "page not found" message here.  You can change this text in the Define Pages Editor located under Tools in the Admin.</p>
-<p>This file is located in<code> /languages/english/html_includes/classic/</code></p>
-<p><strong>NOTE: Always backup the files in<code> /languages/english/html_includes/your_template</code></strong></p>
+<p><strong>Страница за Грешка 404 с текст за Карта на сайта...</strong></p>
+<p>Поставете Ваше съобщение "страницата не е намерена" тук.  Можете да промените този текст от Админ панел, меню Инструменти=>Редактор на дефинирани страници.</p>
+<p>Този файл се намира в<code> /languages/bulgarian/html_includes/classic/</code></p>
+<p><strong>Забележка: Винаги правете резервно копие на файловете в<code> /languages/bulgarian/html_includes/your_template</code></strong></p>

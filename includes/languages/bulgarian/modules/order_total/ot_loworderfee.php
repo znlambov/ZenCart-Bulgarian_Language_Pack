@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,6 +23,6 @@
 // $Id: ot_loworderfee.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE', 'Low Order Fee');
-  define('MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION', 'Low Order Fee');
+  define('MODULE_ORDER_TOTAL_LOWORDERFEE_TITLE', 'Такса малка поръчка');
+  define('MODULE_ORDER_TOTAL_LOWORDERFEE_DESCRIPTION', 'Такса малка поръчка');
 ?>

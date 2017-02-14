@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,6 +23,6 @@
 // $Id: ot_subtotal.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_SUBTOTAL_TITLE', 'Sub-Total');
-  define('MODULE_ORDER_TOTAL_SUBTOTAL_DESCRIPTION', 'Order Sub-Total');
+  define('MODULE_ORDER_TOTAL_SUBTOTAL_TITLE', 'Междинна сума');
+  define('MODULE_ORDER_TOTAL_SUBTOTAL_DESCRIPTION', 'Междинна сума на поръчката');
 ?>

@@ -1,2 +1,2 @@
-<p><strong>Page 4 Sample Text ...</strong></p>
-<p>We haven't updated this page yet. Please use the Contact Us form to let us know!</p>
+<p><strong>Примерен текст за Страница 4...</strong></p>
+<p>Все още не сме обновили тази страница. Моля, свържете се с нас през Контакти!</p>

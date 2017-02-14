@@ -1,4 +1,4 @@
-<p><strong>Conditions of Use Sample Text ...</strong></p><p>This section of text is from the Define Pages Editor located under Tools in the Admin.</p>
-<p>To remove this section of the text, delete it from the Define Pages Editor.</p>
-<p>This file is located in<code> /languages/english/html_includes/classic/</code></p>
-<p><strong>NOTE: Always backup the files in<code> /languages/english/html_includes/your_template</code></strong></p>
+<p><strong>Примерен текст за Общите условия...</strong></p><p>Този текст можете да редактирате през Админ панела, в меню Инструменти=>Редактор на дефинирани страници.</p>
+<p>За да премахнете тази секция текст, можете да го изтриете през Редактор на дефинирани страница.</p>
+<p>Този файл се намира в<code> /languages/bulgarian/html_includes/classic/</code></p>
+<p><strong>Забележка: Винаги правете резервно копие на <code> /languages/bulgarian/html_includes/your_template</code></strong></p>

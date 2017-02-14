@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2007 Zen Cart Development Team
@@ -8,14 +12,14 @@
  */
 
   define('MODULE_ORDER_TOTAL_GV_TITLE', TEXT_GV_NAMES);
-  define('MODULE_ORDER_TOTAL_GV_HEADER', TEXT_GV_NAMES . '/Discount Coupons');
+  define('MODULE_ORDER_TOTAL_GV_HEADER', TEXT_GV_NAMES . '/Подаръчни ваучери');
   define('MODULE_ORDER_TOTAL_GV_DESCRIPTION', TEXT_GV_NAMES);
-  define('SHIPPING_NOT_INCLUDED', ' [Shipping not included]');
-  define('TAX_NOT_INCLUDED', ' [Tax not included]');
-  define('MODULE_ORDER_TOTAL_GV_USER_PROMPT', 'Apply Amount: ');
+  define('SHIPPING_NOT_INCLUDED', ' [Доставката не е включена]');
+  define('TAX_NOT_INCLUDED', ' [Таксите не са включени]');
+  define('MODULE_ORDER_TOTAL_GV_USER_PROMPT', 'Въведете сума: ');
   define('MODULE_ORDER_TOTAL_GV_TEXT_ENTER_CODE', TEXT_GV_REDEEM);
-  define('TEXT_INVALID_REDEEM_AMOUNT', 'It appears that the amount you have tried to apply and your Gift Certificate balance do not match. Please try again.');
-  define('MODULE_ORDER_TOTAL_GV_USER_BALANCE', 'Available balance: ');
-  define('MODULE_ORDER_TOTAL_GV_REDEEM_INSTRUCTIONS', '<p>To use Gift Certificate funds already in your account, type the amount you wish to apply in the box that says \'Apply Amount\'. You will need to choose a payment method,  then click the continue button to apply the funds to your shopping cart.</p><p>If you are redeeming a <em>new</em> Gift Certificate you should type the number into the box next to Redemption Code. The amount redeemed will be added to your account when you click the continue button.</p>');
+  define('TEXT_INVALID_REDEEM_AMOUNT', 'Изглежда, че сумата, която се опитвате да въведетеи баланса на Вашия Подаръчен ваучер не съответстват. Моля, опитайте отново.');
+  define('MODULE_ORDER_TOTAL_GV_USER_BALANCE', 'Наличен бланс: ');
+  define('MODULE_ORDER_TOTAL_GV_REDEEM_INSTRUCTIONS', '<p>За да използвате кредит от Подаръчен ваучер намиращ се в профила Ви, въведете сумата, която желаете да приложите, в полето гласящо \'Въведете сума\'. Ще трябва да изберете начин на плащане, след това да натиснете продължи, за да приложите кредита към Вашата Пазарна количка.</p><p>Ако осребрявате <em>new</em> Подаръчен ваучер, трябва да въведете номера в полето, намиращо се до Код за осребряване. Сумата ще бъде добавена към профила ви, след като натиснете продължи.</p>');
   define('MODULE_ORDER_TOTAL_GV_INCLUDE_ERROR', ' Setting Include tax = true, should only happen when recalculate = None');
 ?>

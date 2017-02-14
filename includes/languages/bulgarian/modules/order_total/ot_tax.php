@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,6 +23,6 @@
 // $Id: ot_tax.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Tax');
-  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Order Tax');
+  define('MODULE_ORDER_TOTAL_TAX_TITLE', 'Такси');
+  define('MODULE_ORDER_TOTAL_TAX_DESCRIPTION', 'Такси на поръчката');
 ?>

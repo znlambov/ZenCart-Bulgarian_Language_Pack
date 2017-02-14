@@ -1,2 +1,2 @@
-<p><strong>Custom 404 Error Page Sample Text ...</strong></p>
-<p>We haven't updated this page yet. Please use the Contact Us form to let us know!</p>
+<p><strong>Примерен текст за страница Грешка 404...</strong></p>
+<p>Все още не сме обновили тази страница. Моля, свържете се с нас през Контакти!</p>

@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,9 +23,9 @@
 // $Id: ot_shipping.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'Shipping');
-  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Order Shipping Cost');
+  define('MODULE_ORDER_TOTAL_SHIPPING_TITLE', 'Доставка');
+  define('MODULE_ORDER_TOTAL_SHIPPING_DESCRIPTION', 'Цена за доставка');
 
-  define('FREE_SHIPPING_TITLE', 'Free Shipping');
-  define('FREE_SHIPPING_DESCRIPTION', 'Free shipping for orders over %s');
+  define('FREE_SHIPPING_TITLE', 'Безплатна доставка');
+  define('FREE_SHIPPING_DESCRIPTION', 'Безплатна доставка за поръчки над %s');
 ?>

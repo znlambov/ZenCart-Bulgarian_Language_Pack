@@ -1,2 +1,2 @@
-<p><strong>Conditions of Use Sample Text ...</strong></p><p>This section of text is from the Define Pages Editor located under Tools in the Admin.</p>
-<p>To remove this section of the text, delete it from the Define Pages Editor.</p>
+<p><strong>Примерен текст за Общите условия...</strong></p><p>Този текст можете да редактирате през Админ панела, в меню Инструменти=>Редактор на дефинирани страници.</p>
+<p>За да премахнете тази секция текст, можете да го изтриете през Редактор на дефинирани страница.</p>

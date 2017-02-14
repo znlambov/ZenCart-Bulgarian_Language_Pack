@@ -1,2 +1,2 @@
-<p><strong>Shipping Information</strong></p>
-<p>We haven't updated this page yet. Please use the Contact Us form to let us know!</p>
+<p><strong>Доставка</strong></p>
+<p>Все още не сме обновили тази страница. Моля, свържете се с нас през Контакти!</p>

@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -31,16 +35,16 @@ define('OTHER_IMAGE_REVIEWS_RATING_STARS_ONE', 'stars_1_small.png');
  * ALT tags for other images
  */
 
-define('OTHER_BOX_NOTIFY_REMOVE_ALT', 'Remove this product notification.');
-define('OTHER_BOX_NOTIFY_YES_ALT', 'Notify me of updates to this product.');
+define('OTHER_BOX_NOTIFY_REMOVE_ALT', 'Изключи известията за продукта.');
+define('OTHER_BOX_NOTIFY_YES_ALT', 'Известявай ме за промени свързани с продукта.');
 define('OTHER_BOX_WRITE_REVIEW_ALT', 'Write a review on this product.');
-define('OTHER_CALL_FOR_PRICE_ALT', 'Please Call for the Current Price.');
-define('OTHER_DOWN_FOR_MAINTENANCE_ALT', 'The site is currently down for maintenance. Please come back later.');
+define('OTHER_CALL_FOR_PRICE_ALT', 'Обади се за актуална цена.');
+define('OTHER_DOWN_FOR_MAINTENANCE_ALT', 'В момента сайта е в профилактика. Моля, отбийте се по-късно.');
 define('OTHER_TRANPARENT_ALT', '');
-define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', 'CUSTOMER APPROVAL IS PENDING ...');
-define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', 'Five Stars');
-define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'Four Stars');
-define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Three Stars');
-define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Two Stars');
-define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'One Star');
+define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', 'Чака за одобрение на клиента...');
+define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', 'Пет звезди');
+define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'Четири звезди');
+define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Три звезди');
+define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Две звезди');
+define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'Една звезда');
 //define('OTHER_xxx_ALT', '');

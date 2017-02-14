@@ -1,5 +1,5 @@
-<p><strong>Page 2 Sample Text ...</strong></p>
-<p>This section of text is from the Define Pages Editor located under Tools in the Admin.</p>
-<p>To remove this section of the text, delete it from the Define Pages Editor.</p>
-<p>This file is located in<code> /languages/english/html_includes/classic/</code></p>
-<p><strong>NOTE: Always backup the files in<code> /languages/english/html_includes/your_template</code></strong></p>
+<p><strong>Примерен текст за Страница 2...</strong></p>
+<p>Този текст можете да намерите в Админ панела меню Инструменти=>Редактор на дефинирани страница.</p>
+<p>За да премахнете тази текстова секция изтрийте го от Редактора на дефинирани страници.</p>
+<p>Този файл се намира в<code> /languages/bulgarian/html_includes/classic/</code></p>
+<p><strong>Забележка: Винаги правете резервно копие на файловете в<code> /languages/bulgarian/html_includes/your_template</code></strong></p>

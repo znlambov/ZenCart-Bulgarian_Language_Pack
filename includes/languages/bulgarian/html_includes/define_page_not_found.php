@@ -1,2 +1,4 @@
-<p><strong>Custom 404 Error Page with Site Map Sample Text ...</strong></p>
-<p>Put your custom "page not found" message here.  You can change this text in the Define Pages Editor located under Tools in the Admin.</p>
+<p><strong>Примерен текст за страница Грешка 404...</strong></p>
+<p>Все още не сме обновили тази страница. Моля, свържете се с нас през Контакти!</p>
+<p>Този текст можете да редактирате през Админ->Инструменти->Редактор на дефинирани страници.</p>
+<p>За да премахнете текста, изтрийте го от Редактор на дефинирани страници.</p>
