@@ -6,6 +6,7 @@ Bulgarian Language Pack for ZenCart 1.5.5d
 
 
 Not official! (if there is any official ZC lang pack, anyway :) )  
+Like other open source projects, this is voluntary maintained. I am not obligated to assist here, but I do so because I want to.  
 Just sharing my own work with all of you (GPL). You have the freedom to run, study, share and modify the files.  
 There may be some grammer or syntax errors. It is a lot of files and work and I'm just a human being :)  
 Out of the context it is hard to understand the real meaning of some parts of the text.  
