@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -19,8 +22,8 @@
 // +----------------------------------------------------------------------+
 // $Id: 
 //
-define('BOX_HEADING_MUSIC_GENRES', 'Music Genres');
-define('BOX_HEADING_RECORD_COMPANY', 'Record Companies');
-define('PULL_DOWN_RECORD_COMPANIES', '- Reset -');
-define('PULL_DOWN_MUSIC_GENRES', '- Reset -');
+define('BOX_HEADING_MUSIC_GENRES', 'Музикални стилове');
+define('BOX_HEADING_RECORD_COMPANY', 'Звукозаписни компании');
+define('PULL_DOWN_RECORD_COMPANIES', '- Нулирай -');
+define('PULL_DOWN_MUSIC_GENRES', '- Нулирай -');
 ?>

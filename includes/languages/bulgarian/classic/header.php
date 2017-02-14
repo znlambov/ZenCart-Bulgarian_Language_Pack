@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2005 Zen Cart Development Team
@@ -8,23 +12,23 @@
  */
 
 // header text in includes/header.php
-define('HEADER_TITLE_CREATE_ACCOUNT', 'Create Account');
-define('HEADER_TITLE_MY_ACCOUNT', 'My Account');
-define('HEADER_TITLE_CART_CONTENTS', 'Shopping Cart');
-define('HEADER_TITLE_CHECKOUT', 'Checkout');
-define('HEADER_TITLE_TOP', 'Top');
-define('HEADER_TITLE_CATALOG', 'Home');
-define('HEADER_TITLE_LOGOFF', 'Log Out');
-define('HEADER_TITLE_LOGIN', 'Log In');
+define('HEADER_TITLE_CREATE_ACCOUNT', 'Създай профил');
+define('HEADER_TITLE_MY_ACCOUNT', 'Моят профил');
+define('HEADER_TITLE_CART_CONTENTS', 'Пазарна количка');
+define('HEADER_TITLE_CHECKOUT', 'Приключи');
+define('HEADER_TITLE_TOP', 'Нагоре');
+define('HEADER_TITLE_CATALOG', 'Начало');
+define('HEADER_TITLE_LOGOFF', 'Изход');
+define('HEADER_TITLE_LOGIN', 'Вход');
 
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Powered by Zen Cart :: The Art of E-Commerce [home link]');
-define('HEADER_SALES_TEXT', '<h1>Sales Message Goes Here</h1>');
+define('HEADER_ALT_TEXT', 'Задвижван от Zen Cart :: The Art of E-Commerce [home link]');
+define('HEADER_SALES_TEXT', '<h1>Съобщение за промоции се пише тук</h1>');
 define('HEADER_LOGO_WIDTH', '200px');
 define('HEADER_LOGO_HEIGHT', '70px');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // header Search Button/Box Search Button
-define('HEADER_SEARCH_BUTTON','Search');
-define('HEADER_SEARCH_DEFAULT_TEXT','Enter search keywords here');
-define('SEARCH_DEFAULT_TEXT', 'search here');
+define('HEADER_SEARCH_BUTTON','Търси');
+define('HEADER_SEARCH_DEFAULT_TEXT','Въведете ключови думи тук');
+define('SEARCH_DEFAULT_TEXT', 'търси тук');
