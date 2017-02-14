@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package shipping_modules
  * @copyright Copyright 2003-2011 Zen Cart Development Team
@@ -6,6 +10,6 @@
  * @version $Id: freeshipper.php 18697 2011-05-04 14:35:20Z wilt $
  */
 
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', 'FREE SHIPPING!');
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION', 'FREE SHIPPING');
-define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', 'No Delivery Charge');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_TITLE', 'Безплатна доставка!');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_DESCRIPTION', 'Безплатна доставка');
+define('MODULE_SHIPPING_FREESHIPPER_TEXT_WAY', 'Няма такса за транспорт');

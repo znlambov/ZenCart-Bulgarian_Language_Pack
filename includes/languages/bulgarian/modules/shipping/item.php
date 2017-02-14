@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,7 +23,7 @@
 // $Id: item.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_ITEM_TEXT_TITLE', 'Per Item');
-define('MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION', 'Per Item');
-define('MODULE_SHIPPING_ITEM_TEXT_WAY', 'Best Way');
+define('MODULE_SHIPPING_ITEM_TEXT_TITLE', 'За бройка');
+define('MODULE_SHIPPING_ITEM_TEXT_DESCRIPTION', 'За бройка');
+define('MODULE_SHIPPING_ITEM_TEXT_WAY', 'Най-добър');
 ?>

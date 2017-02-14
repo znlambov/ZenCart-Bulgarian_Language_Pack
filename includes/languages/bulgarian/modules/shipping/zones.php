@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,10 +23,10 @@
 // $Id: zones.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'Zone Rates');
-define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'Zone Based Rates');
-define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'Shipping to');
-define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'lb(s)');
-define('MODULE_SHIPPING_ZONES_INVALID_ZONE', 'No shipping available to the selected country');
-define('MODULE_SHIPPING_ZONES_UNDEFINED_RATE', 'The shipping rate cannot be determined at this time');
+define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'Цени по зони');
+define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'Цена за доставка по зони');
+define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'Доставка до');
+define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'кг.');
+define('MODULE_SHIPPING_ZONES_INVALID_ZONE', 'Не се извършва доставка до тази държава');
+define('MODULE_SHIPPING_ZONES_UNDEFINED_RATE', 'На този етап, цената за доставка не може да бъде изчислена');
 ?>

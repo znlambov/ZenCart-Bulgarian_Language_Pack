@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,7 +23,7 @@
 // $Id: flat.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'Flat Rate');
-define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'Flat Rate');
-define('MODULE_SHIPPING_FLAT_TEXT_WAY', 'Best Way');
+define('MODULE_SHIPPING_FLAT_TEXT_TITLE', 'Твърда цена');
+define('MODULE_SHIPPING_FLAT_TEXT_DESCRIPTION', 'Твърда цена');
+define('MODULE_SHIPPING_FLAT_TEXT_WAY', 'Най-добро');
 ?>

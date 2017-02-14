@@ -1,4 +1,8 @@
 <?php
+//
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -7,16 +11,16 @@
  * @version $Id: freeoptions.php 3830 2006-06-21 23:47:16Z ajeh $
  */
 
-define('MODULE_SHIPPING_FREEOPTIONS_TEXT_TITLE', 'Free Shipping Options');
+define('MODULE_SHIPPING_FREEOPTIONS_TEXT_TITLE', 'Опции за безплатна доставка');
 define('MODULE_SHIPPING_FREEOPTIONS_TEXT_DESCRIPTION', '
-Free Options is used to display a Free Shipping option when other Shipping Modules are displayed.
-It can be based on: Always show, Order Total, Order Weight or Order Item Count.
-The Free Options module does not show when Free Shipper is displayed.<br /><br />
-Setting Total to >= 0.00 and <= nothing (leave blank) will activate this module to show with all shipping modules, except for Free Shipping - freeshipper.<br /><br />
-NOTE: Leaving all settings for Total, Weight and Item count blank will deactivate this module.<br /><br />
-NOTE: Free Shipping Options does not display if Free Shipping is used based on 0 weight is Free Shipping.
+Безплатни опции се използва за да покаже опции за Безплатна доставка, когато са налични и други Начини на плащане.
+Може да е на база: Показвай винаги, Обща цена, Общо тегло или Прой продукти в поръчката.
+Модулът за Безплатни опции се показва, когато се покаже Безплатна доставка.<br /><br />
+Ако настроите Цена Общо >= 0.00 и <= нищо (оставено празно), това ще активира този модул да се показва с всички модули на доставка, с изключение на Безплатна доставка - freeshipper.<br /><br />
+Забележка: Оставете всички настройки за Цена Общо, Тегло и Брой продукти празни, ще деактивирате този модул.<br /><br />
+Забележка: Опцията за безплатна доставка не се показва, ако Безплатна доставка е включено на база 0 тегло е Безплатна доставка.
 See: freeshipper
 ');
-define('MODULE_SHIPPING_FREEOPTIONS_TEXT_WAY', 'Free Shipping');
+define('MODULE_SHIPPING_FREEOPTIONS_TEXT_WAY', 'Безплатна доставка');
 
 ?>
