@@ -1,5 +1,8 @@
 <?php
 //
+// Bulgarian Language Pack for Zen Cart 1.5.5d
+// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+//
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,7 +23,7 @@
 // $Id: moneyorder.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Check/Money Order');
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Please make your check or money order payable to:<br />' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />Mail your payment to:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'Your order will not ship until we receive payment.');
-  define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Please make your check or money order payable to:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nMail your payment to:\n" . STORE_NAME_ADDRESS . "\n\n" . 'Your order will not ship until we receive payment.');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_TITLE', 'Чек/Паричен превод');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_DESCRIPTION', 'Моля, издайте чек или направете паричен превод до:<br />' . MODULE_PAYMENT_MONEYORDER_PAYTO . '<br /><br />Изпратете разплащането до:<br />' . nl2br(STORE_NAME_ADDRESS) . '<br /><br />' . 'Поръчката Ви ще бъде изпратена, след като получим плащането.');
+  define('MODULE_PAYMENT_MONEYORDER_TEXT_EMAIL_FOOTER', "Моля, издайте чек или направете паричен превод до:" . "\n\n" . MODULE_PAYMENT_MONEYORDER_PAYTO . "\n\nИзпратете разплащането до:\n" . STORE_NAME_ADDRESS . "\n\n" . 'Поръчката Ви ще бъде изпратена, след като получим плащането.');
 ?>
