@@ -33,5 +33,5 @@ Installation:
  includes/templates/template_default/buttons/bulgarian/>  
 
 5. Go to admin panel, Admin > Localization > Languages and click the new language button.
-6. If you are using different Template, you have to copy includes/templates/YOUR_TEMPLATE/buttons/english and rename it to includes/templates/YOUR_TEMPLATE/buttons/bulgarian. Do the same thing with other similar English language parts form YOUR_TEMPLATE.
+6. If you are using different Template, you have to copy the whole directory includes/templates/YOUR_TEMPLATE/buttons/english, rename it to /bulgarian and copy it back there in order to have the new directory includes/templates/YOUR_TEMPLATE/buttons/bulgarian. Do the same thing with other similar English language parts form YOUR_TEMPLATE.
 7. If you or the add-ons you installed to your ZenCart have made any changes to some of the English langauage core files, you should apply the same changes to the Bulgarian files.
