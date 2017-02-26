@@ -12,7 +12,7 @@ if (!defined('IS_ADMIN_FLAG'))
 }
 
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Admin Powered by Zen Cart :: The Art of E-Commerce');
+define('HEADER_ALT_TEXT', 'Админ задвижван от Zen Cart :: The Art of E-Commerce');
 define('HEADER_LOGO_WIDTH', '200px');
 define('HEADER_LOGO_HEIGHT', '70px');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
@@ -58,166 +58,166 @@ define('TEXT_LEGEND_META_TAGS', 'Meta Tags Defined:');
 define('TEXT_INFO_META_TAGS_USAGE', '<strong>NOTE:</strong> The Site/Tagline is your defined definition for your site in the meta_tags.php file.');
 
 // Global entries for the <html> tag
-define('HTML_PARAMS','dir="ltr" lang="en"');
+define('HTML_PARAMS','dir="ltr" lang="bg"');
 
 // charset for web pages and emails
 define('CHARSET', 'utf-8');
 
 // header text in includes/header.php
-define('HEADER_TITLE_TOP', 'Admin Home');
-define('HEADER_TITLE_SUPPORT_SITE', 'Support');
-define('HEADER_TITLE_ONLINE_CATALOG', 'Storefront');
-define('HEADER_TITLE_VERSION', 'Version');
-define('HEADER_TITLE_ACCOUNT', 'Account');
-define('HEADER_TITLE_LOGOFF', 'Logoff');
+define('HEADER_TITLE_TOP', 'Админ начало');
+define('HEADER_TITLE_SUPPORT_SITE', 'Подкрепи');
+define('HEADER_TITLE_ONLINE_CATALOG', 'Магазин');
+define('HEADER_TITLE_VERSION', 'Версия');
+define('HEADER_TITLE_ACCOUNT', 'Профил');
+define('HEADER_TITLE_LOGOFF', 'Изход');
 //define('HEADER_TITLE_ADMINISTRATION', 'Administration');
 
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME','Gift Certificate');
-  define('TEXT_GV_NAMES','Gift Certificates');
-  define('TEXT_DISCOUNT_COUPON', 'Discount Coupon');
+  define('TEXT_GV_NAME','Подаръчен ваучер');
+  define('TEXT_GV_NAMES','Подаръчни ваучери');
+  define('TEXT_DISCOUNT_COUPON', 'Купон за отстъпка');
 
 // used for redeem code, redemption code, or redemption id
-  define('TEXT_GV_REDEEM','Redemption Code');
+  define('TEXT_GV_REDEEM','Код за осребряване');
 
 // text for gender
-define('MALE', 'Male');
-define('FEMALE', 'Female');
+define('MALE', 'Мъж');
+define('FEMALE', 'Жена');
 
-define('TEXT_CHECK_ALL', 'Check All');
-define('TEXT_UNCHECK_ALL', 'Uncheck All');
-define('NONE', 'None');
+define('TEXT_CHECK_ALL', 'Маркирай всички');
+define('TEXT_UNCHECK_ALL', 'Размаркирай всички');
+define('NONE', 'Нищо');
 
-define('TEXT_UNKNOWN', 'Unknown');
+define('TEXT_UNKNOWN', 'Неизвестен');
 
 // configuration box text
-define('BOX_HEADING_CONFIGURATION', 'Configuration');
-define('BOX_CONFIGURATION_MY_STORE', 'My Store');
-define('BOX_CONFIGURATION_MINIMUM_VALUES', 'Minimum Values');
-define('BOX_CONFIGURATION_MAXIMUM_VALUES', 'Maximum Values');
-define('BOX_CONFIGURATION_IMAGES', 'Images');
-define('BOX_CONFIGURATION_CUSTOMER_DETAILS', 'Customer Details');
-define('BOX_CONFIGURATION_SHIPPING_PACKAGING', 'Shipping/Packaging');
-define('BOX_CONFIGURATION_PRODUCT_LISTING', 'Product Listing');
-define('BOX_CONFIGURATION_STOCK', 'Stock');
-define('BOX_CONFIGURATION_LOGGING', 'Logging');
-define('BOX_CONFIGURATION_EMAIL_OPTIONS', 'E-Mail Options');
-define('BOX_CONFIGURATION_ATTRIBUTE_OPTIONS', 'Attribute Settings');
-define('BOX_CONFIGURATION_GZIP_COMPRESSION', 'GZip Compression');
-define('BOX_CONFIGURATION_SESSIONS', 'Sessions');
-define('BOX_CONFIGURATION_REGULATIONS', 'Regulations');
-define('BOX_CONFIGURATION_GV_COUPONS', 'GV Coupons');
-define('BOX_CONFIGURATION_CREDIT_CARDS', 'Credit Cards');
-define('BOX_CONFIGURATION_PRODUCT_INFO', 'Product Info');
-define('BOX_CONFIGURATION_LAYOUT_SETTINGS', 'Layout Settings');
-define('BOX_CONFIGURATION_WEBSITE_MAINTENANCE', 'Website Maintenance');
-define('BOX_CONFIGURATION_NEW_LISTING', 'New Listing');
-define('BOX_CONFIGURATION_FEATURED_LISTING', 'Featured Listing');
-define('BOX_CONFIGURATION_ALL_LISTING', 'All Listing');
-define('BOX_CONFIGURATION_INDEX_LISTING', 'Index Listing');
-define('BOX_CONFIGURATION_DEFINE_PAGE_STATUS', 'Define Page Status');
-define('BOX_CONFIGURATION_EZPAGES_SETTINGS', 'EZ-Pages Settings');
+define('BOX_HEADING_CONFIGURATION', 'Конфигурация');
+define('BOX_CONFIGURATION_MY_STORE', 'Моят магазин');
+define('BOX_CONFIGURATION_MINIMUM_VALUES', 'Минимални стойности');
+define('BOX_CONFIGURATION_MAXIMUM_VALUES', 'Максимални стойности');
+define('BOX_CONFIGURATION_IMAGES', 'Снимки');
+define('BOX_CONFIGURATION_CUSTOMER_DETAILS', 'Подробности за потребителя');
+define('BOX_CONFIGURATION_SHIPPING_PACKAGING', 'Доставка/Пакетиране');
+define('BOX_CONFIGURATION_PRODUCT_LISTING', 'Списък продукти');
+define('BOX_CONFIGURATION_STOCK', 'Наличности');
+define('BOX_CONFIGURATION_LOGGING', 'Логове');
+define('BOX_CONFIGURATION_EMAIL_OPTIONS', 'Имейл настройки');
+define('BOX_CONFIGURATION_ATTRIBUTE_OPTIONS', 'Настройки на атрибути');
+define('BOX_CONFIGURATION_GZIP_COMPRESSION', 'GZip компресия');
+define('BOX_CONFIGURATION_SESSIONS', 'Сесии');
+define('BOX_CONFIGURATION_REGULATIONS', 'Регулации');
+define('BOX_CONFIGURATION_GV_COUPONS', 'ПВ купони');
+define('BOX_CONFIGURATION_CREDIT_CARDS', 'Банкови карти');
+define('BOX_CONFIGURATION_PRODUCT_INFO', 'Инфо за продуктите');
+define('BOX_CONFIGURATION_LAYOUT_SETTINGS', 'Настройки на оформлението');
+define('BOX_CONFIGURATION_WEBSITE_MAINTENANCE', 'Поддръжка на сайта');
+define('BOX_CONFIGURATION_NEW_LISTING', 'Списък нови');
+define('BOX_CONFIGURATION_FEATURED_LISTING', 'Списък на фокус');
+define('BOX_CONFIGURATION_ALL_LISTING', 'Списък всички');
+define('BOX_CONFIGURATION_INDEX_LISTING', 'Начален списък');
+define('BOX_CONFIGURATION_DEFINE_PAGE_STATUS', 'Статус на дефинирани страници');
+define('BOX_CONFIGURATION_EZPAGES_SETTINGS', 'Настройки EZ-страници');
 
 // modules box text
-define('BOX_HEADING_MODULES', 'Modules');
-define('BOX_MODULES_PAYMENT', 'Payment');
-define('BOX_MODULES_SHIPPING', 'Shipping');
-define('BOX_MODULES_ORDER_TOTAL', 'Order Total');
-define('BOX_MODULES_PRODUCT_TYPES', 'Product Types');
+define('BOX_HEADING_MODULES', 'Модули');
+define('BOX_MODULES_PAYMENT', 'Плащане');
+define('BOX_MODULES_SHIPPING', 'Доставка');
+define('BOX_MODULES_ORDER_TOTAL', 'Стойност поръчка');
+define('BOX_MODULES_PRODUCT_TYPES', 'Типове продукти');
 
 // categories box text
-define('BOX_HEADING_CATALOG', 'Catalog');
-define('BOX_CATALOG_CATEGORIES_PRODUCTS', 'Categories/Products');
-define('BOX_CATALOG_PRODUCT_TYPES', 'Product Types');
-define('BOX_CATALOG_CATEGORIES_OPTIONS_NAME_MANAGER', 'Option Name Manager');
-define('BOX_CATALOG_CATEGORIES_OPTIONS_VALUES_MANAGER', 'Option Value Manager');
-define('BOX_CATALOG_MANUFACTURERS', 'Manufacturers');
-define('BOX_CATALOG_REVIEWS', 'Reviews');
-define('BOX_CATALOG_SPECIALS', 'Specials');
-define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Products Expected');
-define('BOX_CATALOG_SALEMAKER', 'SaleMaker');
-define('BOX_CATALOG_PRODUCTS_PRICE_MANAGER', 'Products Price Manager');
-define('BOX_CATALOG_PRODUCT', 'Product');
-define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Products to Categories');
+define('BOX_HEADING_CATALOG', 'Каталог');
+define('BOX_CATALOG_CATEGORIES_PRODUCTS', 'Категории/Продукти');
+define('BOX_CATALOG_PRODUCT_TYPES', 'Типове продукти');
+define('BOX_CATALOG_CATEGORIES_OPTIONS_NAME_MANAGER', 'Мениджър имената на опциите');
+define('BOX_CATALOG_CATEGORIES_OPTIONS_VALUES_MANAGER', 'Мениджър стойности на опциите');
+define('BOX_CATALOG_MANUFACTURERS', 'Производители');
+define('BOX_CATALOG_REVIEWS', 'Отзиви');
+define('BOX_CATALOG_SPECIALS', 'Промоции');
+define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Очаквани продукти');
+define('BOX_CATALOG_SALEMAKER', 'Разпродажби');
+define('BOX_CATALOG_PRODUCTS_PRICE_MANAGER', 'Мениджър цени на продуктите');
+define('BOX_CATALOG_PRODUCT', 'Продукт');
+define('BOX_CATALOG_PRODUCTS_TO_CATEGORIES', 'Продукти за Категория');
 
 // customers box text
-define('BOX_HEADING_CUSTOMERS', 'Customers');
-define('BOX_CUSTOMERS_CUSTOMERS', 'Customers');
-define('BOX_CUSTOMERS_ORDERS', 'Orders');
-define('BOX_CUSTOMERS_GROUP_PRICING', 'Group Pricing');
+define('BOX_HEADING_CUSTOMERS', 'Клиенти');
+define('BOX_CUSTOMERS_CUSTOMERS', 'Клиенти');
+define('BOX_CUSTOMERS_ORDERS', 'Поръчки');
+define('BOX_CUSTOMERS_GROUP_PRICING', 'Групово ценообразуване');
 define('BOX_CUSTOMERS_PAYPAL', 'PayPal IPN');
-define('BOX_CUSTOMERS_INVOICE', 'Invoice');
-define('BOX_CUSTOMERS_PACKING_SLIP', 'Packing Slip');
+define('BOX_CUSTOMERS_INVOICE', 'Фактура');
+define('BOX_CUSTOMERS_PACKING_SLIP', 'Стокова разписка');
 
 // taxes box text
-define('BOX_HEADING_LOCATION_AND_TAXES', 'Locations / Taxes');
-define('BOX_TAXES_COUNTRIES', 'Countries');
-define('BOX_TAXES_ZONES', 'Zones');
-define('BOX_TAXES_GEO_ZONES', 'Zones Definitions');
-define('BOX_TAXES_TAX_CLASSES', 'Tax Classes');
-define('BOX_TAXES_TAX_RATES', 'Tax Rates');
+define('BOX_HEADING_LOCATION_AND_TAXES', 'Локации / Такси');
+define('BOX_TAXES_COUNTRIES', 'Държави');
+define('BOX_TAXES_ZONES', 'Зони');
+define('BOX_TAXES_GEO_ZONES', 'Дефиниции Зони');
+define('BOX_TAXES_TAX_CLASSES', 'Класове такси');
+define('BOX_TAXES_TAX_RATES', 'Размери на таксите');
 
 // reports box text
-define('BOX_HEADING_REPORTS', 'Reports');
-define('BOX_REPORTS_PRODUCTS_VIEWED', 'Products Viewed');
-define('BOX_REPORTS_PRODUCTS_PURCHASED', 'Products Purchased');
-define('BOX_REPORTS_ORDERS_TOTAL', 'Customer Orders-Total');
-define('BOX_REPORTS_PRODUCTS_LOWSTOCK', 'Products Low Stock');
-define('BOX_REPORTS_CUSTOMERS_REFERRALS', 'Customers Referral');
+define('BOX_HEADING_REPORTS', 'Доклади');
+define('BOX_REPORTS_PRODUCTS_VIEWED', 'Разгледани продукти');
+define('BOX_REPORTS_PRODUCTS_PURCHASED', 'Закупени продукти');
+define('BOX_REPORTS_ORDERS_TOTAL', 'Общо поръчки');
+define('BOX_REPORTS_PRODUCTS_LOWSTOCK', 'Продукти на изчерпване');
+define('BOX_REPORTS_CUSTOMERS_REFERRALS', 'Справка клиенти');
 
 // tools text
-define('BOX_HEADING_TOOLS', 'Tools');
-define('BOX_TOOLS_TEMPLATE_SELECT', 'Template Selection');
-define('BOX_TOOLS_BACKUP', 'Database Backup');
-define('BOX_TOOLS_BANNER_MANAGER', 'Banner Manager');
-define('BOX_TOOLS_CACHE', 'Cache Control');
-define('BOX_TOOLS_DEFINE_LANGUAGE', 'Define Languages');
-define('BOX_TOOLS_FILE_MANAGER', 'File Manager');
-define('BOX_TOOLS_MAIL', 'Send Email');
-define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Newsletter and Product Notifications Manager');
-define('BOX_TOOLS_SERVER_INFO', 'Server/Version Info');
-define('BOX_TOOLS_WHOS_ONLINE', 'Who\'s Online');
-define('BOX_TOOLS_STORE_MANAGER', 'Store Manager');
-define('BOX_TOOLS_DEVELOPERS_TOOL_KIT', 'Developers Tool Kit');
-define('BOX_TOOLS_SQLPATCH','Install SQL Patches');
-define('BOX_TOOLS_EZPAGES','EZ-Pages');
+define('BOX_HEADING_TOOLS', 'Инструменти');
+define('BOX_TOOLS_TEMPLATE_SELECT', 'Избор шаблон');
+define('BOX_TOOLS_BACKUP', 'Резервно копие на Базата данни');
+define('BOX_TOOLS_BANNER_MANAGER', 'Мениджър банери');
+define('BOX_TOOLS_CACHE', 'Кеш контрол');
+define('BOX_TOOLS_DEFINE_LANGUAGE', 'Определяне на езици');
+define('BOX_TOOLS_FILE_MANAGER', 'Файлов мениджър');
+define('BOX_TOOLS_MAIL', 'Изпрати имейл');
+define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Мениджър Новини и Съобщения за продукти');
+define('BOX_TOOLS_SERVER_INFO', 'Сървър/Версия');
+define('BOX_TOOLS_WHOS_ONLINE', 'Кой е онлайн');
+define('BOX_TOOLS_STORE_MANAGER', 'Управление склад');
+define('BOX_TOOLS_DEVELOPERS_TOOL_KIT', 'Инструменти за разработчици');
+define('BOX_TOOLS_SQLPATCH','Инсталиране SQL пачове');
+define('BOX_TOOLS_EZPAGES','EZ-страници');
 
-define('BOX_HEADING_EXTRAS', 'Extras');
+define('BOX_HEADING_EXTRAS', 'Допълнителни');
 
 // define pages editor files
-define('BOX_TOOLS_DEFINE_PAGES_EDITOR','Define Pages Editor');
-define('BOX_TOOLS_DEFINE_MAIN_PAGE', 'Main Page');
-define('BOX_TOOLS_DEFINE_CONTACT_US','Contact Us');
-define('BOX_TOOLS_DEFINE_PRIVACY','Privacy');
-define('BOX_TOOLS_DEFINE_SHIPPINGINFO','Shipping & Returns');
-define('BOX_TOOLS_DEFINE_CONDITIONS','Conditions of Use');
-define('BOX_TOOLS_DEFINE_CHECKOUT_SUCCESS','Checkout Success');
-define('BOX_TOOLS_DEFINE_PAGE_2','Page 2');
-define('BOX_TOOLS_DEFINE_PAGE_3','Page 3');
-define('BOX_TOOLS_DEFINE_PAGE_4','Page 4');
+define('BOX_TOOLS_DEFINE_PAGES_EDITOR','Редактор дефинирани страници');
+define('BOX_TOOLS_DEFINE_MAIN_PAGE', 'Главна страница');
+define('BOX_TOOLS_DEFINE_CONTACT_US','Контакти');
+define('BOX_TOOLS_DEFINE_PRIVACY','Поверителност');
+define('BOX_TOOLS_DEFINE_SHIPPINGINFO','Доставка и Рекламации');
+define('BOX_TOOLS_DEFINE_CONDITIONS','Общи условия');
+define('BOX_TOOLS_DEFINE_CHECKOUT_SUCCESS','Извършена покупка');
+define('BOX_TOOLS_DEFINE_PAGE_2','Страница 2');
+define('BOX_TOOLS_DEFINE_PAGE_3','Страница 3');
+define('BOX_TOOLS_DEFINE_PAGE_4','Страница 4');
 
 // localization box text
-define('BOX_HEADING_LOCALIZATION', 'Localization');
-define('BOX_LOCALIZATION_CURRENCIES', 'Currencies');
-define('BOX_LOCALIZATION_LANGUAGES', 'Languages');
-define('BOX_LOCALIZATION_ORDERS_STATUS', 'Orders Status');
+define('BOX_HEADING_LOCALIZATION', 'Локализация');
+define('BOX_LOCALIZATION_CURRENCIES', 'Валути');
+define('BOX_LOCALIZATION_LANGUAGES', 'Езици');
+define('BOX_LOCALIZATION_ORDERS_STATUS', 'Статус поръчки');
 
 // gift vouchers box text
-define('BOX_HEADING_GV_ADMIN', 'Discounts');
-define('BOX_GV_ADMIN_QUEUE',  TEXT_GV_NAMES . ' Queue');
-define('BOX_GV_ADMIN_MAIL', 'Mail ' . TEXT_GV_NAME);
-define('BOX_GV_ADMIN_SENT', TEXT_GV_NAMES . ' sent');
-define('BOX_COUPON_ADMIN','Coupon Admin');
-define('BOX_COUPON_RESTRICT','Coupon Restrictions');
+define('BOX_HEADING_GV_ADMIN', 'Отстъпки');
+define('BOX_GV_ADMIN_QUEUE',  TEXT_GV_NAMES . ' опашка');
+define('BOX_GV_ADMIN_MAIL', 'Мейл ' . TEXT_GV_NAME);
+define('BOX_GV_ADMIN_SENT', TEXT_GV_NAMES . ' изпратени');
+define('BOX_COUPON_ADMIN','Админ купони');
+define('BOX_COUPON_RESTRICT','Ограничения за купони');
 
 // admin access box text
-define('BOX_HEADING_ADMIN_ACCESS', 'Admins');
-define('BOX_ADMIN_ACCESS_USERS',  'Admin Users');
-define('BOX_ADMIN_ACCESS_PROFILES', 'Admin Profiles');
-define('BOX_ADMIN_ACCESS_PAGE_REGISTRATION', 'Admin Page Registration');
-define('BOX_ADMIN_ACCESS_LOGS', 'Admin Activity Logs');
+define('BOX_HEADING_ADMIN_ACCESS', 'Администратори');
+define('BOX_ADMIN_ACCESS_USERS',  'Админ потребители');
+define('BOX_ADMIN_ACCESS_PROFILES', 'Админ профили');
+define('BOX_ADMIN_ACCESS_PAGE_REGISTRATION', 'Регистрация на Админ страница');
+define('BOX_ADMIN_ACCESS_LOGS', 'Админ записи на дейностите');
 
-define('IMAGE_RELEASE', 'Redeem ' . TEXT_GV_NAME);
+define('IMAGE_RELEASE', 'Осребряване ' . TEXT_GV_NAME);
 
 // javascript messages
 define('JS_ERROR', 'Errors have occurred during the processing of your form!\nPlease make the following corrections:\n\n');
