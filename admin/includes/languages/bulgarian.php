@@ -56,10 +56,10 @@ function zen_date_raw($date, $reverse = false) {
   require(DIR_FS_CATALOG_LANGUAGES . $_SESSION['language'] . '/' . $template_dir_select . 'meta_tags.php');
 
 // meta tags
-define('ICON_METATAGS_ON', 'Meta Tags Defined');
-define('ICON_METATAGS_OFF', 'Meta Tags Undefined');
-define('TEXT_LEGEND_META_TAGS', 'Meta Tags Defined:');
-define('TEXT_INFO_META_TAGS_USAGE', '<strong>NOTE:</strong> The Site/Tagline is your defined definition for your site in the meta_tags.php file.');
+define('ICON_METATAGS_ON', 'Мета тагове са зададени');
+define('ICON_METATAGS_OFF', 'Мета тагове незададени');
+define('TEXT_LEGEND_META_TAGS', 'Зададени мета тагове:');
+define('TEXT_INFO_META_TAGS_USAGE', '<strong>Забележка:</strong> The Site/Tagline is your defined definition for your site in the meta_tags.php file.');
 
 // Global entries for the <html> tag
 define('HTML_PARAMS','dir="ltr" lang="bg"');
@@ -446,15 +446,15 @@ define('TEXT_NONE', '--нищо--');
 define('TEXT_TOP', 'Начало');
 define('PLEASE_SELECT', 'Моля, изберете ...');
 
-define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Error: Destination does not exist %s');
-define('ERROR_DESTINATION_NOT_WRITEABLE', 'Error: Destination not writeable %s');
-define('ERROR_FILE_NOT_SAVED', 'Error: File upload not saved.');
-define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: File upload type not allowed  %s');
-define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Success: File upload saved successfully %s');
-define('WARNING_NO_FILE_UPLOADED', 'Warning: No file uploaded.');
-define('WARNING_FILE_UPLOADS_DISABLED', 'Warning: File uploads are disabled in the php.ini configuration file.');
-define('ERROR_ADMIN_SECURITY_WARNING', 'Warning: Your Admin login is not secure ... either you still have default login settings for: Admin admin or have not removed or changed: demo demoonly<br />The login(s) should be changed as soon as possible for the Security of your shop.');
-define('WARNING_DATABASE_VERSION_OUT_OF_DATE','Your database appears to need patching to a higher level. See Tools->Server Information to review patch levels.');
+define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Грешка: Дестинацията не съществува %s');
+define('ERROR_DESTINATION_NOT_WRITEABLE', 'Грешка: В дестинацията не може да се записва %s');
+define('ERROR_FILE_NOT_SAVED', 'Грешка: Файлът не е записан.');
+define('ERROR_FILETYPE_NOT_ALLOWED', 'Грешка: Не е разрешен записът на такъв вид файл  %s');
+define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Успешно: Файлът е качен и записан успешно %s');
+define('WARNING_NO_FILE_UPLOADED', 'Внимание: Не е качен файл.');
+define('WARNING_FILE_UPLOADS_DISABLED', 'Внимание: Забранено е качването на файлове в php.ini конфигурационния файл.');
+define('ERROR_ADMIN_SECURITY_WARNING', 'Внимание: Вашият администраторси вход е незащитен... възможно е все още да използвате настройките по подразбиране за: Admin admin или не сте премахнали или променили: demo demoonly<br />Входът трябва да бъде сменен възможно най-скоро, за да бъде по защитен Вашият магазин.');
+define('WARNING_DATABASE_VERSION_OUT_OF_DATE','Изглежда, че базата данни има нужда от пачване до по-високо ниво. Вижте Инструменти->Сървърна информация за да видите нивото за пачване.');
 define('WARN_DATABASE_VERSION_PROBLEM','true'); //set to false to turn off warnings about database version mismatches
 define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE', '<strong>WARNING:</strong> Site is currently set to Down for Maintenance ...<br />NOTE: You cannot test most Payment and Shipping Modules in Maintenance mode');
 define('WARNING_BACKUP_CFG_FILES_TO_DELETE', 'WARNING: These files should be deleted to prevent security vulnerability: ');
