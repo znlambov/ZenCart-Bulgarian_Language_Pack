@@ -7,7 +7,7 @@
 ### Table of Contents
 **[Notes](#notes)**  
 **[Installation](#installation)**  
-**[Инсталиране](#инсталиране)**  
+**[Инсталиране](#Инсталиране)**  
 
 ## Notes ##
 Not official! (if there is any official ZC lang pack, anyway :) )  
