@@ -16,7 +16,7 @@ if (!defined('IS_ADMIN_FLAG'))
 }
 
 // added defines for header alt and text
-define('HEADER_ALT_TEXT', 'Админ задвижван от Zen Cart :: The Art of E-Commerce');
+define('HEADER_ALT_TEXT', 'Админ панел задвижван от Zen Cart :: The Art of E-Commerce');
 define('HEADER_LOGO_WIDTH', '200px');
 define('HEADER_LOGO_HEIGHT', '70px');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
@@ -456,116 +456,116 @@ define('WARNING_FILE_UPLOADS_DISABLED', 'Внимание: Забранено е
 define('ERROR_ADMIN_SECURITY_WARNING', 'Внимание: Вашият администраторси вход е незащитен... възможно е все още да използвате настройките по подразбиране за: Admin admin или не сте премахнали или променили: demo demoonly<br />Входът трябва да бъде сменен възможно най-скоро, за да бъде по защитен Вашият магазин.');
 define('WARNING_DATABASE_VERSION_OUT_OF_DATE','Изглежда, че базата данни има нужда от пачване до по-високо ниво. Вижте Инструменти->Сървърна информация за да видите нивото за пачване.');
 define('WARN_DATABASE_VERSION_PROBLEM','true'); //set to false to turn off warnings about database version mismatches
-define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE', '<strong>WARNING:</strong> Site is currently set to Down for Maintenance ...<br />NOTE: You cannot test most Payment and Shipping Modules in Maintenance mode');
-define('WARNING_BACKUP_CFG_FILES_TO_DELETE', 'WARNING: These files should be deleted to prevent security vulnerability: ');
-define('WARNING_INSTALL_DIRECTORY_EXISTS', 'SECURITY WARNING: Installation directory exists at: %s. Please remove this directory for security reasons.');
-define('WARNING_CONFIG_FILE_WRITEABLE', 'Warning: Your configuration file: %s is writeable. This is a potential security risk - please set the right user permissions on this file (read-only, CHMOD 644 or 444 are typical). You may need to use your webhost control panel/file-manager to change the permissions effectively. Contact your webhost for assistance. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">See this FAQ</a>');
-define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'WARNING: Could not locate language file: ');
-define('ERROR_MODULE_REMOVAL_PROHIBITED', 'ERROR: Module removal prohibited: ');
-define('WARNING_REVIEW_ROGUE_ACTIVITY', 'ALERT: Please review for possible XSS activity:');
+define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE', '<strong>Внимание:</strong> Сайтът е в Режим на профилактика...<br />Забележка: Не може да тествате модулите за Плащане и Доставка, докато сайтът е в Режим на профилактика');
+define('WARNING_BACKUP_CFG_FILES_TO_DELETE', 'Внимание: Следните файлове трябва да бъдат изтрити, от съображения за сигурност: ');
+define('WARNING_INSTALL_DIRECTORY_EXISTS', 'Съобщение за сигурност: Инсталационната директория се намира в: %s. Моля, премахнете тази директория, от съображения за сигурност.');
+define('WARNING_CONFIG_FILE_WRITEABLE', 'Внимание: Конфигурационният Ви файл: %s може да бъде редактиран. Това крие потенциална опасност за сигурността на сайта. Моля, променете правата за достъп за този файл (read-only, CHMOD 644 или 444 са типичен пример). Може да се наложи да използвате файловият мениджър в уебхостинг панела Ви, за да направите необходимите промени ефикасно. Cвържете се с хостинг администраторите си. <a href="http://tutorials.zen-cart.com/index.php?article=90" target="_blank">Вижте и тези съвети</a>');
+define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Внимание: Не са намерени еикови файлове: ');
+define('ERROR_MODULE_REMOVAL_PROHIBITED', 'Грешка: Премахването на модулът е възпрепятствано: ');
+define('WARNING_REVIEW_ROGUE_ACTIVITY', 'ВНИМАНИЕ: Моля проверете за вероятни XSS хакове:');
 
-define('ERROR_FILE_NOT_REMOVEABLE', 'Error: Could not remove the file specified. You may have to use FTP to remove the file, due to a server-permissions configuration limitation.');
-define('WARNING_SESSION_AUTO_START', 'Warning: session.auto_start is enabled - please disable this PHP feature in php.ini (restarting your webserver may be necessary to activate the change).');
-define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Warning: The downloadable products directory does not exist: ' . DIR_FS_DOWNLOAD . '. Downloadable products will not work until this directory is valid.');
-define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Warning: The SQL cache directory does not exist: ' . DIR_FS_SQL_CACHE . '. SQL caching will not work until this directory is created.');
-define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Warning: I am not able to write to the SQL cache directory: ' . DIR_FS_SQL_CACHE . '. SQL caching will not work until the right user permissions are set.');
+define('ERROR_FILE_NOT_REMOVEABLE', 'Грешка: Не може да премахнете определения файл. Може да се наложи да използвате FTP за да премахнете този файл, защото са налични сървърни ограничения в правата за достъп.');
+define('WARNING_SESSION_AUTO_START', 'Предупреждение: session.auto_start е активиран - моля, изключете това PHP свойство в php.ini (може да е належащо рестартиране на уебсървъра, за да влязат в сила промените).');
+define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT', 'Предупреждение: Не съществува директория за съдържание за Даунлоуд: ' . DIR_FS_DOWNLOAD . '. Продукти за Даунлоуд няма да функционират, докат тази директория не бъде налична.');
+define('WARNING_SQL_CACHE_DIRECTORY_NON_EXISTENT', 'Предупреждение: SQL кеш директорията не съществува: ' . DIR_FS_SQL_CACHE . '. SQL кеширането няма да работи, докато директорията на бъде създадена.');
+define('WARNING_SQL_CACHE_DIRECTORY_NOT_WRITEABLE', 'Предупреждение: Не може да се записва в SQL кеш директорията: ' . DIR_FS_SQL_CACHE . '. SQL кеширането няма да е възможно, докато не бъдат подходящо променени правата за достъп.');
 
-define('_JANUARY', 'January');
-define('_FEBRUARY', 'February');
-define('_MARCH', 'March');
-define('_APRIL', 'April');
-define('_MAY', 'May');
-define('_JUNE', 'June');
-define('_JULY', 'July');
-define('_AUGUST', 'August');
-define('_SEPTEMBER', 'September');
-define('_OCTOBER', 'October');
-define('_NOVEMBER', 'November');
-define('_DECEMBER', 'December');
+define('_JANUARY', 'Януари');
+define('_FEBRUARY', 'Февруари');
+define('_MARCH', 'Март');
+define('_APRIL', 'Април');
+define('_MAY', 'Май');
+define('_JUNE', 'Юни');
+define('_JULY', 'Юли');
+define('_AUGUST', 'Август');
+define('_SEPTEMBER', 'Септември');
+define('_OCTOBER', 'Октомври');
+define('_NOVEMBER', 'Ноември');
+define('_DECEMBER', 'Декември');
 
-define('TEXT_DISPLAY_NUMBER_OF_GIFT_VOUCHERS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> gift vouchers)');
-define('TEXT_DISPLAY_NUMBER_OF_COUPONS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> coupons)');
+define('TEXT_DISPLAY_NUMBER_OF_GIFT_VOUCHERS', 'Показва <b>%d</b> до <b>%d</b> (от <b>%d</b> подаръчни ваучера)');
+define('TEXT_DISPLAY_NUMBER_OF_COUPONS', 'Показва <b>%d</b> до <b>%d</b> (от <b>%d</b> купони)');
 
-define('TEXT_VALID_PRODUCTS_LIST', 'Products List');
-define('TEXT_VALID_PRODUCTS_ID', 'Products ID');
-define('TEXT_VALID_PRODUCTS_NAME', 'Products Name');
-define('TEXT_VALID_PRODUCTS_MODEL', 'Products Model');
+define('TEXT_VALID_PRODUCTS_LIST', 'Списък продукти');
+define('TEXT_VALID_PRODUCTS_ID', 'Продуктово ID');
+define('TEXT_VALID_PRODUCTS_NAME', 'Име на продукт');
+define('TEXT_VALID_PRODUCTS_MODEL', 'Модел на продукт');
 
-define('TEXT_VALID_CATEGORIES_LIST', 'Categories List');
-define('TEXT_VALID_CATEGORIES_ID', 'Category ID');
-define('TEXT_VALID_CATEGORIES_NAME', 'Category Name');
+define('TEXT_VALID_CATEGORIES_LIST', 'Списък категории');
+define('TEXT_VALID_CATEGORIES_ID', 'Категорийно ID');
+define('TEXT_VALID_CATEGORIES_NAME', 'Име категория');
 
-define('DEFINE_LANGUAGE','Choose Language:');
+define('DEFINE_LANGUAGE','Избери език:');
 
-define('BOX_ENTRY_COUNTER_DATE','Hit Counter Started:');
-define('BOX_ENTRY_COUNTER','Hit Counter:');
+define('BOX_ENTRY_COUNTER_DATE','Брояч на псещения започна на:');
+define('BOX_ENTRY_COUNTER','Брояч на посещения:');
 
 // not installed
-define('NOT_INSTALLED_TEXT','Not Installed');
+define('NOT_INSTALLED_TEXT','Не е инсталиран');
 
 // Product Options Values Sort Order - option_values.php
-  define('BOX_CATALOG_PRODUCT_OPTIONS_VALUES','Option Value Sorter ');
+  define('BOX_CATALOG_PRODUCT_OPTIONS_VALUES','Сортиране Стойности на опциите');
 
-  define('TEXT_UPDATE_SORT_ORDERS_OPTIONS','<strong>Update Attribute Sort Order from Option Value Defaults</strong> ');
-  define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Update All Products\' Attribute Sort Orders</strong><br />to match Option Value Default Sort Orders:<br />');
+  define('TEXT_UPDATE_SORT_ORDERS_OPTIONS','<strong>Обновете соритрането на атрибутите от Стойности на опциите по подразбиране</strong> ');
+  define('TEXT_INFO_ATTRIBUTES_FEATURES_UPDATES','<strong>Обновете Сортирането на Атрибутите за всички продукти</strong><br />за да съответства на Сортирането по подразбиране за Стойности на опциите:<br />');
 
 // Product Options Name Sort Order - option_values.php
-  define('BOX_CATALOG_PRODUCT_OPTIONS_NAME','Option Name Sorter');
+  define('BOX_CATALOG_PRODUCT_OPTIONS_NAME','Сортиране Имената на опциите');
 
 // Attributes only
-  define('BOX_CATALOG_CATEGORIES_ATTRIBUTES_CONTROLLER','Attributes Controller');
+  define('BOX_CATALOG_CATEGORIES_ATTRIBUTES_CONTROLLER','Контролер на атрибутите');
 
 // generic model
-  define('TEXT_MODEL','Model:');
+  define('TEXT_MODEL','Модел:');
 
 // column controller
-  define('BOX_TOOLS_LAYOUT_CONTROLLER','Layout Boxes Controller');
+  define('BOX_TOOLS_LAYOUT_CONTROLLER','Контролер за Изгледа на кутиите');
 
 // check GV release queue and alert store owner
   define('SHOW_GV_QUEUE',true);
-  define('TEXT_SHOW_GV_QUEUE','%s waiting approval ');
-  define('IMAGE_GIFT_QUEUE', TEXT_GV_NAME . ' Queue');
-  define('IMAGE_ORDER','Order');
+  define('TEXT_SHOW_GV_QUEUE','%s чака одобрение ');
+  define('IMAGE_GIFT_QUEUE', TEXT_GV_NAME . ' Опашка');
+  define('IMAGE_ORDER','Поръчка');
 
-  define('IMAGE_DISPLAY','Display');
-  define('IMAGE_UPDATE_SORT','Update Sort Order');
-  define('IMAGE_EDIT_PRODUCT','Edit Product');
-  define('IMAGE_EDIT_ATTRIBUTES','Edit Attributes');
-  define('TEXT_NEW_PRODUCT', 'Product in Category: %s');
-  define('IMAGE_OPTIONS_VALUES','Option Names and Option Values');
-  define('TEXT_PRODUCTS_PRICE_MANAGER','PRODUCTS PRICE MANAGER');
-  define('TEXT_PRODUCT_EDIT','EDIT PRODUCT');
-  define('TEXT_ATTRIBUTE_EDIT','EDIT ATTRIBUTES');
-  define('TEXT_PRODUCT_DETAILS','VIEW DETAILS');
+  define('IMAGE_DISPLAY','Покажи');
+  define('IMAGE_UPDATE_SORT','Обнови сортирането');
+  define('IMAGE_EDIT_PRODUCT','Редактирай продукта');
+  define('IMAGE_EDIT_ATTRIBUTES','Редактирай атрибутите');
+  define('TEXT_NEW_PRODUCT', 'Продукти в категорията: %s');
+  define('IMAGE_OPTIONS_VALUES','Имена и Стойности на опциите');
+  define('TEXT_PRODUCTS_PRICE_MANAGER','МЕНИДЖЪР ЦЕНИ НА ПРОДУКТИТЕ');
+  define('TEXT_PRODUCT_EDIT','РЕДАКТИРАЙ ПРОДУКТА');
+  define('TEXT_ATTRIBUTE_EDIT','РЕДАКТИРАЙ АТРИБУТИТЕ');
+  define('TEXT_PRODUCT_DETAILS','ВИЖ ДЕТАЙЛИ');
 
 // sale maker
-  define('DEDUCTION_TYPE_DROPDOWN_0', 'Deduct amount');
-  define('DEDUCTION_TYPE_DROPDOWN_1', 'Percent');
-  define('DEDUCTION_TYPE_DROPDOWN_2', 'New Price');
+  define('DEDUCTION_TYPE_DROPDOWN_0', 'Приспадни стойност');
+  define('DEDUCTION_TYPE_DROPDOWN_1', 'Проценти');
+  define('DEDUCTION_TYPE_DROPDOWN_2', 'Нова цена');
 
 // Min and Units
-  define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Min:');
-  define('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING','Units:');
-  define('PRODUCTS_QUANTITY_IN_CART_LISTING','In cart:');
-  define('PRODUCTS_QUANTITY_ADD_ADDITIONAL_LISTING','Add Additional:');
+  define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Мин:');
+  define('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING','Единици:');
+  define('PRODUCTS_QUANTITY_IN_CART_LISTING','В количката:');
+  define('PRODUCTS_QUANTITY_ADD_ADDITIONAL_LISTING','Добави Допълнителен:');
 
-  define('TEXT_PRODUCTS_MIX_OFF','*No Mixed Options');
-  define('TEXT_PRODUCTS_MIX_ON','*Yes Mixed Options');
+  define('TEXT_PRODUCTS_MIX_OFF','*Не Смесени Опции');
+  define('TEXT_PRODUCTS_MIX_ON','*Да Смесени Опции');
 
 // search filters
-  define('TEXT_INFO_SEARCH_DETAIL_FILTER','Search Filter: ');
-  define('HEADING_TITLE_SEARCH_DETAIL','Search: ');
-  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS', 'Search for Product IDs (Delimited by commas)');
-  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS_NAME_MODEL', 'Search for Product Name/Model');
+  define('TEXT_INFO_SEARCH_DETAIL_FILTER','Филтър за търсене: ');
+  define('HEADING_TITLE_SEARCH_DETAIL','Търси: ');
+  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS', 'Търси по Продуктови ID-та (разграничени със запетая)');
+  define('HEADING_TITLE_SEARCH_DETAIL_REPORTS_NAME_MODEL', 'Търси по продуктово Име/Модел');
 
-  define('PREV_NEXT_PRODUCT', 'Products: ');
-  define('TEXT_CATEGORIES_STATUS_INFO_OFF', '<span class="alert">*Category is Disabled</span>');
-  define('TEXT_PRODUCTS_STATUS_INFO_OFF', '<span class="alert">*Product is Disabled</span>');
+  define('PREV_NEXT_PRODUCT', 'Продукти: ');
+  define('TEXT_CATEGORIES_STATUS_INFO_OFF', '<span class="alert">*Категорията е изключена</span>');
+  define('TEXT_PRODUCTS_STATUS_INFO_OFF', '<span class="alert">*Продуктът е изключен</span>');
 
 // admin demo
-  define('ADMIN_DEMO_ACTIVE','Admin Demo is currently Active. Some settings are will be disabled');
-  define('ADMIN_DEMO_ACTIVE_EXCLUSION','Admin Demo is currently Active. Some settings are will be disabled - <strong>NOTE: Admin Override Enabled</strong>');
-  define('ERROR_ADMIN_DEMO','Admin Demo is Active ... the feature(s) you are trying to perform have been disabled');
+  define('ADMIN_DEMO_ACTIVE','В момента е активно Админ Демо. Някои настройки ще бъдат изключени');
+  define('ADMIN_DEMO_ACTIVE_EXCLUSION','В момента е активно Админ Демо. Някои настройки ще бъдат изключени - <strong>Забележка: Презаписването на Админ е включено</strong>');
+  define('ERROR_ADMIN_DEMO','Активирано е Админ Демо ... свойствата, които се опитвате да използвате са неактивирани');
 
 // Version Check notices
   define('TEXT_VERSION_CHECK_NEW_VER','<span class="alertVersionNew">New Version Available:</span> v');
