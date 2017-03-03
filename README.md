@@ -22,7 +22,7 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
 
 1. BackUp (FYI this language pack does not touch any of your files or DB).
 2. You should make notes for every change you make to your ZC site.
-3. You should first try this in a separete testing machine (e.g. VirtualMachine)!
+3. You should first try this in a separete testing machine (e.g. [VirtualMachine](https://www.virtualbox.org/))!
 4. Upload the files and directories to your server. Copy to your ZenCart folder keeping this structure (if your /admin/ folder name is different, change it!).
 5. Go to admin panel, Admin > Localization > Languages and click the new language button.
 6. If you are using different Template, you have to copy the whole directory **includes/templates/YOUR_TEMPLATE/buttons/english**, rename it to **/bulgarian** and copy it back there in order to have the new directory **includes/templates/YOUR_TEMPLATE/buttons/bulgarian**. Do the same thing with other similar English language parts form YOUR_TEMPLATE.
@@ -40,15 +40,15 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
 
 1. Направете резервно копие на сайта си (този пакет не променя никакви налични файлове и базата с данни).
 2. Добра практика е, да правите записки за всяка промяна по сайта си и последователността на стъпките.
-3. Тествайте нови пакети, модули, добавки, шаблони, скриптове, първо върху тестовоа машина (например Виртуална)!
+3. Тествайте нови пакети, модули, добавки, шаблони, скриптове, първо върху тестовоа машина (например [Виртуална машина](https://www.virtualbox.org/))!
 4. Запишете файловете и директориите на Вашия сървър. Копирайте ги в директорията, където е ZenCart, като спазвате структурата на директориите (ако Вашата /admin/ директория е с друго име, променете името и на тази от пакета с български език!).
 5. Влезте в административния панел **Admin > Localization > Languages** (Админ > Локализации > Езици) и натиснете бутон **new language** (нов език).
-6. В поле **Name** (Име) напишете *Български*,  
-в поле **Code** (Код),  въведете **bg**,  
-в поле **Directory** (Директория), въведете **bulgarian**,  
-в поле **Sort Order**, въведете номер за сортиране на езиците по Ваше желание (по-ниска стойност ще качи езика на по-високо ниво).
-7. Ако използвате различен от стандартните шаблони (template), трябва да копирате директорията **includes/templates/ВАШИЯТ_ШАБЛОН/buttons/english**, след което да я преименувате на **/bulgarian** и да я копирате обратно на същото място **includes/templates/ВАШИЯТ_ШАБЛОН/buttons/bulgarian**. Направете същото, ако има други добавки, които имат файлове за език.
-8. Ако в сайта Ви има добавки, които са правили промени по оригиналните езикови файлове на Вашият ZenCart, трябва да сравните промените и да ги направите и във файловете от българския езиков пакет.
+ - в поле **Name** (Име) напишете *Български*,  
+ - в поле **Code** (Код),  въведете *bg*,  
+ - в поле **Directory** (Директория), въведете *bulgarian*,  
+ - в поле **Sort Order** (Сортиране), въведете номер за сортиране на езиците по Ваше желание (по-ниска стойност ще качи езика на по-високо ниво).
+6. Ако използвате различен от стандартните шаблони (template), трябва да копирате директорията **includes/templates/ВАШИЯТ_ШАБЛОН/buttons/english**, след което да я преименувате на **/bulgarian** и да я копирате обратно на същото място **includes/templates/ВАШИЯТ_ШАБЛОН/buttons/bulgarian**. Направете същото, ако има други добавки, които имат файлове за език.
+7. Ако в сайта Ви има добавки, които са правили промени по оригиналните езикови файлове на Вашият ZenCart, трябва да сравните промените и да ги направите и във файловете от българския езиков пакет.
 
 **Структура на директориите в пакета:**
 
