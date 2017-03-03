@@ -5,9 +5,9 @@
 **Compatibility:** ZenCart versions 1.5.5e, 1.5.5d, 1.5.5c
 
 ### Table of Contents
-**[Notes](#notes)**
-**[Installation](#installation-instructions)**
-**[Инсталиране](#installation-instructions-bulgarian)**
+**[Notes](#notes)**  
+**[Installation](#installation)**  
+**[Инсталиране](#инсталация)**  
 
 ## Notes ##
 Not official! (if there is any official ZC lang pack, anyway :) )  
