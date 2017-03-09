@@ -568,37 +568,37 @@ define('NOT_INSTALLED_TEXT','Не е инсталиран');
   define('ERROR_ADMIN_DEMO','Активирано е Админ Демо ... свойствата, които се опитвате да използвате са неактивирани');
 
 // Version Check notices
-  define('TEXT_VERSION_CHECK_NEW_VER','<span class="alertVersionNew">New Version Available:</span> v');
-  define('TEXT_VERSION_CHECK_NEW_PATCH','<span class="alertVersionNew">New PATCH Available:</span> v');
-  define('TEXT_VERSION_CHECK_PATCH','patch');
-  define('TEXT_VERSION_CHECK_DOWNLOAD','Download Here');
-  define('TEXT_VERSION_CHECK_CURRENT','Your version of Zen Cart&reg; appears to be current.');
+  define('TEXT_VERSION_CHECK_NEW_VER','<span class="alertVersionNew">Налична е нова версия:</span> v');
+  define('TEXT_VERSION_CHECK_NEW_PATCH','<span class="alertVersionNew">Наличен е нов пач:</span> v');
+  define('TEXT_VERSION_CHECK_PATCH','пач');
+  define('TEXT_VERSION_CHECK_DOWNLOAD','Свали от тук');
+  define('TEXT_VERSION_CHECK_CURRENT','Версията Zen Cart&reg; е актуална.');
 
 // downloads manager
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_DOWNLOADS_MANAGER', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> downloads)');
-define('BOX_CATALOG_CATEGORIES_ATTRIBUTES_DOWNLOADS_MANAGER', 'Downloads Manager');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_DOWNLOADS_MANAGER', 'Показва <b>%d</b> до <b>%d</b> (от <b>%d</b> даунлоуда)');
+define('BOX_CATALOG_CATEGORIES_ATTRIBUTES_DOWNLOADS_MANAGER', 'Даунлоуд мениджър');
 
-define('BOX_CATALOG_FEATURED','Featured Products');
+define('BOX_CATALOG_FEATURED','Продукти на фокус');
 
-define('ERROR_NOTHING_SELECTED', 'Nothing was selected ... No changes have been made');
-define('TEXT_STATUS_WARNING','<strong>NOTE:</strong> status is auto enabled/disabled when dates are set');
+define('ERROR_NOTHING_SELECTED', 'Не е маркирано нищо... Не са извършени промени');
+define('TEXT_STATUS_WARNING','<strong>Забележка:</strong> статусът се променя автоматично, когато се зададе дата');
 
-define('TEXT_LEGEND_LINKED', 'Linked Product');
-define('TEXT_MASTER_CATEGORIES_ID','Product Master Category:');
+define('TEXT_LEGEND_LINKED', 'Свързани продукти');
+define('TEXT_MASTER_CATEGORIES_ID','Основна категория на продукта:');
 define('TEXT_LEGEND', 'LEGEND: ');
-define('TEXT_LEGEND_STATUS_OFF', 'Status OFF ');
-define('TEXT_LEGEND_STATUS_ON', 'Status ON ');
+define('TEXT_LEGEND_STATUS_OFF', 'Статус Изкл. ');
+define('TEXT_LEGEND_STATUS_ON', 'Статус Вкл. ');
 
-define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>NOTE: Master Category is used for pricing purposes where the<br />product category affects the pricing on linked products, example: Sales</strong>');
-define('TEXT_YES', 'Yes');
-define('TEXT_NO', 'No');
-define('TEXT_CANCEL', 'Cancel');
+define('TEXT_INFO_MASTER_CATEGORIES_ID', '<strong>Забележка: Основната категория се използва ценообразуване, където <br />категорията на продукта влиае на цената на свързаните продукти. Например: Разпродажби</strong>');
+define('TEXT_YES', 'Да');
+define('TEXT_NO', 'Не');
+define('TEXT_CANCEL', 'Отмени');
 
 // shipping error messages
-define('ERROR_SHIPPING_CONFIGURATION', '<strong>Shipping Configuration errors!</strong>');
-define('ERROR_SHIPPING_ORIGIN_ZIP', '<strong>Warning:</strong> Store Zip Code is not defined. See Configuration | Shipping/Packaging to set it.');
-define('ERROR_ORDER_WEIGHT_ZERO_STATUS', '<strong>Warning:</strong> 0 weight is configured for Free Shipping and Free Shipping Module is not enabled');
-define('ERROR_USPS_STATUS', '<strong>Warning:</strong> USPS shipping module is either missing the username, or it is set to TEST rather than PRODUCTION and will not work.<br />If you cannot retrieve USPS Shipping Quotes, contact USPS to activate your Web Tools account on their production server. 1-800-344-7779 or icustomercare@usps.com');
+define('ERROR_SHIPPING_CONFIGURATION', '<strong>Грешка при конфигуриране на доставката!</strong>');
+define('ERROR_SHIPPING_ORIGIN_ZIP', '<strong>Warning:</strong> Не е въведен пощенски код за магазина. Погледнете в Конфигуриране | Доставка/Опаковане за да го впишете.');
+define('ERROR_ORDER_WEIGHT_ZERO_STATUS', '<strong>Предупреждение:</strong> тегло със стойност 0 е конфигурирано да бъде с Безплатна доставка, а Модул Безплатна доставка не е активиран');
+define('ERROR_USPS_STATUS', '<strong>Warning:</strong> Модул за доставка USPS няма потребителско име или е настроен на режим TEST вместо на PRODUCTION и няма да работи.<br />If you cannot retrieve USPS Shipping Quotes, contact USPS to activate your Web Tools account on their production server. 1-800-344-7779 or icustomercare@usps.com');
 
 define('ERROR_SHIPPING_MODULES_NOT_DEFINED', 'NOTE: You have no shipping modules activated. Please go to Modules->Shipping to configure.');
 define('ERROR_PAYMENT_MODULES_NOT_DEFINED', 'NOTE: You have no payment modules activated. Please go to Modules->Payment to configure.');
