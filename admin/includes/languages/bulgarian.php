@@ -596,162 +596,162 @@ define('TEXT_CANCEL', 'Отмени');
 
 // shipping error messages
 define('ERROR_SHIPPING_CONFIGURATION', '<strong>Грешка при конфигуриране на доставката!</strong>');
-define('ERROR_SHIPPING_ORIGIN_ZIP', '<strong>Warning:</strong> Не е въведен пощенски код за магазина. Погледнете в Конфигуриране | Доставка/Опаковане за да го впишете.');
-define('ERROR_ORDER_WEIGHT_ZERO_STATUS', '<strong>Предупреждение:</strong> тегло със стойност 0 е конфигурирано да бъде с Безплатна доставка, а Модул Безплатна доставка не е активиран');
-define('ERROR_USPS_STATUS', '<strong>Warning:</strong> Модул за доставка USPS няма потребителско име или е настроен на режим TEST вместо на PRODUCTION и няма да работи.<br />If you cannot retrieve USPS Shipping Quotes, contact USPS to activate your Web Tools account on their production server. 1-800-344-7779 or icustomercare@usps.com');
+define('ERROR_SHIPPING_ORIGIN_ZIP', '<strong>Внимание:</strong> Не е въведен пощенски код за магазина. Погледнете в Конфигуриране | Доставка/Опаковане за да го впишете.');
+define('ERROR_ORDER_WEIGHT_ZERO_STATUS', '<strong>Внимание:</strong> тегло със стойност 0 е конфигурирано да бъде с Безплатна доставка, а Модул Безплатна доставка не е активиран');
+define('ERROR_USPS_STATUS', '<strong>Внимание:</strong> Модул за доставка USPS няма потребителско име или е настроен на режим TEST вместо на PRODUCTION и няма да работи.<br />Ако неможете да получите USPS Цена за Доставка, свържете се с USPS за да активирате Web Tools профил на техния сървър. 1-800-344-7779 или icustomercare@usps.com');
 
-define('ERROR_SHIPPING_MODULES_NOT_DEFINED', 'NOTE: You have no shipping modules activated. Please go to Modules->Shipping to configure.');
-define('ERROR_PAYMENT_MODULES_NOT_DEFINED', 'NOTE: You have no payment modules activated. Please go to Modules->Payment to configure.');
+define('ERROR_SHIPPING_MODULES_NOT_DEFINED', 'Забележка: Не са активирани Модули за доставка. Влезте в Модули->Доставка за да конфигурирате модул.');
+define('ERROR_PAYMENT_MODULES_NOT_DEFINED', 'Забележка: Не са активни Модули за плащане. Влезте в Модули->Плащане за да конфигурирате модул.');
 
 // text pricing
-define('TEXT_CHARGES_WORD','Calculated Charge:');
-define('TEXT_PER_WORD','<br />Price per word: ');
-define('TEXT_WORDS_FREE',' Word(s) free ');
-define('TEXT_CHARGES_LETTERS','Calculated Charge:');
-define('TEXT_PER_LETTER','<br />Price per letter: ');
-define('TEXT_LETTERS_FREE',' Letter(s) free ');
-define('TEXT_ONETIME_CHARGES','*onetime charges = ');
-define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . '*onetime charges = ');
-define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Option Quantity Discounts');
-define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','QTY');
-define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','PRICE');
-define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'Option Quantity Discounts Onetime Charges');
-define('TEXT_CATEGORIES_PRODUCTS', 'Select a Category with Products ... Or move between the Products');
-define('TEXT_PRODUCT_TO_VIEW', 'Select a Product to View and Press Display ...');
+define('TEXT_CHARGES_WORD','Изчислени такси:');
+define('TEXT_PER_WORD','<br />Цена за дума: ');
+define('TEXT_WORDS_FREE',' Дума(думи) безплатно ');
+define('TEXT_CHARGES_LETTERS','Изчислени такси:');
+define('TEXT_PER_LETTER','<br />Цена за буква: ');
+define('TEXT_LETTERS_FREE',' Буква(букви) безплатно ');
+define('TEXT_ONETIME_CHARGES','*еднократни такси = ');
+define('TEXT_ONETIME_CHARGES_EMAIL',"\t" . '*еднократни такси = ');
+define('TEXT_ATTRIBUTES_QTY_PRICES_HELP', 'Опции на количествените отстъпки');
+define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','Количество');
+define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','Цена');
+define('TEXT_ATTRIBUTES_QTY_PRICES_ONETIME_HELP', 'Опции Количествени отстъпки Еднократни такси');
+define('TEXT_CATEGORIES_PRODUCTS', 'Изберете категория с продукти ... Или навигирайте между продуктите');
+define('TEXT_PRODUCT_TO_VIEW', 'Изберете продукт, който да разгледате и натиснете Покажи ...');
 
-define('TEXT_INFO_SET_MASTER_CATEGORIES_ID', 'Invalid Master Category ID');
+define('TEXT_INFO_SET_MASTER_CATEGORIES_ID', 'Невалидно ID на категория');
 define('TEXT_INFO_ID', ' ID# ');
-define('TEXT_INFO_SET_MASTER_CATEGORIES_ID_WARNING', '<strong>WARNING:</strong> This product is linked to multiple categories but no master category has been set!');
+define('TEXT_INFO_SET_MASTER_CATEGORIES_ID_WARNING', '<strong>Внимание:</strong> Този продукт е свързан към няколко категории, но не е избрана основна категория!');
 
-define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', 'Product is Call for Price');
-define('PRODUCTS_PRICE_IS_FREE_TEXT','Product is Free');
+define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT', 'Продуктът е със статус Обади се за цена');
+define('PRODUCTS_PRICE_IS_FREE_TEXT','Продуктът е безплатен');
 
-define('TEXT_PRODUCT_WEIGHT_UNIT','lbs');
+define('TEXT_PRODUCT_WEIGHT_UNIT','кг');
 
 // min, max, units
-define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Max:');
+define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING', 'Макс:');
 
 // Discount Savings
-  define('PRODUCT_PRICE_DISCOUNT_PREFIX','Save:&nbsp;');
-  define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','% off');
-  define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;off');
+  define('PRODUCT_PRICE_DISCOUNT_PREFIX','Спестяваш:&nbsp;');
+  define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','% отстъпка');
+  define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;отстъпка');
 // Sale Maker Sale Price
-  define('PRODUCT_PRICE_SALE','Sale:&nbsp;');
+  define('PRODUCT_PRICE_SALE','Разпродажба:&nbsp;');
 
-define('TEXT_PRICED_BY_ATTRIBUTES', 'Priced by Attributes');
+define('TEXT_PRICED_BY_ATTRIBUTES', 'Цена според Атрибути');
 
 // Rich Text / HTML resources
-define('TEXT_HTML_EDITOR_NOT_DEFINED','If you have no HTML editor defined or JavaScript disabled, you may enter raw HTML text here manually.');
-define('TEXT_WARNING_HTML_DISABLED','<span class = "main">Note: You are using TEXT only email. If you would like to send HTML you need to enable "Enable HTML Emails" under Email Options</span>');
-define('TEXT_WARNING_CANT_DISPLAY_HTML','<span class = "main">Note: You are using TEXT only email. If you would like to send HTML you need to enable "Enable HTML Emails" under Email Options</span>');
-define('TEXT_EMAIL_CLIENT_CANT_DISPLAY_HTML',"You're seeing this text because we sent you an email in HTML format but your email client cannot display HTML messages.");
-define('ENTRY_EMAIL_PREFERENCE','Email Format Pref:');
-define('ENTRY_EMAIL_FORMAT_COMMENTS','Choosing "none" or "optout" disables ALL mail, including order details');
+define('TEXT_HTML_EDITOR_NOT_DEFINED','Ако нямате HTML редактор или JavaScript е изключен, може да въведете ръчно HTML текст тук.');
+define('TEXT_WARNING_HTML_DISABLED','<span class = "main">Забележка: Използвате ТЕКСТ имейл. Ако искате да изпратите HTML съдържание, трябва да натиснете "Разреши HTML Имейли" в меню Имейл опции</span>');
+define('TEXT_WARNING_CANT_DISPLAY_HTML','<span class = "main">Забележка: Използвате ТЕКСТ имейл. Ако искате да изпратите HTML съдържание, трябва да натиснете "Разреши HTML Имейли" в меню Имейл опции</span>');
+define('TEXT_EMAIL_CLIENT_CANT_DISPLAY_HTML',"Виждате този текст, защото Ви изпратихме имейл в HTML формат, но имейлъте Ви не възпроизвежда HTML съобщения.");
+define('ENTRY_EMAIL_PREFERENCE','Предпочитан формат на имейл:');
+define('ENTRY_EMAIL_FORMAT_COMMENTS','Изберете "никакви" или "отписване" за да изключите всички имейли, включително тези за детайли относно поръчките Ви');
 define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
-define('ENTRY_EMAIL_TEXT_DISPLAY','TEXT-Only');
-define('ENTRY_EMAIL_NONE_DISPLAY','Never');
-define('ENTRY_EMAIL_OPTOUT_DISPLAY','Opted Out of Newsletters');
-define('ENTRY_NOTHING_TO_SEND','You haven\'t entered any content for your message');
- define('EMAIL_SEND_FAILED','ERROR: Failed sending email to: "%s" <%s> with subject: "%s"');
+define('ENTRY_EMAIL_TEXT_DISPLAY','ТЕКСТ');
+define('ENTRY_EMAIL_NONE_DISPLAY','Никога');
+define('ENTRY_EMAIL_OPTOUT_DISPLAY','Отпишете се от Новини');
+define('ENTRY_NOTHING_TO_SEND','Не сте въвели никакво съдържание в съобщението си');
+ define('EMAIL_SEND_FAILED','Грешка при изпращане на имейл до: "%s" <%s> с тема: "%s"');
 
-  define('EDITOR_NONE', 'Plain Text');
-  define('TEXT_EDITOR_INFO', 'Text Editor');
-  define('ERROR_EDITORS_FOLDER_NOT_FOUND', 'You have an HTML editor selected in \'My Store\' but the \'/editors/\' folder cannot be located. Please disable your selection or move your editor files into the \''.DIR_WS_CATALOG.'editors/\' folder');
-  define('TEXT_CATEGORIES_PRODUCTS_SORT_ORDER_INFO', 'Categories/Product Display Order: ');
-  define('TEXT_SORT_PRODUCTS_SORT_ORDER_PRODUCTS_NAME', 'Products Sort Order, Products Name');
-  define('TEXT_SORT_PRODUCTS_NAME', 'Products Name');
-  define('TEXT_SORT_PRODUCTS_MODEL', 'Products Model');
-  define('TEXT_SORT_PRODUCTS_QUANTITY', 'Products Qty+, Products Name');
-  define('TEXT_SORT_PRODUCTS_QUANTITY_DESC', 'Products Qty-, Products Name');
-  define('TEXT_SORT_PRODUCTS_PRICE', 'Products Price+, Products Name');
-  define('TEXT_SORT_PRODUCTS_PRICE_DESC', 'Products Price-, Products Name');
-  define('TEXT_SORT_CATEGORIES_SORT_ORDER_PRODUCTS_NAME', 'Categories Sort Order, Categories Name');
-  define('TEXT_SORT_CATEGORIES_NAME', 'Categories Name');
+  define('EDITOR_NONE', 'Само текст');
+  define('TEXT_EDITOR_INFO', 'Текстов редактор');
+  define('ERROR_EDITORS_FOLDER_NOT_FOUND', 'Избрали сте HTML редактор в \'Моят магазин\' но директория \'/editors/\' не може да бъде намерена. Моля, променете избора си или преместете файловете на редактора в директория \''.DIR_WS_CATALOG.'editors/\'');
+  define('TEXT_CATEGORIES_PRODUCTS_SORT_ORDER_INFO', 'Сортиране Категории/Продукти: ');
+  define('TEXT_SORT_PRODUCTS_SORT_ORDER_PRODUCTS_NAME', 'Сортиране на продукт, Име на продукт');
+  define('TEXT_SORT_PRODUCTS_NAME', 'Име на продукт');
+  define('TEXT_SORT_PRODUCTS_MODEL', 'Модел на продукт');
+  define('TEXT_SORT_PRODUCTS_QUANTITY', 'Количество на продукт+, Име на продукт');
+  define('TEXT_SORT_PRODUCTS_QUANTITY_DESC', 'Количество на продукт-, Име на продукт');
+  define('TEXT_SORT_PRODUCTS_PRICE', 'Цена на продукт+, Име на продукт');
+  define('TEXT_SORT_PRODUCTS_PRICE_DESC', 'Цена на продукт-, Име на продукт');
+  define('TEXT_SORT_CATEGORIES_SORT_ORDER_PRODUCTS_NAME', 'Сортиране на категория, Име на категория');
+  define('TEXT_SORT_CATEGORIES_NAME', 'Име на категория');
 
-  define('TEXT_SELECT_MAIN_DIRECTORY', 'Main Image Directory');
+  define('TEXT_SELECT_MAIN_DIRECTORY', 'Основна директория снимки');
 
-  define('TABLE_HEADING_YES','Yes');
-  define('TABLE_HEADING_NO','No');
-  define('TEXT_PRODUCTS_IMAGE_MANUAL', '<br /><strong>Or, select an existing image file from server, filename:</strong>');
-  define('TEXT_IMAGES_OVERWRITE', '<br /><strong>Overwrite Existing Image on Server?</strong>');
-  define('TEXT_IMAGE_OVERWRITE_WARNING','WARNING: FILENAME was updated but not overwritten ');
-  define('TEXT_IMAGES_DELETE', '<strong>Delete Image?</strong> NOTE: Removes Image from Product, Image is NOT removed from server:');
-  define('TEXT_IMAGE_CURRENT', 'Image Name: ');
+  define('TABLE_HEADING_YES','Да');
+  define('TABLE_HEADING_NO','Не');
+  define('TEXT_PRODUCTS_IMAGE_MANUAL', '<br /><strong>Изберете съществуващ файл от сървъра. Име на файла:</strong>');
+  define('TEXT_IMAGES_OVERWRITE', '<br /><strong>Да се запише ли върху съществуваща снимка на сървъра?</strong>');
+  define('TEXT_IMAGE_OVERWRITE_WARNING','Внимание: ИМЕ НА ФАЙЛ бе обновено но не бе презаписано ');
+  define('TEXT_IMAGES_DELETE', '<strong>Изтрий снимка?</strong> Забележка: Премахването на снимката от продукта, не я премахва от сървъра:');
+  define('TEXT_IMAGE_CURRENT', 'Име на снимка: ');
 
-  define('ERROR_DEFINE_OPTION_NAMES', 'Warning: No Option Names have been defined');
-  define('ERROR_DEFINE_OPTION_VALUES', 'Warning: No Option Values have been defined');
-  define('ERROR_DEFINE_PRODUCTS', 'Warning: No Products have been defined');
-  define('ERROR_DEFINE_PRODUCTS_MASTER_CATEGORIES_ID', 'Warning: No Master Categories ID has been set for this Product');
+  define('ERROR_DEFINE_OPTION_NAMES', 'Внимание: Не са определени Имена на опциите');
+  define('ERROR_DEFINE_OPTION_VALUES', 'Внимание: Не са определени Стойности на опциите');
+  define('ERROR_DEFINE_PRODUCTS', 'Внимание: Не са определени Продукти');
+  define('ERROR_DEFINE_PRODUCTS_MASTER_CATEGORIES_ID', 'Внимание: Не е избран ID на Основна категория за този Продукт');
 
-  define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_ON','Add include SubCategories');
-  define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_OFF','Add without SubCategories');
+  define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_ON','Добави с подкатегории');
+  define('BUTTON_ADD_PRODUCT_TYPES_SUBCATEGORIES_OFF','Добави без подкатегории');
 
-  define('BUTTON_PREVIOUS_ALT','Previous Product');
-  define('BUTTON_NEXT_ALT','Next Product');
+  define('BUTTON_PREVIOUS_ALT','Предишен продукт');
+  define('BUTTON_NEXT_ALT','Следващ продукт');
 
-  define('BUTTON_PRODUCTS_TO_CATEGORIES', 'Multiple Categories Link Manager');
-  define('BUTTON_PRODUCTS_TO_CATEGORIES_ALT', 'Copy Product to Multiple Categories');
+  define('BUTTON_PRODUCTS_TO_CATEGORIES', 'Мениджър на връзките между категориите');
+  define('BUTTON_PRODUCTS_TO_CATEGORIES_ALT', 'Копирай продукта в много категории');
 
-  define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'All Global Copy, Add and Delete Features Status is currently OFF');
-  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Display Global Features - ON');
-  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Display Global Features - OFF');
+  define('TEXT_INFO_OPTION_NAMES_VALUES_COPIER_STATUS', 'Общо копиране, Статусът Добави и изтрий свойства е Изкл.');
+  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_ON', 'Показвай Глобални свойства - Вкл.');
+  define('TEXT_SHOW_OPTION_NAMES_VALUES_COPIER_OFF', 'Показвай Глобални свойства - Изкл.');
 
 // moved from categories and all product type language files
-  define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: Can not link products in the same category.');
-  define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Catalog images directory is not writeable: ' . DIR_FS_CATALOG_IMAGES);
-  define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Catalog images directory does not exist: ' . DIR_FS_CATALOG_IMAGES);
-  define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: Category cannot be moved into child category.');
-  define('ERROR_CANNOT_MOVE_PRODUCT_TO_CATEGORY_SELF', 'Error: Cannot move product to the same category or into a category where it already exists.');
-  define('ERROR_CATEGORY_HAS_PRODUCTS', 'Error: Category has Products!<br /><br />While this can be done temporarily to build your Categories ... Categories hold either Products or Categories but never both!');
-  define('SUCCESS_CATEGORY_MOVED', 'Success! Category has successfully been moved ...');
-  define('ERROR_CANNOT_MOVE_CATEGORY_TO_CATEGORY_SELF', 'Error: Cannot move Category to the same Category! ID#');
+  define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Грешка: Не можете да вържете продукт със същата категория.');
+  define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Грешка: Не е разрешен запис в Директорията за снимки: ' . DIR_FS_CATALOG_IMAGES);
+  define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Грешка: Не е налична директория за снимки: ' . DIR_FS_CATALOG_IMAGES);
+  define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Грешка: Категория не може да бъде местена в подкатегория.');
+  define('ERROR_CANNOT_MOVE_PRODUCT_TO_CATEGORY_SELF', 'Грешка: Не е възможно местенето на продукт в същата категория или категория, където вече съществува.');
+  define('ERROR_CATEGORY_HAS_PRODUCTS', 'Грешка: Категорията има продукти!<br /><br />Въпреки, че това може да бъде направено временно, докато изграждате категориите... Категория може да съдържа само Продукти или Категории, но никога двете!');
+  define('SUCCESS_CATEGORY_MOVED', 'Категорията бе успешно преместена...');
+  define('ERROR_CANNOT_MOVE_CATEGORY_TO_CATEGORY_SELF', 'Грешка: Категорията не може да бъде изместена в същата Категория! ID#');
 
 // EZ-PAGES Alerts
-  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'WARNING: EZ-PAGES HEADER - On for Admin IP Only');
-  define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', 'WARNING: EZ-PAGES FOOTER - On for Admin IP Only');
-  define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', 'WARNING: EZ-PAGES SIDEBOX - On for Admin IP Only');
+  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'Внимание: Хедър за EZ-Страници - Вкл. само за IP на Админ');
+  define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', 'Внимание: Футър за EZ-Страници - Вкл. само за IP на Админ');
+  define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', 'Внимание: Странични кутийки за EZ-Страници - Вкл. само за IP на Админ');
 
 // moved from product types
 // warnings on Virtual and Always Free Shipping
-  define('TEXT_VIRTUAL_PREVIEW','Warning: This product is marked - Free Shipping and Skips Shipping Address<br />No shipping will be requested when all products in the order are Virtual Products');
-  define('TEXT_VIRTUAL_EDIT','Warning: This product is marked - Free Shipping and Skips Shipping Address<br />No shipping will be requested when all products in the order are Virtual Products');
-  define('TEXT_FREE_SHIPPING_PREVIEW','Warning: This product is marked - Free Shipping, Shipping Address Required<br />Free Shipping Module is required when all products in the order are Always Free Shipping Products');
-  define('TEXT_FREE_SHIPPING_EDIT','Warning: Yes makes the product - Free Shipping, Shipping Address Required<br />Free Shipping Module is required when all products in the order are Always Free Shipping Products');
+  define('TEXT_VIRTUAL_PREVIEW','Внимание: Продуктът е маркиран, като - Безплатна доставка и Пропусни адрес за доставка<br />Няма да изисква Адрес за доставка, когато вскички продукти в поръчката са Виртуални');
+  define('TEXT_VIRTUAL_EDIT','Внимание: Продуктът е маркиран, като - Безплатна доставка и Пропусни адрес за доставка<br />Не се изисква доставка, когато всички продукти в поръчката са Виртуални');
+  define('TEXT_FREE_SHIPPING_PREVIEW','Внимание: Продуктът е маркиран, като - Безплатна доставка, Изисква се адрес за доставка<br />Изисква Модул за безплатна доставка, когато всички продукти в поръчката са Винаги безплатна доставка');
+  define('TEXT_FREE_SHIPPING_EDIT','Внимание: ДА прави продукта - Безплатна доставка, Изисква адрес за доставка<br />Изисква Модул за безплатна доставка, когато всички продукти в поръчката са Винаги безплатна доставка');
 
 // admin activity log warnings
-  define('WARNING_ADMIN_ACTIVITY_LOG_DATE', 'WARNING: The Admin Activity Log table has records over 2 months old and should be archived to conserve space ... ');
-  define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS', 'WARNING: The Admin Activity Log table has over 50,000 records and should be archived to conserve space ... ');
-  define('RESET_ADMIN_ACTIVITY_LOG', 'You can view and archive Admin Activity details via the Admin Access Management menu, if you have appropriate permissions.');
-  define('TEXT_ACTIVITY_LOG_ACCESSED', 'Admin Activity Log accessed. Output format: %s. Filter: %s. %s');
-  define('TEXT_ERROR_FAILED_ADMIN_LOGIN_FOR_USER', 'Failed admin login attempt: ');
-  define('TEXT_ERROR_ATTEMPTED_TO_LOG_IN_TO_LOCKED_ACCOUNT', 'Attempted to log into locked account:');
-  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_CSRF_TOKEN', 'Attempted login without CSRF token.');
-  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_USERNAME', 'Attempted login without username.');
-  define('TEXT_ERROR_INCORRECT_PASSWORD_DURING_RESET_FOR_USER', 'Incorrect password while attempting a password reset for: ');
+  define('WARNING_ADMIN_ACTIVITY_LOG_DATE', 'Внимание: Логът за активност на администратора има записи на повече от 2 месеца и е добре да се архивира, за да спести място ... ');
+  define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS', 'Внимание: Логът за активност на администратора има повече от 50 000 записа и е добре да се архивира, за да спести място... ');
+  define('RESET_ADMIN_ACTIVITY_LOG', 'Можете да разгледате и архивирате Активността на администратора през меню Мениджър на Админ достъп, ако имате подходящите права на достъп.');
+  define('TEXT_ACTIVITY_LOG_ACCESSED', 'Лог на активността на администратора е достъпен. Изходен формат: %s. Филтър: %s. %s');
+  define('TEXT_ERROR_FAILED_ADMIN_LOGIN_FOR_USER', 'Неуспешен опит за вход на администратор: ');
+  define('TEXT_ERROR_ATTEMPTED_TO_LOG_IN_TO_LOCKED_ACCOUNT', 'Опит за вход в заключен профил:');
+  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_CSRF_TOKEN', 'Опит за вход без CSRF символ.');
+  define('TEXT_ERROR_ATTEMPTED_ADMIN_LOGIN_WITHOUT_USERNAME', 'Опит за вход без потребителско име.');
+  define('TEXT_ERROR_INCORRECT_PASSWORD_DURING_RESET_FOR_USER', 'Невалидна парола при опит за възстановяване на парола за: ');
 
 
-  define('CATEGORY_HAS_SUBCATEGORIES', 'NOTE: Category has SubCategories<br />Products cannot be added');
+  define('CATEGORY_HAS_SUBCATEGORIES', 'Забележка: Категорията има подкатегории<br />Немогат да се добавят продукти');
 
-  define('WARNING_WELCOME_DISCOUNT_COUPON_EXPIRES_IN', 'WARNING! Welcome Email Discount Coupon expires in %s days');
+  define('WARNING_WELCOME_DISCOUNT_COUPON_EXPIRES_IN', 'Внимание! Купон за отстъпка за новорегистриран клиент изтича след %s дни');
 
-define('WARNING_ADMIN_FOLDERNAME_VULNERABLE', 'CAUTION: <a href="http://tutorials.zen-cart.com/index.php?article=33" target="_blank">Your /admin/ foldername should be renamed to something less common</a>, to prevent unauthorized access.');
-define('WARNING_EMAIL_SYSTEM_DISABLED', 'WARNING: The email subsystem is turned off. No emails will be sent until it is re-enabled in Admin->Configuration->Email Options.');
-define('TEXT_CURRENT_VER_IS', 'You are presently using: ');
-define('ERROR_NO_DATA_TO_SAVE', 'ERROR: The data you submitted was found to be empty. YOUR CHANGES HAVE *NOT* BEEN SAVED. You may have a problem with your browser or your internet connection.');
-define('TEXT_HIDDEN', 'Hidden');
-define('TEXT_VISIBLE', 'Visible');
-define('TEXT_HIDE', 'Hide');
-define('TEXT_EMAIL', 'Email');
-define('TEXT_NOEMAIL', 'No Email');
+define('WARNING_ADMIN_FOLDERNAME_VULNERABLE', 'Внимание: <a href="http://tutorials.zen-cart.com/index.php?article=33" target="_blank">Името на Вашата /admin/ директория би трябвало да бъде нещо по-рядко срещано</a>, за да предотвратите неоторизиран достъп.');
+define('WARNING_EMAIL_SYSTEM_DISABLED', 'Внимание: Подсистемата за имейли е изключена. Имейли няма да бъдат изпращани, докато не я активирате от Админ->Конфигуриране->Имейл настройки.');
+define('TEXT_CURRENT_VER_IS', 'Към момента използвате: ');
+define('ERROR_NO_DATA_TO_SAVE', 'Грешка: Не са въведени данни, които да съхраним. Промените не са запаметени. Възможно е да имате проблем с интернет връзката или с браузъра си.');
+define('TEXT_HIDDEN', 'Скрит');
+define('TEXT_VISIBLE', 'Видим');
+define('TEXT_HIDE', 'Скрий');
+define('TEXT_EMAIL', 'Имейл');
+define('TEXT_NOEMAIL', 'Без имейл');
 
-define('BOX_HEADING_PRODUCT_TYPES', 'Product Types');
+define('BOX_HEADING_PRODUCT_TYPES', 'Видове продукти');
 
-define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">ERROR 0071: There appears to be a problem with the database. Maintenance is required.</a>');
+define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">Грешка 0071: Изглежда има проблем с базата данни. Необходима е поддръжка.</a>');
 
 // moved from currencies file:
-define('TEXT_INFO_CURRENCY_UPDATED', 'The exchange rate for %s (%s) was updated successfully to %s via %s.');
-define('ERROR_CURRENCY_INVALID', 'Error: The exchange rate for %s (%s) was not updated via %s. Is it a valid currency code?');
-define('WARNING_PRIMARY_SERVER_FAILED', 'Warning: The primary exchange rate server (%s) failed for %s (%s) - trying the secondary exchange rate server.');
+define('TEXT_INFO_CURRENCY_UPDATED', 'Валутните курсове за %s (%s) бяха успешно актуализирани на %s през %s.');
+define('ERROR_CURRENCY_INVALID', 'Грешка: Валутните курсове за %s (%s) не бяха актуализирани през %s. Коректен ли е кодът на валутата?');
+define('WARNING_PRIMARY_SERVER_FAILED', 'Внимание: Основният сървър за валутни курсове (%s) отказа за %s (%s) - опит за връзка с втори сървър за валутни курсове.');
 
 
 ///////////////////////////////////////////////////////////
