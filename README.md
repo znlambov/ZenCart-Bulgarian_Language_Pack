@@ -64,8 +64,8 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
    admin/includes/languages/bulgarian/  
    includes/templates/template_default/buttons/bulgarian/>  
 
-   ## Current status ##
+## Current status ##
 
-   includes/languages/bulgarian - **fully translated**  
-   admin/includes/languages/bulgarian - **partially translation**  
-   includes/templates/template_default/buttons/bulgarian - **not translated**  
+includes/languages/bulgarian - **fully translated**  
+admin/includes/languages/bulgarian - **partially translation**  
+includes/templates/template_default/buttons/bulgarian - **not translated**  
