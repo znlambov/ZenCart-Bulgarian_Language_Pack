@@ -20,15 +20,15 @@
 //  $Id: product_notification.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_COUNT_CUSTOMERS', 'Customers receiving this Product Notification: %s');
-define('TEXT_PRODUCTS', 'Products');
-define('TEXT_SELECTED_PRODUCTS', 'Selected Products');
+define('TEXT_COUNT_CUSTOMERS', 'Клиенти, получаващи това Известие за продукт: %s');
+define('TEXT_PRODUCTS', 'Продукти');
+define('TEXT_SELECTED_PRODUCTS', 'Избрани продукти');
 
-define('JS_PLEASE_SELECT_PRODUCTS', 'Please select some products.');
+define('JS_PLEASE_SELECT_PRODUCTS', 'Моля, изберете продукти.');
 
-define('BUTTON_GLOBAL', 'Global');
+define('BUTTON_GLOBAL', 'Глобално');
 define('BUTTON_SELECT', '>>>');
 define('BUTTON_UNSELECT', '<<<');
-define('BUTTON_SUBMIT', 'Submit');
-define('BUTTON_CANCEL', 'Cancel');
+define('BUTTON_SUBMIT', 'Публикувай');
+define('BUTTON_CANCEL', 'Анулирай');
 ?>

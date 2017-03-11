@@ -7,30 +7,30 @@
  * @version $Id: newsletter.php 4385 2006-09-04 04:10:48Z drbyte $
  */
 
-define('TEXT_COUNT_CUSTOMERS', 'Customers receiving newsletter: %s');
-define('HEADING_TITLE', 'Newsletter Manager');
+define('TEXT_COUNT_CUSTOMERS', 'Клиенти получаващи новини: %s');
+define('HEADING_TITLE', 'Мениджър новини');
 
-define('TABLE_HEADING_NEWSLETTERS', 'Newsletters');
-define('TABLE_HEADING_SIZE', 'Size');
-define('TABLE_HEADING_MODULE', 'Module');
-define('TABLE_HEADING_SENT', 'Sent');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_NEWSLETTERS', 'Новини');
+define('TABLE_HEADING_SIZE', 'Размер');
+define('TABLE_HEADING_MODULE', 'Модул');
+define('TABLE_HEADING_SENT', 'Изпратени');
+define('TABLE_HEADING_STATUS', 'Статус');
+define('TABLE_HEADING_ACTION', 'Действие');
 
-define('TEXT_NEWSLETTER_MODULE', 'Module:');
-define('TEXT_NEWSLETTER_TITLE', 'Subject:');
-define('TEXT_NEWSLETTER_CONTENT', 'Text-Only <br />Content:');
-define('TEXT_NEWSLETTER_CONTENT_HTML', 'Rich Text <br />Content:');
+define('TEXT_NEWSLETTER_MODULE', 'Модул:');
+define('TEXT_NEWSLETTER_TITLE', 'Тема:');
+define('TEXT_NEWSLETTER_CONTENT', 'само текст <br />Съдържание:');
+define('TEXT_NEWSLETTER_CONTENT_HTML', 'Rich Text <br />Съдържание:');
 
-define('TEXT_NEWSLETTER_DATE_ADDED', 'Date Added:');
-define('TEXT_NEWSLETTER_DATE_SENT', 'Date Sent:');
+define('TEXT_NEWSLETTER_DATE_ADDED', 'Добавено на:');
+define('TEXT_NEWSLETTER_DATE_SENT', 'Изпратено на:');
 
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this newsletter?');
+define('TEXT_INFO_DELETE_INTRO', 'Наистина ли желаете да изтриете тази новина?');
 
-define('TEXT_PLEASE_SELECT_AUDIENCE','Please select the audience for this newsletter mailing: ');
-define('TEXT_PLEASE_WAIT', 'Please wait .. sending emails ..<br /><br />Please do not interrupt this process!');
-define('TEXT_FINISHED_SENDING_EMAILS', 'Finished sending e-mails!');
+define('TEXT_PLEASE_SELECT_AUDIENCE','Моля, изберете аудитория за тази новина: ');
+define('TEXT_PLEASE_WAIT', 'Моля, изчакайте .. изпраща се имейл ..<br /><br />Моля, не прекъсвайте процеса!');
+define('TEXT_FINISHED_SENDING_EMAILS', 'Изпращането на имейли завърши!');
 
-define('ERROR_NEWSLETTER_TITLE', 'Error: Newsletter title required');
-define('ERROR_NEWSLETTER_MODULE', 'Error: Newsletter module required');
+define('ERROR_NEWSLETTER_TITLE', 'Грешка: Необходимо е да се въведе заглавие на новината');
+define('ERROR_NEWSLETTER_MODULE', 'Error: Необходим е модул');
 ?>

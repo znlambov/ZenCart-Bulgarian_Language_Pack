@@ -7,50 +7,50 @@
  * @version $Id: admin_activity.php drbyte Modified in v1.5.5 $
  */
 
-define('HEADING_TITLE', 'Admin Activity Log Manager');
-define('HEADING_SUB1', 'Review or Export Logs');
+define('HEADING_TITLE', 'Мениджър активността на администратора');
+define('HEADING_SUB1', 'Прегледай или експортирай записи');
 define('HEADING_SUB2', 'Purge Log History');
-define('TEXT_ACTIVITY_EXPORT_FORMAT', 'Export File Format:');
-define('TEXT_ACTIVITY_EXPORT_FILENAME', 'Export Filename:');
-define('TEXT_ACTIVITY_EXPORT_SAVETOFILE','Save to file on server? (otherwise will stream for download directly from this window)');
-define('TEXT_ACTIVITY_EXPORT_DEST','Destination: ');
-define('TEXT_PROCESSED', ' Processed.');
-define('SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG', 'Export complete. ');
-define('FAILURE_EXPORT_ADMIN_ACTIVITY_LOG', 'ALERT: Export failed. Could not successfully write to file ');
+define('TEXT_ACTIVITY_EXPORT_FORMAT', 'Файлов формат на експорта:');
+define('TEXT_ACTIVITY_EXPORT_FILENAME', 'Файлово име на експорта:');
+define('TEXT_ACTIVITY_EXPORT_SAVETOFILE','Съхрани на файл в сървъра? (или ще се подаде за сваляне директно от този прозорец)');
+define('TEXT_ACTIVITY_EXPORT_DEST','Дестинация: ');
+define('TEXT_PROCESSED', ' Обработено.');
+define('SUCCESS_EXPORT_ADMIN_ACTIVITY_LOG', 'Експортирането завършено. ');
+define('FAILURE_EXPORT_ADMIN_ACTIVITY_LOG', 'Внимание: Експортирането неуспешно. Неможе да запише файл ');
 
-define('TEXT_INSTRUCTIONS','<u>INSTRUCTIONS</u><br />You can use this page to export your Zen Cart&reg; Admin User Access Activity to a CSV file for archiving.<br />You should save this data for use in fraud investigations in case your site is compromised. This is a requirement for PCI Compliance.<br />
-<ol><li>Choose whether to display or export to a file.<li>Enter a filename.<li>Click Save to proceed.<li>Choose whether to save or open the file, depending on what your browser offers.</ol>');
+define('TEXT_INSTRUCTIONS','<u>Инструкции</u><br />Можете да използвате тази страница, за да експортирате активността на администраторите в своя Zen Cart&reg; във файлов формат CSV за архив.<br />Запазете архивите в случай, че сайтът Ви е компроментиран и са извършени измами. Това е според изискване съгласно PCI.<br />
+<ol><li>Изберете дали да прегледате или експортирате към файл.<li>Въведете файлово име.<li>Натиснете Съхрани за да продължите.<li>Изберете дали да запишете или отворите файла, в зависимост от това, което предлага Вашия браузър.</ol>');
 
-define('TEXT_INFO_ADMIN_ACTIVITY_LOG', '<strong>Empty Admin Activity Log table from the database<br />WARNING: BE SURE TO BACKUP YOUR DATABASE before running this update!</strong><br />The Admin Activity Log is a tracking method that records activity in the Admin. <br />Due to its nature it can become very large, very quickly and does need to be cleaned out from time to time.<br />Warnings are given at 50,000 records or 60 days, which ever happens first.<br /><span class="alert">NOTE: For PCI Compliance, you are required to retain admin activity log history for 12 months.<br />It is best to archive your logs by choosing EXPORT TO CSV and clicking Save, above, *BEFORE* purging log data.</span>');
-define('TEXT_ADMIN_LOG_PLEASE_CONFIRM_ERASE', '<strong><span class="alert">WARNING!: You are about to DELETE *important* audit trail records from your database.</span></strong><br />You should FIRST confirm that you have a reliable BACKUP of your database before proceeding.<br />By proceeding you accept that this information will be deleted and understand your legal responsibilities regarding this data.<br /><br />I understand my responsibilities, and wish to proceed with the deletion by clicking Reset:<br />');
-define('SUCCESS_CLEAN_ADMIN_ACTIVITY_LOG', '<strong>Completed</strong> erasure of the Admin Activity log');
-define('TEXT_NO_RECORDS_FOUND', 'No Records Found using the filter you selected.');
+define('TEXT_INFO_ADMIN_ACTIVITY_LOG', '<strong>Изпразни Записите са активността на администраторите от базата данни<br />Внимание: УВЕРЕТЕ СЕ, ЧЕ ИМАТЕ РЕЗЕРВНО КОПИЕ НА БАЗАТА ДАННИ, преди да направите това обновление!</strong><br />Записът на активността на администраторите, е метод за проследяване на активността в Админ панела. <br />Поради това, той може да стане много голям, за кратко време и има нужда да бъде почистван периодично.<br />Предупреждения се дават за всеки 50,000 записа или 60 дни - което се случи по-рано.<br /><span class="alert">Забележка: Съгласно PCI, би трябвало да съхранявате запис за активността на администраторите за последните 12 месеца.<br />Най-добре е да архивирате записите, като изберете ЕКСПОРТИРАЙ В CSV и натиснете Съхрани, по-горе, преди да заличите информацията.</span>');
+define('TEXT_ADMIN_LOG_PLEASE_CONFIRM_ERASE', '<strong><span class="alert">Внимание!: На крачка сте от ИЗТРИВАНЕТО на ВАЖНИ следи за проследяване и ревизия от базата данни.</span></strong><br />Би трябвало ПЪРВО да потвърдите, че имате надеждно резервно копие на базата данни.<br />Като продължите, се съгласявате тази информация да бъде заличена и осъзнавате законовите права и задължения относно нея.<br /><br />Разбирам отговорностите си и желая да продължа с изтриването, като натисна Нулирай:<br />');
+define('SUCCESS_CLEAN_ADMIN_ACTIVITY_LOG', '<strong>Завършено</strong> заличен е записът на активността на администраторите');
+define('TEXT_NO_RECORDS_FOUND', 'Не са намерени записи, според зададените филтри.');
 
-define('TEXT_EXPORTFORMAT0', 'Export as HTML (ideal for on-screen viewing)');
-define('TEXT_EXPORTFORMAT1', 'Export to CSV (ideal for importing to spreadsheets)');
-define('TEXT_EXPORTFORMAT2', 'Export to TXT');
-define('TEXT_EXPORTFORMAT3', 'Export to XML');
+define('TEXT_EXPORTFORMAT0', 'Експортирай в HTML (идеално за директен преглед)');
+define('TEXT_EXPORTFORMAT1', 'Експортирай в CSV (идеално за вграждане в spreadsheets)');
+define('TEXT_EXPORTFORMAT2', 'Експортирай в TXT');
+define('TEXT_EXPORTFORMAT3', 'Експортирай в XML');
 
-define('TEXT_ACTIVITY_EXPORT_FILTER', 'Which log data do you want to see?');
-define('TEXT_EXPORTFILTER0', 'All logged data, regardless of severity level.');
-define('TEXT_EXPORTFILTER1', 'INFO - General logged information');
-define('TEXT_EXPORTFILTER2', 'NOTICE - Notable info, which should be reviewed periodically');
-define('TEXT_EXPORTFILTER3', 'WARNING - Activity which should be reviewed daily');
-define('TEXT_EXPORTFILTER4', 'Both NOTICE and WARNING (common combination for review).');
+define('TEXT_ACTIVITY_EXPORT_FILTER', 'Кои записи искате да видите?');
+define('TEXT_EXPORTFILTER0', 'Цялата записана информация, без значение от нивото на важност.');
+define('TEXT_EXPORTFILTER1', 'ИНФО - Обща информация за записите');
+define('TEXT_EXPORTFILTER2', 'ЗАБЕЛЕЖКА - Информация, която би трябвало да бъде преглеждана периодично');
+define('TEXT_EXPORTFILTER3', 'ВНИМАНИЕ - Активност, която трябва да се наблудава ежедневно');
+define('TEXT_EXPORTFILTER4', 'И двете ЗАБЕЛЕЖКА и ВНИМАНИЕ (честа комбинация за преглед).');
 
-define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Interpretation of the log data</strong><ul>
-<li><strong>Severity</strong> - The standards for logging generally describe severities as follows:
+define('TEXT_INTERPRETING_LOG_DATA', '<p><strong>Интерпретация на информацията в записите</strong><ul>
+<li><strong>Важност</strong> - Стандартът за записи обикновено описва важността както следва:
   <ul>
-  <li><strong>INFO</strong> refers to general activity. This may or may not contain remarkable details.</li>
-  <li><strong>NOTICE</strong> refers to activity which indicates higher privilege was used, and may include things like creating new admin users or adding new payment modules. It also highlights when any data submitted on the web page includes potentially risky content such as script tags or embedded iframes, where malicious content is being added to your products/categories/pages by unhappy employees or an intruder on your site. These should be reviewed regularly for any anomalies such as unauthorized activity.</li>
-  <li><strong>WARNING</strong> is assigned to CRITICAL things such as removal of payment modules or deletion of admin users. These are activities which might suggest pending trouble if not caught quickly. These should be reviewed very frequently; recommended daily.</li>
+  <li><strong>ИНФО</strong> се отнася за по-обща активност. Това може да съдържа или да не съдържа значими детайли.</li>
+  <li><strong>ЗАБЕЛЕЖКА</strong> се отнася за активност от по-високо ниво на достъп, и може да включва действия, като създаването на нови административни потребители и добавянето на нови модули за плащане. Също така маркира, когато е публикувана информация на веб страница, включваща рисково съдържание, като например скриптове или вградени рамки и е възможно да се въведе опасно съдържание в products/categories/pages от недоволни служители или нарушител, проникнал в сайта. Това съдържание би трябвало да се преглежда редовно за потенциални аномалии, като неоторизирани действия.</li>
+  <li><strong>ВНИМАНИЕ</strong> се отнася до КРИТИЧНИ събития, като премахване на модули за плащане или изтриване на административни потребители. Това са действия, които предполагат потенциална заплаха, ако не бъдат предотвратени своевременно. Такъв тип съобщения трябва да се преглеждат често; препоръчително ежедневно.</li>
   </ul>
 </li>
-<li><strong>admin_user</strong> - This will show the admin user ID number followed by their admin username. If not logged in, it will show 0.</li>
-<li><strong>page_accessed</strong> - This will indicate the name of the page visited, thus giving hints to the kind of activity taking place.</li>
-<li><strong>parameters</strong> - This is the rest of the URI of the page visited, and gives further indication of the kind of activity being attempted by the visitor.</li>
-<li><strong>flagged</strong> - If this is set to 1, that indicates that you should inspect the content recorded in the "postdata" field for unauthorized entry of script or iframe or other potentially dangerous content. An explanation of suspicious content will be listed in the "attention" field.</li>
-<li><strong>attention</strong> - This will contain suggestions related to the kind of suspicious activity which should be reviewed in the "postdata" field if flagged. </li>
-<li><strong>logmessage</strong> - This contains any messages recorded by the system about the activity taking place, such as installation of a certain module.</li>
-<li><strong>postdata</strong> - This contains the raw POST data (with some sensitive information scrubbed) for easy review in case malicious activity is suspected.</li>
+<li><strong>admin_user</strong> - Това ще покаже ID номера на админа, следване от потребителското име. Ако не е влизано ще покаже 0.</li>
+<li><strong>page_accessed</strong> - Това ще маркира имената на посетените страници, следователно давайки съвет за вида на дейност, което се е случила.</li>
+<li><strong>parameters</strong> - Това е остатъка от URI на посетената страница и дава по-нататъшни индикации, относно вида на дейностите, които са предприети от посетителя.</li>
+<li><strong>flagged</strong> - Ако това дава стойност 1, това дава индикация, че трябва да се провери съдържанието на записите в полето "postdata"  за неоторизирани скриптове, iframe или други потенциално опасно съдържание. Обяснение, относно подозрително съдържание ще бъде публикувано в поле "attention".</li>
+<li><strong>attention</strong> - Тук се съдържат препоръки, относно вида на подозрителните дейности, които би трябвало да бъдат разгледани в полето "postdata". </li>
+<li><strong>logmessage</strong> - Тук се съдържат съобщения, записани от системата, относно дейости, като инсталирането на определени модули.</li>
+<li><strong>postdata</strong> - Тук се съдържа суровата POST информация (с чувствително съдържание) за лесен преглед, в случай че има подозрения за злонамерени действия.</li>
 </ul></p>');

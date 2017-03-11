@@ -19,9 +19,9 @@
 // +----------------------------------------------------------------------+
 //  $Id: product_music.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
-define('BOX_CATALOG_RECORD_ARTISTS', 'Record Artists');
-define('BOX_CATALOG_RECORD_COMPANY', 'Record Companies');
-define('BOX_CATALOG_MUSIC_GENRE', 'Music Genre');
-define('BOX_CATALOG_MEDIA_MANAGER', 'Media Manager');
-define('BOX_CATALOG_MEDIA_TYPES', 'Media Types');
+define('BOX_CATALOG_RECORD_ARTISTS', 'Изпълнител');
+define('BOX_CATALOG_RECORD_COMPANY', 'Звукозаписна компания');
+define('BOX_CATALOG_MUSIC_GENRE', 'Музикален жанр');
+define('BOX_CATALOG_MEDIA_MANAGER', 'Медиен мениджър');
+define('BOX_CATALOG_MEDIA_TYPES', 'Вид медия');
 ?>
