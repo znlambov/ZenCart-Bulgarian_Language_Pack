@@ -8,7 +8,7 @@
 **[Notes](#notes)**  
 **[Installation](#installation)**  
 **[Инсталиране](#Инсталиране)**  
-**[Current status](#Current)**  
+**[Current status](#current-status)**  
 
 ## Notes ##
 Not official! (if there is any official ZC lang pack, anyway :) )  
