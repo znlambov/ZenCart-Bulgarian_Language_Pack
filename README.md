@@ -2,15 +2,18 @@
 # Bulgarian Language Pack for ZenCart 1.5.5e,d,c #
 # Пакет с български език за ZenCart 1.5.5e,d,c #
 
-**Compatibility:** ZenCart versions 1.5.5e, 1.5.5d, 1.5.5c
 
 ### Table of Contents
 **[Notes](#notes)**  
 **[Installation](#installation)**  
 **[Инсталиране](#Инсталиране)**  
+**[Compatibility](#compatibility)**  
+**[Съвместимост](#Съвместимост)**  
 **[Current status](#current-status)**  
 
+
 ## Notes ##
+
 Not official! (if there is any official ZC lang pack, anyway :) )  
 Like other open source projects, this is voluntary maintained. I am not obligated to assist here, but I do so because I want to.  
 Just sharing my own work with all of you (GPL). You have the freedom to run, study, share and modify the files.  
@@ -23,6 +26,7 @@ Information from here was used:
 https://www.zen-cart.com/wiki/index.php/Languages  
 https://www.zen-cart.com/content.php?301-how-to-i-change-dates-from-us-format-to-dd-mm-yyyy  
 https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
+
 
 ## Installation ##
 
@@ -41,6 +45,7 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
    admin/includes/languages/bulgarian.php  
    admin/includes/languages/bulgarian/  
    includes/templates/template_default/buttons/bulgarian/>  
+
 
 ## Инсталиране ##
 
@@ -64,8 +69,21 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
    admin/includes/languages/bulgarian/  
    includes/templates/template_default/buttons/bulgarian/>  
 
+
+## Compatibility ##
+
+ZenCart versions 1.5.5e, 1.5.5d, 1.5.5c  
+
+
+## Съвместимост ##
+
+Може да се използва във версии на ZenCart: 1.5.5c, 1.5.5d, 1.5.5e  
+
+
 ## Current status ##
 
 includes/languages/bulgarian - **fully translated**  
-admin/includes/languages/bulgarian - **partially translation**  
+admin/includes/languages/bulgarian - **partially translated**  
 includes/templates/template_default/buttons/bulgarian - **not translated**  
+
+*Полседна редакция: 14 март 2017*
