@@ -211,7 +211,7 @@
   define('ENTRY_POST_CODE_ERROR', 'Пощенския код трябва да е от поне ' . ENTRY_POSTCODE_MIN_LENGTH . ' символа.');
   define('ENTRY_POST_CODE_TEXT', '*');
   define('ENTRY_CITY', 'Град:');
-  define('ENTRY_CUSTOMERS_REFERRAL', 'Референтен код:');
+  define('ENTRY_CUSTOMERS_REFERRAL', 'Справка клиент:');
 
   define('ENTRY_CITY_ERROR', 'Градът трябва да съдържа поне ' . ENTRY_CITY_MIN_LENGTH . ' символа.');
   define('ENTRY_CITY_TEXT', '*');

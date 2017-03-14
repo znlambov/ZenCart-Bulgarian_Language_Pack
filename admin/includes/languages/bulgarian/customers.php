@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -7,63 +8,63 @@
  * @version $Id: Author: DrByte  Sun Oct 18 23:54:03 2015 -0400 Modified in v1.5.5 $
  */
 
-define('HEADING_TITLE', 'Customers');
+define('HEADING_TITLE', 'Потребители');
 
 define('TABLE_HEADING_ID', 'ID#');
-define('TABLE_HEADING_FIRSTNAME', 'First Name');
-define('TABLE_HEADING_LASTNAME', 'Last Name');
-define('TABLE_HEADING_ACCOUNT_CREATED', 'Account Created');
-define('TABLE_HEADING_LOGIN', 'Last Login');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_PRICING_GROUP', 'Pricing Group');
-define('TABLE_HEADING_AUTHORIZATION_APPROVAL', 'Authorized');
-define('TABLE_HEADING_GV_AMOUNT', 'GV Balance');
+define('TABLE_HEADING_FIRSTNAME', 'Име');
+define('TABLE_HEADING_LASTNAME', 'Фамилия');
+define('TABLE_HEADING_ACCOUNT_CREATED', 'Създаден на');
+define('TABLE_HEADING_LOGIN', 'Последно влизане');
+define('TABLE_HEADING_ACTION', 'Действие');
+define('TABLE_HEADING_PRICING_GROUP', 'Ценова група');
+define('TABLE_HEADING_AUTHORIZATION_APPROVAL', 'Одобрен');
+define('TABLE_HEADING_GV_AMOUNT', 'ПВ баланс');
 
-define('TEXT_DATE_ACCOUNT_CREATED', 'Account Created:');
-define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_DATE_LAST_LOGON', 'Last Logon:');
-define('TEXT_INFO_NUMBER_OF_LOGONS', 'Number of Logons:');
-define('TEXT_INFO_COUNTRY', 'Country:');
-define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Number of Reviews:');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this customer?');
-define('TEXT_DELETE_REVIEWS', 'Delete %s review(s)');
-define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Delete Customer');
-define('TYPE_BELOW', 'Type below');
-define('PLEASE_SELECT', 'Select One');
-define('TEXT_INFO_NUMBER_OF_ORDERS', 'Number of Orders:');
-define('TEXT_INFO_LAST_ORDER','Last Order:');
-define('TEXT_INFO_ORDERS_TOTAL', 'Total:');
-define('CUSTOMERS_REFERRAL', 'Customer Referral<br />1st Discount Coupon');
-define('TEXT_INFO_GV_AMOUNT', 'GV Balance');
+define('TEXT_DATE_ACCOUNT_CREATED', 'Създаден на:');
+define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Последно редактиран:');
+define('TEXT_INFO_DATE_LAST_LOGON', 'Последно влизал:');
+define('TEXT_INFO_NUMBER_OF_LOGONS', 'Брой влизания:');
+define('TEXT_INFO_COUNTRY', 'Държава:');
+define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Брой отзиви:');
+define('TEXT_DELETE_INTRO', 'Действително ли искате да изтриете този потребител?');
+define('TEXT_DELETE_REVIEWS', 'Изтрий %s отзив(и)');
+define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Изтрий потребителя');
+define('TYPE_BELOW', 'Попъли по-долу');
+define('PLEASE_SELECT', 'Избери');
+define('TEXT_INFO_NUMBER_OF_ORDERS', 'Брой поръчки:');
+define('TEXT_INFO_LAST_ORDER','Последна поръчка:');
+define('TEXT_INFO_ORDERS_TOTAL', 'Общо:');
+define('CUSTOMERS_REFERRAL', 'Справка клиент<br />1-ви Купон за отстъпка');
+define('TEXT_INFO_GV_AMOUNT', 'ПВ баланс');
 
-define('ENTRY_NONE', 'None');
+define('ENTRY_NONE', 'Нищо');
 
-define('TABLE_HEADING_COMPANY','Company');
+define('TABLE_HEADING_COMPANY','Фирма');
 
-define('TEXT_INFO_HEADING_RESET_CUSTOMER_PASSWORD', 'Reset Customer Password');
-define('TEXT_PWDRESET_INTRO', 'To reset the password for this customer, enter a new password, and confirm it, below. The new password must conform to the normal password rules imposed on customers.');
-define('TEXT_CUST_NEW_PASSWORD', 'New Password:');
-define('TEXT_CUST_CONFIRM_PASSWORD', 'Confirm Password:');
-define('ERROR_PWD_TOO_SHORT', 'Error: password is shorter than the number of characters configured for this store.');
-define('SUCCESS_PASSWORD_UPDATED', 'Password updated.');
+define('TEXT_INFO_HEADING_RESET_CUSTOMER_PASSWORD', 'Смени паролата на потребителя');
+define('TEXT_PWDRESET_INTRO', 'За да смените паролата на потребителя, въведете нова парола и я потвърдете по-долу. Новата парола трябва да отговаря на нормалните правила за потребителска парола.');
+define('TEXT_CUST_NEW_PASSWORD', 'Нова парола:');
+define('TEXT_CUST_CONFIRM_PASSWORD', 'Потвърди парола:');
+define('ERROR_PWD_TOO_SHORT', 'Грешка: паролата е твърде къса.');
+define('SUCCESS_PASSWORD_UPDATED', 'Паролата бе обновена.');
 
-define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE', 'Your password has been changed by the store administrator. Your new password is: ');
-define('EMAIL_CUSTOMER_PWD_CHANGE_SUBJECT', 'Account password reset');
-define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE_FOR_ADMIN', 'You have reset the password for a customer: ' . "\n" . '%s' . "\n\n" . 'Administrator ID: %s');
+define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE', 'Паролата Ви бе сменена от администратор. Новата Ви парола е: ');
+define('EMAIL_CUSTOMER_PWD_CHANGE_SUBJECT', 'Нова профилна парола');
+define('EMAIL_CUSTOMER_PWD_CHANGE_MESSAGE_FOR_ADMIN', 'Вие сменихте паролата на потребител: ' . "\n" . '%s' . "\n\n" . 'Администратор ID: %s');
 
-define('CUSTOMERS_AUTHORIZATION', 'Customers Authorization Status');
-define('CUSTOMERS_AUTHORIZATION_0', 'Approved');
-define('CUSTOMERS_AUTHORIZATION_1', 'Pending Approval - Must be Authorized to Browse');
-define('CUSTOMERS_AUTHORIZATION_2', 'Pending Approval - May Browse No Prices');
-define('CUSTOMERS_AUTHORIZATION_3', 'Pending Approval - May browse with prices but may not buy');
-define('CUSTOMERS_AUTHORIZATION_4', 'Banned - Not allowed to login or shop');
-define('ERROR_CUSTOMER_APPROVAL_CORRECTION1', 'Warning: Your shop is set up for Approval with No Browse. The customer has been set to Pending Approval - No Browse');
-define('ERROR_CUSTOMER_APPROVAL_CORRECTION2', 'Warning: Your shop is set up for Approval with Browse no prices. The customer has been set to Pending Approval - Browse No Prices');
+define('CUSTOMERS_AUTHORIZATION', 'Статус за одобрение на потребителите');
+define('CUSTOMERS_AUTHORIZATION_0', 'Одобрен');
+define('CUSTOMERS_AUTHORIZATION_1', 'Чака одобрение - трябва да бъде одобрен за да разглежда');
+define('CUSTOMERS_AUTHORIZATION_2', 'Чака одобрение - може да разглежда но не вижда цени');
+define('CUSTOMERS_AUTHORIZATION_3', 'Чака одобрение - може да разглежда и вижда цени, но не може да поръчва');
+define('CUSTOMERS_AUTHORIZATION_4', 'Забранен - не може да влиза или пазари');
+define('ERROR_CUSTOMER_APPROVAL_CORRECTION1', 'Внимание: магазинът Ви е с настройка - Трябва одобрение за разглеждане. Потребителят е с чакащо одобрение и неможе да разглежда.');
+define('ERROR_CUSTOMER_APPROVAL_CORRECTION2', 'Внимание: магазинът Ви е с настройка - Трябва одобрение за цени. Потребителят е с чакащо одобрение и може да разглежда, но не вижда цени.');
 
-define('EMAIL_CUSTOMER_STATUS_CHANGE_MESSAGE', 'Your customer status has been updated. Thank you for shopping with us. We look forward to your business.');
-define('EMAIL_CUSTOMER_STATUS_CHANGE_SUBJECT', 'Customer Status Updated');
+define('EMAIL_CUSTOMER_STATUS_CHANGE_MESSAGE', 'Потребителският Ви статус бе обновен. Благодарим Ви, че избрахте нас! Очакваме с нетърпение Вашите поръчки.');
+define('EMAIL_CUSTOMER_STATUS_CHANGE_SUBJECT', 'Обновен потребителски статус');
 
-define('ADDRESS_BOOK_TITLE', 'Address Book Entries');
-define('PRIMARY_ADDRESS', '(primary address)');
-define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOTE:</strong></span> A maximum of %s address book entries allowed.');
-define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 of  ');
+define('ADDRESS_BOOK_TITLE', 'Адресна книга');
+define('PRIMARY_ADDRESS', '(основен адрес)');
+define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>Забележка:</strong></span> Допускат се не повече от %s адреса в книгата.');
+define('TEXT_INFO_ADDRESS_BOOK_COUNT', ' | 1 от  ');

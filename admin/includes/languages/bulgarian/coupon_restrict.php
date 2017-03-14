@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2010 Zen Cart Development Team
@@ -7,31 +8,31 @@
  * @version $Id: coupon_restrict.php 16174 2010-05-02 14:10:30Z drbyte $
  */
 
-define('HEADING_TITLE', 'Discount Coupons Product/Category Restrictions');
-define('HEADING_TITLE_CATEGORY', 'Category Restrictions');
-define('HEADING_TITLE_PRODUCT', 'Product Restrictions');
+define('HEADING_TITLE', 'Ограничени Продукти/Категории за Купон за отстъпка');
+define('HEADING_TITLE_CATEGORY', 'Ограничени категории');
+define('HEADING_TITLE_PRODUCT', 'Ограничени продукти');
 
-define('HEADER_COUPON_ID', 'Coupon ID');
-define('HEADER_COUPON_NAME', 'Coupon Name');
-define('HEADER_CATEGORY_ID', 'Category ID');
-define('HEADER_CATEGORY_NAME', 'Category Name');
-define('HEADER_PRODUCT_ID', 'Product ID');
-define('HEADER_PRODUCT_NAME', 'Product Name');
-define('HEADER_RESTRICT_ALLOW', 'Allow');
-define('HEADER_RESTRICT_DENY', 'Deny');
-define('HEADER_RESTRICT_REMOVE', 'Remove');
-define('IMAGE_ALLOW', 'Allow');
-define('IMAGE_DENY', 'Deny');
-define('IMAGE_REMOVE', 'Remove');
-define('TEXT_ALL_CATEGORIES', 'All Categories');
+define('HEADER_COUPON_ID', 'Купон ID');
+define('HEADER_COUPON_NAME', 'Име на купон');
+define('HEADER_CATEGORY_ID', 'Категория ID');
+define('HEADER_CATEGORY_NAME', 'Име на категория');
+define('HEADER_PRODUCT_ID', 'Продукт ID');
+define('HEADER_PRODUCT_NAME', 'Име на продукт');
+define('HEADER_RESTRICT_ALLOW', 'Разреши');
+define('HEADER_RESTRICT_DENY', 'Забрани');
+define('HEADER_RESTRICT_REMOVE', 'Премахни');
+define('IMAGE_ALLOW', 'Разреши');
+define('IMAGE_DENY', 'Забрани');
+define('IMAGE_REMOVE', 'Премахни');
+define('TEXT_ALL_CATEGORIES', 'Всички категории');
 
 define('MAX_DISPLAY_RESTRICT_ENTRIES', 20);
-define('TEXT_ALL_PRODUCTS_ADD', 'Add All Category Products');
-define('TEXT_ALL_PRODUCTS_REMOVE', 'Remove All Category Products');
-define('TEXT_INFO_ADD_DENY_ALL', '<strong>For Add all Category Products, only Products not already set for restrictions will be added.<br />
-                    For Delete all Category Products, only Products that are specified Deny or Allow will be removed.</strong>');
+define('TEXT_ALL_PRODUCTS_ADD', 'Добави всички продукти от категорията');
+define('TEXT_ALL_PRODUCTS_REMOVE', 'Премахни всички продукти от категорията');
+define('TEXT_INFO_ADD_DENY_ALL', '<strong>При добавяне на всички продукти от категория, само такива, които не са вече ограничени, ще бъдат добавени.<br />
+                    При опция Премахни всички продукти от категорията, само продукти, които са Разрешени или Забранени, ще бъдат премахнати.</strong>');
 
-define('TEXT_MANUFACTURER', 'Manufacturer: ');
-define('TEXT_CATEGORY', 'Category: ');
-define('ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY', 'Category Not Completed');
-define('ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT', 'Product Not Completed');
+define('TEXT_MANUFACTURER', 'Производител: ');
+define('TEXT_CATEGORY', 'Категория: ');
+define('ERROR_DISCOUNT_COUPON_DEFINED_CATEGORY', 'Категорията не е довършена');
+define('ERROR_DISCOUNT_COUPON_DEFINED_PRODUCT', 'Продуктът не е довършен');
