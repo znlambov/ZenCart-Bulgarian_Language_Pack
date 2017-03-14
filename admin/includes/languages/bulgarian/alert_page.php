@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -6,10 +7,10 @@
  * @version $Id: Author: DrByte  Sun Aug 2 22:46:14 2015 -0400 Modified in v1.5.5 $
  */
 
-define('HEADING_TITLE', 'Warning!');
-define('ALERT_PART1', 'Warning: You cannot access the admin until you have');
-define('ALERT_RENAME_ADMIN', 'renamed the admin folder.');
-define('ALERT_REMOVE_ZCINSTALL', 'deleted the zc_install folder.<br />(Use your FTP program or your hosting control panel.)');
-define('ADMIN_RENAME_FAQ_NOTE', 'Help for renaming the admin folder can be found here');
-define('ALERT_PART2', 'Then, to access your admin area, type the admin URL into your browser, ie: <u>http://www.your_site.com/YourAdminFolder/</u> ');
-define('ALERT_CLICK_HERE', 'Click to retry');
+define('HEADING_TITLE', 'Внимание!');
+define('ALERT_PART1', 'Внимание: Не можете да достъпите админ, докато не');
+define('ALERT_RENAME_ADMIN', 'преименувате админ директорията.');
+define('ALERT_REMOVE_ZCINSTALL', 'изтриете директория zc_install.<br />(Използвайте FTP клиент или хостинг контролния панел.)');
+define('ADMIN_RENAME_FAQ_NOTE', 'Тук ще намерите помощ, относно това, как да преименувате админ директорията');
+define('ALERT_PART2', 'За да влезете в админ панела, въведете съответният URL в браузър. Например: <u>http://www.вашият_сайт.com/ВашатаАдминДиректория/</u> ');
+define('ALERT_CLICK_HERE', 'Натиснете за да опитате отново');

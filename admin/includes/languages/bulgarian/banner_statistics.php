@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,25 +21,25 @@
 //  $Id: banner_statistics.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Banner Statistics');
+define('HEADING_TITLE', 'Статистика за банера');
 
-define('TABLE_HEADING_SOURCE', 'Source');
-define('TABLE_HEADING_VIEWS', 'Views');
-define('TABLE_HEADING_CLICKS', 'Clicks');
+define('TABLE_HEADING_SOURCE', 'Източник');
+define('TABLE_HEADING_VIEWS', 'Преглеждания');
+define('TABLE_HEADING_CLICKS', 'Кликове');
 
 define('TEXT_BANNERS_DATA', 'D<br>a<br>t<br>a');
-define('TEXT_BANNERS_DAILY_STATISTICS', '%s Daily Statistics For %s %s');
-define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Monthly Statistics For %s');
-define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Yearly Statistics');
+define('TEXT_BANNERS_DAILY_STATISTICS', '%s Дневна статистика за %s %s');
+define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Месечна статистика за %s');
+define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Годишна статистика');
 
-define('STATISTICS_TYPE_DAILY', 'Daily');
-define('STATISTICS_TYPE_MONTHLY', 'Monthly');
-define('STATISTICS_TYPE_YEARLY', 'Yearly');
+define('STATISTICS_TYPE_DAILY', 'Дневно');
+define('STATISTICS_TYPE_MONTHLY', 'Месечно');
+define('STATISTICS_TYPE_YEARLY', 'Годишно');
 
-define('TITLE_TYPE', 'Type:');
-define('TITLE_YEAR', 'Year:');
-define('TITLE_MONTH', 'Month:');
+define('TITLE_TYPE', 'Тип:');
+define('TITLE_YEAR', 'Година:');
+define('TITLE_MONTH', 'Месец:');
 
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Error: Graphs directory does not exist. Please create a graphs directory example: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Error: Graphs directory is not writeable. This is located at: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
+define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Грешка: Не съществува директория за графики. Създайте такава. Пример: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
+define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Грешка: В директорията за графики неможе да се записва. Намира се в: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
 ?>

@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,9 +21,9 @@
 //  $Id: audience.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TEXT_SELECT_AN_OPTION', 'Please Select');
-define('TEXT_SELECT_CUSTOMER', 'Please Select A Customer');
-define('TEXT_ALL_CUSTOMERS', 'To All Customers');
-define('TEXT_NEWSLETTER_CUSTOMERS', 'To All Newsletter Subscribers');
+define('TEXT_SELECT_AN_OPTION', 'Моля, изберете');
+define('TEXT_SELECT_CUSTOMER', 'Моля, изберете потребител');
+define('TEXT_ALL_CUSTOMERS', 'До всички потребители');
+define('TEXT_NEWSLETTER_CUSTOMERS', 'До всички записани за новини');
 
 ?>

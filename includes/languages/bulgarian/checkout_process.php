@@ -31,7 +31,7 @@ define('EMAIL_TEXT_INVOICE_URL_CLICK', 'Натисни тук за подроб�
 define('EMAIL_TEXT_DATE_ORDERED', 'Дата:');
 define('EMAIL_TEXT_PRODUCTS', 'Продукти');
 define('EMAIL_TEXT_SUBTOTAL', 'Междинна сума:');
-define('EMAIL_TEXT_TAX', 'Данък:        ');
+define('EMAIL_TEXT_TAX', 'Такса:        ');
 define('EMAIL_TEXT_SHIPPING', 'Доставка: ');
 define('EMAIL_TEXT_TOTAL', 'Общо:    ');
 define('EMAIL_TEXT_DELIVERY_ADDRESS', 'Адрес за доставка');

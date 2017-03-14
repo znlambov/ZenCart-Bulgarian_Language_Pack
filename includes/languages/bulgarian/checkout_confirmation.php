@@ -17,7 +17,7 @@ define('HEADING_DELIVERY_ADDRESS', 'Информация за доставка')
 define('HEADING_SHIPPING_METHOD', 'Начин на доставка:');
 define('HEADING_PAYMENT_METHOD', 'Начин на плащане:');
 define('HEADING_PRODUCTS', 'Съдържание на количката');
-define('HEADING_TAX', 'Данък');
+define('HEADING_TAX', 'Такса');
 define('HEADING_ORDER_COMMENTS', 'Инструкции или коментари относно поръчката');
 // no comments entered
 define('NO_COMMENTS_TEXT', 'Нищо');

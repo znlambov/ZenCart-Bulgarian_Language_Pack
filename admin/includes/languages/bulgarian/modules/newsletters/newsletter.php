@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2006 Zen Cart Development Team
@@ -32,5 +33,5 @@ define('TEXT_PLEASE_WAIT', 'Моля, изчакайте .. изпраща се 
 define('TEXT_FINISHED_SENDING_EMAILS', 'Изпращането на имейли завърши!');
 
 define('ERROR_NEWSLETTER_TITLE', 'Грешка: Необходимо е да се въведе заглавие на новината');
-define('ERROR_NEWSLETTER_MODULE', 'Error: Необходим е модул');
+define('ERROR_NEWSLETTER_MODULE', 'Грешка: Необходим е модул');
 ?>

@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2011 Zen Cart Development Team

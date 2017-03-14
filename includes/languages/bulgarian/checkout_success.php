@@ -36,7 +36,7 @@ define('HEADING_DELIVERY_ADDRESS', 'Адрес за доставка');
 define('HEADING_SHIPPING_METHOD', 'Начин на доставка');
 
 define('HEADING_PRODUCTS', 'Продукти');
-define('HEADING_TAX', 'Данък');
+define('HEADING_TAX', 'Такса');
 define('HEADING_TOTAL', 'Общо');
 define('HEADING_QUANTITY', 'Количества');
 

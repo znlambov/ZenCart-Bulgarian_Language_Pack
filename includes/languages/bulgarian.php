@@ -1,7 +1,5 @@
 <?php  
-// Bulgarian Language Pack for Zen Cart 1.5.5d
-// https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
-//
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package languageDefines
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -293,7 +291,7 @@
 
   define('TEXT_NO_NEW_PRODUCTS', 'Още нови продукти ще бъдат добавени скоро. Моля, наминете пак.');
 
-  define('TEXT_UNKNOWN_TAX_RATE', 'Данък');
+  define('TEXT_UNKNOWN_TAX_RATE', 'Такса');
 
   define('TEXT_REQUIRED', '<span class="errorText">Необходим</span>');
 

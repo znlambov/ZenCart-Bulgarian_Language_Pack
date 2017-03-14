@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -20,86 +21,86 @@
 //  $Id: banner_manager.php 3131 2006-03-07 22:53:04Z ajeh $
 //
 
-define('HEADING_TITLE', 'Banner Manager');
+define('HEADING_TITLE', 'Мениджър на банерите');
 
-define('TABLE_HEADING_BANNERS', 'Banners');
-define('TABLE_HEADING_GROUPS', 'Groups');
-define('TABLE_HEADING_STATISTICS', 'Displays / Clicks');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_BANNER_OPEN_NEW_WINDOWS','New Window');
-define('TABLE_HEADING_BANNER_ON_SSL', 'Show SSL');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_BANNER_SORT_ORDER', 'Sort<br />Order');
+define('TABLE_HEADING_BANNERS', 'Банери');
+define('TABLE_HEADING_GROUPS', 'Групи');
+define('TABLE_HEADING_STATISTICS', 'Показвания / Кликове');
+define('TABLE_HEADING_STATUS', 'Състояние');
+define('TABLE_HEADING_BANNER_OPEN_NEW_WINDOWS','Нов прозорец');
+define('TABLE_HEADING_BANNER_ON_SSL', 'Покажи SSL');
+define('TABLE_HEADING_ACTION', 'Действие');
+define('TABLE_HEADING_BANNER_SORT_ORDER', 'Сортиране');
 
-define('TEXT_BANNERS_TITLE', 'Banner Title:');
-define('TEXT_BANNERS_URL', 'Banner URL:');
-define('TEXT_BANNERS_GROUP', 'Banner Group:');
-define('TEXT_BANNERS_NEW_GROUP', ', or enter a new banner group below');
-define('TEXT_BANNERS_IMAGE', 'Image:');
-define('TEXT_BANNERS_IMAGE_LOCAL', ', or enter local file below');
-define('TEXT_BANNERS_IMAGE_TARGET', 'Image Target (Save To):');
-define('TEXT_BANNER_IMAGE_TARGET_INFO', '<strong>Suggested Target location for the image on the server:</strong> ' . DIR_FS_CATALOG_IMAGES . 'banners/');
-define('TEXT_BANNERS_HTML_TEXT_INFO', '<strong>NOTE: HTML banners do not record the clicks on the banner</strong>');
-define('TEXT_BANNERS_HTML_TEXT', 'HTML Text:');
-define('TEXT_BANNERS_ALL_SORT_ORDER', 'Sort Order - banner_box_all');
-define('TEXT_BANNERS_ALL_SORT_ORDER_INFO', '<strong>NOTE: The banners_box_all sidebox will display the banners in their defined sort order</strong>');
-define('TEXT_BANNERS_EXPIRES_ON', 'Expires On:');
-define('TEXT_BANNERS_OR_AT', ', or at');
-define('TEXT_BANNERS_IMPRESSIONS', 'impressions/views.');
-define('TEXT_BANNERS_SCHEDULED_AT', 'Scheduled At:');
-define('TEXT_BANNERS_BANNER_NOTE', '<b>Banner Notes:</b><ul><li>Use an image or HTML text for the banner - not both.</li><li>HTML Text has priority over an image</li><li>HTML Text will not register the click thru, but will register displays</li><li>Banners with absolute image URLs should not be displayed on secure pages</li></ul>');
-define('TEXT_BANNERS_INSERT_NOTE', '<b>Image Notes:</b><ul><li>Uploading directories must have proper user (write) permissions setup!</li><li>Do not fill out the \'Save To\' field if you are not uploading an image to the webserver (ie, you are using a local (serverside) image).</li><li>The \'Save To\' field must be an existing directory with an ending slash (eg, banners/).</li></ul>');
-define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Expiry Notes:</b><ul><li>Only one of the two fields should be submitted</li><li>If the banner is not to expire automatically, then leave these fields blank</li></ul>');
-define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Schedule Notes:</b><ul><li>If a schedule is set, the banner will be activated on that date.</li><li>All scheduled banners are marked as inactive until their date has arrived, to which they will then be marked active.</li></ul>');
-define('TEXT_BANNERS_STATUS', 'Banner Status:');
-define('TEXT_BANNERS_ACTIVE', 'Active');
-define('TEXT_BANNERS_NOT_ACTIVE', 'Not Active');
-define('TEXT_INFO_BANNER_STATUS', '<strong>NOTE:</strong> Banner status will be updated based on Scheduled Date and Impressions');
-define('TEXT_BANNERS_OPEN_NEW_WINDOWS', 'Banner New Window');
-define('TEXT_INFO_BANNER_OPEN_NEW_WINDOWS', '<strong>NOTE:</strong> Banner will open in a new window');
-define('TEXT_BANNERS_ON_SSL', 'Banner on SSL');
-define('TEXT_INFO_BANNER_ON_SSL', '<strong>NOTE:</strong> Banner can be displayed on Secure Pages without errors');
+define('TEXT_BANNERS_TITLE', 'Заглавие на банер:');
+define('TEXT_BANNERS_URL', 'URL на банер:');
+define('TEXT_BANNERS_GROUP', 'Банер група:');
+define('TEXT_BANNERS_NEW_GROUP', ', или въведи нова банер група по-долу');
+define('TEXT_BANNERS_IMAGE', 'Снимка:');
+define('TEXT_BANNERS_IMAGE_LOCAL', ', или въведи локален файл по-долу');
+define('TEXT_BANNERS_IMAGE_TARGET', 'Цел на снимката (Запази в):');
+define('TEXT_BANNER_IMAGE_TARGET_INFO', '<strong>Предложено местоположение за целта на снимката в сървъра:</strong> ' . DIR_FS_CATALOG_IMAGES . 'banners/');
+define('TEXT_BANNERS_HTML_TEXT_INFO', '<strong>Забележка: HTML банери не записват броя на кликовете</strong>');
+define('TEXT_BANNERS_HTML_TEXT', 'HTML текст:');
+define('TEXT_BANNERS_ALL_SORT_ORDER', 'Сортиране - banner_box_all');
+define('TEXT_BANNERS_ALL_SORT_ORDER_INFO', '<strong>Забележка: Страничната кутийка banners_box_all ще покава банерите в техния установен ред на сортиране</strong>');
+define('TEXT_BANNERS_EXPIRES_ON', 'Валидно до:');
+define('TEXT_BANNERS_OR_AT', ', или до');
+define('TEXT_BANNERS_IMPRESSIONS', 'показвания/преглеждания.');
+define('TEXT_BANNERS_SCHEDULED_AT', 'Планиран за:');
+define('TEXT_BANNERS_BANNER_NOTE', '<b>Забележки за банерите:</b><ul><li>Използвай снимка или HTML текст за банера, но не и двете.</li><li>HTML текстът има предимство пред снимката</li><li>HTML текстът няма да регистрира броя кликове, но ще регистрира брой показвания</li><li>Банери със снимка с абсолютни URLs не би трябвало да се показват на страници за сигурност</li></ul>');
+define('TEXT_BANNERS_INSERT_NOTE', '<b>Забележки за снимките:</b><ul><li>Директориите за качване на снимки трябва да са със съответните права за достъп (write)!</li><li>Не попълвайте полето \'Запиши в\' ако не качвате снимка на сървъра (например, използвате снимка от локален сървър (serverside) ).</li><li>Полето \'Запиши в\' трябва да е съществуваща директория завършваща с наклонена черта (например, banners/).</li></ul>');
+define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Бележки за годността:</b><ul><li>Само едно от двете полета трябва да бъде попълнено</li><li>Ако срокът за показване на банера не трябва да изтече автоматично, оставете полетата празни</li></ul>');
+define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Бележки за планиране:</b><ul><li>Ако е зададено планирано пускане, банерът ще се активира на съответната дата.</li><li>Всички планирани банери са маркирани, като неактивни, докато не настъпи датата за активация.</li></ul>');
+define('TEXT_BANNERS_STATUS', 'Банер статус:');
+define('TEXT_BANNERS_ACTIVE', 'Активен');
+define('TEXT_BANNERS_NOT_ACTIVE', 'Неактивен');
+define('TEXT_INFO_BANNER_STATUS', '<strong>Забележка:</strong> Състоянието на банера ще бъде обновено на база планирана дата и брой показвания (импреси)');
+define('TEXT_BANNERS_OPEN_NEW_WINDOWS', 'Банер в нов прозорец');
+define('TEXT_INFO_BANNER_OPEN_NEW_WINDOWS', '<strong>Забележка:</strong> Банерът се отваря в нов прозорец');
+define('TEXT_BANNERS_ON_SSL', 'Банер на SSL');
+define('TEXT_INFO_BANNER_ON_SSL', '<strong>Забележка:</strong> Банерът може да се показва на Secure Pages (HTTPS) без грешки');
 
-define('TEXT_BANNERS_DATE_ADDED', 'Date Added:');
-define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Scheduled At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Expires At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Expires At: <b>%s</b> impressions');
-define('TEXT_BANNERS_STATUS_CHANGE', 'Status Change: %s');
+define('TEXT_BANNERS_DATE_ADDED', 'Добавен на:');
+define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Планиран за: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Валиден до: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Валиден до: <b>%s</b> показвания');
+define('TEXT_BANNERS_STATUS_CHANGE', 'Промяна на статус: %s');
 
 define('TEXT_BANNERS_DATA', 'D<br>A<br>T<br>A');
-define('TEXT_BANNERS_LAST_3_DAYS', 'Last 3 Days');
-define('TEXT_BANNERS_BANNER_VIEWS', 'Banner Views');
-define('TEXT_BANNERS_BANNER_CLICKS', 'Banner Clicks');
+define('TEXT_BANNERS_LAST_3_DAYS', 'Последните 3 дни');
+define('TEXT_BANNERS_BANNER_VIEWS', 'Банер преглеждания');
+define('TEXT_BANNERS_BANNER_CLICKS', 'Банер кликове');
 
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this banner?');
-define('TEXT_INFO_DELETE_IMAGE', 'Delete banner image');
+define('TEXT_INFO_DELETE_INTRO', 'Наистина ли желаете да изтриете този банер?');
+define('TEXT_INFO_DELETE_IMAGE', 'Изтрий снимката на банера');
 
-define('SUCCESS_BANNER_INSERTED', 'Success: The banner has been inserted.');
-define('SUCCESS_BANNER_UPDATED', 'Success: The banner has been updated.');
-define('SUCCESS_BANNER_REMOVED', 'Success: The banner has been removed.');
-define('SUCCESS_BANNER_STATUS_UPDATED', 'Success: The status of the banner has been updated.');
+define('SUCCESS_BANNER_INSERTED', 'Банерът бе добавен успешно.');
+define('SUCCESS_BANNER_UPDATED', 'Банерът бе успешно обновен.');
+define('SUCCESS_BANNER_REMOVED', 'Банерът бе успешно премахнат.');
+define('SUCCESS_BANNER_STATUS_UPDATED', 'Статусът на банера бе успешно обновен.');
 
-define('ERROR_BANNER_TITLE_REQUIRED', 'Error: Banner title required.');
-define('ERROR_BANNER_GROUP_REQUIRED', 'Error: Banner group required.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Target directory does not exist: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Target directory is not writeable: %s');
-define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: Image does not exist.');
-define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: Image can not be removed.');
-define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Unknown status flag.');
-define('ERROR_BANNER_IMAGE_REQUIRED', 'Error: Banner image required.');
+define('ERROR_BANNER_TITLE_REQUIRED', 'Грешка: Не е въведено заглавие за банера.');
+define('ERROR_BANNER_GROUP_REQUIRED', 'Грешка: Не е въведена е група за банера.');
+define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Грешка: Директорията не съществува: %s');
+define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Грешка: В директорията не е разрешен запис: %s');
+define('ERROR_IMAGE_DOES_NOT_EXIST', 'Грешка: Няма такава снимка.');
+define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Грешка: Снимката не може да бъде премахната.');
+define('ERROR_UNKNOWN_STATUS_FLAG', 'Грешка: Неизвестен статус флаг.');
+define('ERROR_BANNER_IMAGE_REQUIRED', 'Грешка: Необходима е снимка за банера.');
 
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Error: Graphs directory does not exist. Please create a graphs directory example: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Error: Graphs directory is not writeable. This is located at: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
+define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Грешка: Не съществува директория за графики. Моля, създайте такава. Пример: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
+define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Грешка: В директорията за графики неможе да се записва. Намира се в: <strong>' . DIR_WS_ADMIN . 'images/graphs</strong>');
 
-define('TEXT_LEGEND_BANNER_ON_SSL', 'Show SSL');
-define('TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS', 'New Window');
+define('TEXT_LEGEND_BANNER_ON_SSL', 'Покажи при SSL');
+define('TEXT_LEGEND_BANNER_OPEN_NEW_WINDOWS', 'Нов прозорец');
 
 // Tooltip Text for images in Banner Manager
-define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_ON','Open New Window - Enabled');
-define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_OFF','Open New Window - Disabled');
-define('IMAGE_ICON_BANNER_ON_SSL_ON','Show on Secure Pages - Enabled');
-define('IMAGE_ICON_BANNER_ON_SSL_OFF','Show on Secure Pages - Disabled');
+define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_ON','Отвори нов прозорец - Включено');
+define('IMAGE_ICON_BANNER_OPEN_NEW_WINDOWS_OFF','Отвори нов прозорец - Изключено');
+define('IMAGE_ICON_BANNER_ON_SSL_ON','Показвай на HTTPS страници - Включено');
+define('IMAGE_ICON_BANNER_ON_SSL_OFF','Показвай на HTTPS страници - Изключено');
 
-define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'Success: The status of the banner to open in a new window has been updated.');
-define('SUCCESS_BANNER_ON_SSL_UPDATED', 'Success: The status of the banner to show on SSL has been updated.');
+define('SUCCESS_BANNER_OPEN_NEW_WINDOW_UPDATED', 'Успешно бе обновен статуса на банера, да се отваря в нов прозорец.');
+define('SUCCESS_BANNER_ON_SSL_UPDATED', 'Успешно бе обновен статуса на банера, да се показва при SSL връзка.');
 ?>
