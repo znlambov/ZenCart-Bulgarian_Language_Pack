@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,9 +20,9 @@
 //  $Id: define_language.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Define Language');
+define('HEADING_TITLE', 'Определи език');
 
-define('TEXT_FILE_DOES_NOT_EXIST', 'File does not exist.');
+define('TEXT_FILE_DOES_NOT_EXIST', 'Файлът не съществува.');
 
-define('ERROR_FILE_NOT_WRITEABLE', 'Error: I can not write to this file. Please set the right user permissions on: %s');
+define('ERROR_FILE_NOT_WRITEABLE', 'Грешка: неможе да се записва в тази директория. Моля, променете правата за запис на: %s');
 ?>

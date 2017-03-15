@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,29 +20,29 @@
 // $Id: define_pages_editor.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_TITLE', 'Define Pages Editor for: ');
-define('NAVBAR_TITLE', 'Define Pages Editor');
+define('HEADING_TITLE', 'Редактор на дефинирани страници за: ');
+define('NAVBAR_TITLE', 'Редактор на дефинирани страници');
 
-define('TEXT_INFO_EDIT_PAGE', 'Select a page to edit:');
+define('TEXT_INFO_EDIT_PAGE', 'Изберете страница за редакция:');
 
-define('TEXT_INFO_MAIN_PAGE', 'Main Page');
+define('TEXT_INFO_MAIN_PAGE', 'Заглавна страница');
 
-define('TEXT_INFO_SHIPPINGINFO', 'Shipping and Returns');
-define('TEXT_INFO_PRIVACY', 'Privacy');
-define('TEXT_INFO_CONDITIONS', 'Conditions of Use');
-define('TEXT_INFO_CONTACT_US', 'Contact Us');
-define('TEXT_INFO_CHECKOUT_SUCCESS', 'Checkout Success');
+define('TEXT_INFO_SHIPPINGINFO', 'Доставка и рекламации');
+define('TEXT_INFO_PRIVACY', 'Декларация за поверителност');
+define('TEXT_INFO_CONDITIONS', 'Общи условия');
+define('TEXT_INFO_CONTACT_US', 'Контакти');
+define('TEXT_INFO_CHECKOUT_SUCCESS', 'Приключена поръчка');
 
-define('TEXT_INFO_PAGE_2', 'Page 2');
-define('TEXT_INFO_PAGE_3', 'Page 3');
-define('TEXT_INFO_PAGE_4', 'Page 4');
+define('TEXT_INFO_PAGE_2', 'Страница 2');
+define('TEXT_INFO_PAGE_3', 'Страница 3');
+define('TEXT_INFO_PAGE_4', 'Страница 4');
 
-define('TEXT_FILE_DOES_NOT_EXIST', 'File does not exist: %s');
+define('TEXT_FILE_DOES_NOT_EXIST', 'Файлът не съществува: %s');
 
-define('ERROR_FILE_NOT_WRITEABLE', 'Error: I can not write to this file. Please set the right user permissions on: %s');
+define('ERROR_FILE_NOT_WRITEABLE', 'Грешка: върху файла неможе да се записва. Моля, променете правата за четене и запис: %s');
 
-define('TEXT_INFO_SELECT_FILE', 'Select a file to edit ...');
-define('TEXT_INFO_EDITING', 'Editing file:');
+define('TEXT_INFO_SELECT_FILE', 'Изберете файл за редактиране...');
+define('TEXT_INFO_EDITING', 'Редактирате файл:');
 
-define('TEXT_INFO_CAUTION','Note: you should always edit the files located in your current template override directory, Example: /languages/' . $_SESSION['language'] . '/html_includes/' . $template_dir . '<br />Be sure to make backups after changing your files.');
+define('TEXT_INFO_CAUTION','Забележка: би трябвало да редактирате файловете, които се намират в директорията на шаблона, който използвате в момента. Пример: /languages/' . $_SESSION['language'] . '/html_includes/' . $template_dir . '<br />Правите резервни копия, когато променяте файлове.');
 ?>
