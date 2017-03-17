@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,16 +20,16 @@
 //  $Id: salemaker_popup.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Salemaker');
-define('SUBHEADING_TITLE', 'Salemaker Usage Tips:');
+define('HEADING_TITLE', 'Разпродажби');
+define('SUBHEADING_TITLE', 'Използване на разпродажби:');
 
-define('TEXT_SALEMAKER_IMMEDIATELY', 'Immediately');
-define('TEXT_SALEMAKER_NEVER', 'Never');
-define('TEXT_CLOSE_WINDOW', '[ close window ]');
-define('TABLE_HEADING_SALE_NAME', 'SaleName');
-define('TABLE_HEADING_SALE_DEDUCTION', 'Deduction');
-define('TABLE_HEADING_SALE_DATE_START', 'Startdate');
-define('TABLE_HEADING_SALE_DATE_END', 'Enddate');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TEXT_SALEMAKER_IMMEDIATELY', 'Моментално');
+define('TEXT_SALEMAKER_NEVER', 'Никога');
+define('TEXT_CLOSE_WINDOW', '[ затвори прозореца ]');
+define('TABLE_HEADING_SALE_NAME', 'Име разпродажба');
+define('TABLE_HEADING_SALE_DEDUCTION', 'Намаление');
+define('TABLE_HEADING_SALE_DATE_START', 'Начална дата');
+define('TABLE_HEADING_SALE_DATE_END', 'Крайна дата');
+define('TABLE_HEADING_STATUS', 'Статус');
+define('TABLE_HEADING_ACTION', 'Действие');
 ?>

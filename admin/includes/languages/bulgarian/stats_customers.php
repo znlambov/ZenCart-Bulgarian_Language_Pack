@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,9 +20,9 @@
 //  $Id: stats_customers.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Best Customer Orders-Total');
+define('HEADING_TITLE', 'Обща стойност поръчка на най-добри клиенти');
 
 define('TABLE_HEADING_NUMBER', 'ID#');
-define('TABLE_HEADING_CUSTOMERS', 'Customers');
-define('TABLE_HEADING_TOTAL_PURCHASED', 'Total Purchased');
+define('TABLE_HEADING_CUSTOMERS', 'Клиенти');
+define('TABLE_HEADING_TOTAL_PURCHASED', 'Общо закупени');
 ?>

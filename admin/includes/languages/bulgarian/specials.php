@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,37 +20,37 @@
 //  $Id: specials.php 4533 2006-09-17 17:21:10Z ajeh $
 //
 
-define('HEADING_TITLE', 'Specials');
+define('HEADING_TITLE', 'Промоции');
 
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_PRODUCTS_MODEL','Model');
-define('TABLE_HEADING_PRODUCTS_PRICE', 'Products Price/Special/Sale');
-define('TABLE_HEADING_PRODUCTS_PERCENTAGE','Percentage');
-define('TABLE_HEADING_AVAILABLE_DATE', 'Available');
-define('TABLE_HEADING_EXPIRES_DATE','Expires');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_PRODUCTS', 'Продукти');
+define('TABLE_HEADING_PRODUCTS_MODEL','Модел');
+define('TABLE_HEADING_PRODUCTS_PRICE', 'Продуктова цена/промоция/разпродажба');
+define('TABLE_HEADING_PRODUCTS_PERCENTAGE','Процент');
+define('TABLE_HEADING_AVAILABLE_DATE', 'Стартира от');
+define('TABLE_HEADING_EXPIRES_DATE','Изтича на');
+define('TABLE_HEADING_STATUS', 'Статус');
+define('TABLE_HEADING_ACTION', 'Действие');
 
-define('TEXT_SPECIALS_PRODUCT', 'Product:');
-define('TEXT_SPECIALS_SPECIAL_PRICE', 'Special Price:');
-define('TEXT_SPECIALS_EXPIRES_DATE', 'Expiry Date:');
-define('TEXT_SPECIALS_AVAILABLE_DATE', 'Available Date:');
-define('TEXT_SPECIALS_PRICE_TIP', '<b>Specials Notes:</b><ul><li>You can enter a percentage to deduct in the Specials Price field, for example: <b>20%</b></li><li>If you enter a new price, the decimal separator must be a \'.\' (decimal-point), example: <b>49.99</b></li><li>Leave the expiry date empty for no expiration</li></ul>');
+define('TEXT_SPECIALS_PRODUCT', 'Продукт:');
+define('TEXT_SPECIALS_SPECIAL_PRICE', 'Промо цена:');
+define('TEXT_SPECIALS_EXPIRES_DATE', 'Изтича на:');
+define('TEXT_SPECIALS_AVAILABLE_DATE', 'Стартира от:');
+define('TEXT_SPECIALS_PRICE_TIP', '<b>Забележка:</b><ul><li>Можете да въведете процентна отстъпка в полето така: <b>20%</b></li><li>Ако въведете нова цена, вместо процентна отстъпка, то десетичният знак трябва да е \'.\' (десетична точка), като например: <b>49.99</b></li><li>Оставете полето за дата празно, ако искате да не важат срокове за промоцията</li></ul>');
 
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_NEW_PRICE', 'New Price:');
-define('TEXT_INFO_ORIGINAL_PRICE', 'Original Price:');
-define('TEXT_INFO_DISPLAY_PRICE', 'Display Price:<br />');
-define('TEXT_INFO_AVAILABLE_DATE', 'Available On:');
-define('TEXT_INFO_EXPIRES_DATE', 'Expires At:');
-define('TEXT_INFO_STATUS_CHANGE', 'Status Change:');
-define('TEXT_IMAGE_NONEXISTENT', 'No Image Exists');
+define('TEXT_INFO_DATE_ADDED', 'Добавен на:');
+define('TEXT_INFO_LAST_MODIFIED', 'Последна редакция:');
+define('TEXT_INFO_NEW_PRICE', 'Нова цена:');
+define('TEXT_INFO_ORIGINAL_PRICE', 'Оригинална цена:');
+define('TEXT_INFO_DISPLAY_PRICE', 'Показва се цена:<br />');
+define('TEXT_INFO_AVAILABLE_DATE', 'Стартира от:');
+define('TEXT_INFO_EXPIRES_DATE', 'Изтича на:');
+define('TEXT_INFO_STATUS_CHANGE', 'Променен статус:');
+define('TEXT_IMAGE_NONEXISTENT', 'Няма налична снимка');
 
-define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Delete Special');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete the special products price?');
+define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Изтрий промоция');
+define('TEXT_INFO_DELETE_INTRO', 'Искате ли да изтриете промоционалната цена на продукта?');
 
-define('SUCCESS_SPECIALS_PRE_ADD', 'Successful: Pre-Add of Special ... please update the price and dates ...');
+define('SUCCESS_SPECIALS_PRE_ADD', 'Успешно добавена промоция... моля, обновете цената и датите...');
 define('WARNING_SPECIALS_PRE_ADD_EMPTY', 'Warning: No Product ID specified ... nothing was added ...');
 define('WARNING_SPECIALS_PRE_ADD_DUPLICATE', 'Warning: Product ID already on Special ... nothing was added ...');
 define('WARNING_SPECIALS_PRE_ADD_BAD_PRODUCTS_ID', 'Warning: Product ID is invalid ... nothing was added ...');
