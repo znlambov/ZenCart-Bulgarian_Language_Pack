@@ -1,5 +1,5 @@
 <?php
-// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -32,7 +32,7 @@ define('TABLE_HEADING_BANNER_ON_SSL', 'Покажи SSL');
 define('TABLE_HEADING_ACTION', 'Действие');
 define('TABLE_HEADING_BANNER_SORT_ORDER', 'Сортиране');
 
-define('TEXT_BANNERS_TITLE', 'Заглавие на банер:');
+define('TEXT_BANNERS_TITLE', 'Название на банер:');
 define('TEXT_BANNERS_URL', 'URL на банер:');
 define('TEXT_BANNERS_GROUP', 'Банер група:');
 define('TEXT_BANNERS_NEW_GROUP', ', или въведи нова банер група по-долу');
@@ -80,7 +80,7 @@ define('SUCCESS_BANNER_UPDATED', 'Банерът бе успешно обнов�
 define('SUCCESS_BANNER_REMOVED', 'Банерът бе успешно премахнат.');
 define('SUCCESS_BANNER_STATUS_UPDATED', 'Статусът на банера бе успешно обновен.');
 
-define('ERROR_BANNER_TITLE_REQUIRED', 'Грешка: Не е въведено заглавие за банера.');
+define('ERROR_BANNER_TITLE_REQUIRED', 'Грешка: Не е въведено название за банера.');
 define('ERROR_BANNER_GROUP_REQUIRED', 'Грешка: Не е въведена е група за банера.');
 define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Грешка: Директорията не съществува: %s');
 define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Грешка: В директорията не е разрешен запис: %s');

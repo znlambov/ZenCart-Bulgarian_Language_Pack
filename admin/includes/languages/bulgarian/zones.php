@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,20 +20,20 @@
 //  $Id: zones.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Zones');
+define('HEADING_TITLE', 'Зони');
 
-define('TABLE_HEADING_COUNTRY_NAME', 'Country');
-define('TABLE_HEADING_ZONE_NAME', 'Zones');
-define('TABLE_HEADING_ZONE_CODE', 'Code');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_COUNTRY_NAME', 'Държава');
+define('TABLE_HEADING_ZONE_NAME', 'Зони');
+define('TABLE_HEADING_ZONE_CODE', 'Код');
+define('TABLE_HEADING_ACTION', 'Действие');
 
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_ZONES_NAME', 'Zones Name:');
-define('TEXT_INFO_ZONES_CODE', 'Zones Code:');
-define('TEXT_INFO_COUNTRY_NAME', 'Country:');
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new zone with its related data');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this zone?');
-define('TEXT_INFO_HEADING_NEW_ZONE', 'New Zone');
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'Edit Zone');
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'Delete Zone');
+define('TEXT_INFO_EDIT_INTRO', 'Направете необходимите промени');
+define('TEXT_INFO_ZONES_NAME', 'Име на зона:');
+define('TEXT_INFO_ZONES_CODE', 'Код на зоната:');
+define('TEXT_INFO_COUNTRY_NAME', 'Държава:');
+define('TEXT_INFO_INSERT_INTRO', 'Въведете новата зона със съответната информация за нея');
+define('TEXT_INFO_DELETE_INTRO', 'Искате ли да изтриете тази зона?');
+define('TEXT_INFO_HEADING_NEW_ZONE', 'Нова зона');
+define('TEXT_INFO_HEADING_EDIT_ZONE', 'Редактирай зоната');
+define('TEXT_INFO_HEADING_DELETE_ZONE', 'Изтрий зоната');
 ?>

@@ -1,5 +1,5 @@
 <?php
-// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 //
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
@@ -22,11 +22,11 @@
 //  $Id: configuration.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('TABLE_HEADING_CONFIGURATION_TITLE', 'Заглавие');
+define('TABLE_HEADING_CONFIGURATION_TITLE', 'Название');
 define('TABLE_HEADING_CONFIGURATION_VALUE', 'Стойност');
 define('TABLE_HEADING_ACTION', 'Действие');
 
 define('TEXT_INFO_EDIT_INTRO', 'Моля, направете необходимите промени');
 define('TEXT_INFO_DATE_ADDED', 'Добавен на:');
-define('TEXT_INFO_LAST_MODIFIED', 'Последно променен:');
+define('TEXT_INFO_LAST_MODIFIED', 'Последна промяна:');
 ?>

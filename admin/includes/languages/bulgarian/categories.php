@@ -1,5 +1,5 @@
 <?php
-// Bulgarian Language Pack for Zen Cart 1.5.5 at https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2013 Zen Cart Development Team
@@ -198,7 +198,7 @@ define('TEXT_CATEGORIES_DESCRIPTION', 'Описание на категория:
 // Metatags
 define('TEXT_INFO_HEADING_EDIT_CATEGORY_META_TAGS', 'Мета тагове на категорията');
 define('TEXT_EDIT_CATEGORIES_META_TAGS_INTRO', 'Дефинирай мета тагове');
-define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Заглавие:');
+define('TEXT_EDIT_CATEGORIES_META_TAGS_TITLE', 'Название:');
 define('TEXT_EDIT_CATEGORIES_META_TAGS_KEYWORDS', 'Ключови думи:');
 define('TEXT_EDIT_CATEGORIES_META_TAGS_DESCRIPTION', 'Описание:');
 

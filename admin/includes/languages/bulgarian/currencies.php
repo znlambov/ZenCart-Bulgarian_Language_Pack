@@ -16,7 +16,7 @@ define('TABLE_HEADING_CURRENCY_VALUE', 'Стойност');
 define('TABLE_HEADING_ACTION', 'Действие');
 
 define('TEXT_INFO_EDIT_INTRO', 'Направете необходимите промени');
-define('TEXT_INFO_CURRENCY_TITLE', 'Наименование:');
+define('TEXT_INFO_CURRENCY_TITLE', 'Название:');
 define('TEXT_INFO_CURRENCY_CODE', 'Код:');
 define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Символ вляво:');
 define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Символ вдясно:');

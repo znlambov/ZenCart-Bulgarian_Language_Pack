@@ -10,17 +10,18 @@
 **[Compatibility](#compatibility)**  
 **[Съвместимост](#Съвместимост)**  
 **[Current status](#current-status)**  
+**[Contacts](#contacts)**  
 
 
 ## Notes ##
 
 Not official! (if there is any official ZC lang pack, anyway :) )  
 Like other open source projects, this is voluntary maintained. I am not obligated to assist here, but I do so because I want to.  
-Just sharing my own work with all of you (GPL). You have the freedom to run, study, share and modify the files.  
-There may be some grammer or syntax errors. It is a lot of files and work and I'm just a human :)  
-In some files, out of the context it is hard to understand the real meaning of some parts of the text.  
+Just sharing my own work with all of you (GPL).  
+You have the freedom to run, study, share and modify the files.  
+There may be some grammer or syntax errors.    
 Please write to me, if you have any suggestions, criticism, questions, etc.: jung (at) abv [dot] bg  
-Thank you in advance for your cooperation!
+Thank you in advance for your cooperation!  
 
 Information from here was used:  
 https://www.zen-cart.com/wiki/index.php/Languages  
@@ -86,4 +87,11 @@ includes/languages/bulgarian - **fully translated**
 admin/includes/languages/bulgarian - **partially translated**  
 includes/templates/template_default/buttons/bulgarian - **not translated**  
 
-*Полседна редакция: 14 март 2017*
+
+## Contacts ##
+
+jung [at] abv [dot] bg  
+or Zen-Cart forum username: znlambov  
+
+
+*Полседна редакция: 17 март 2017*  

@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,24 +20,24 @@
 //  $Id: languages.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Languages');
+define('HEADING_TITLE', 'Езици');
 
-define('TABLE_HEADING_LANGUAGE_NAME', 'Language');
-define('TABLE_HEADING_LANGUAGE_CODE', 'Code');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_LANGUAGE_NAME', 'Език');
+define('TABLE_HEADING_LANGUAGE_CODE', 'Код');
+define('TABLE_HEADING_ACTION', 'Действие');
 
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_LANGUAGE_NAME', 'Name:');
-define('TEXT_INFO_LANGUAGE_CODE', 'Code:');
-define('TEXT_INFO_LANGUAGE_IMAGE', 'Image:');
-define('TEXT_INFO_LANGUAGE_DIRECTORY', 'Directory:');
-define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Sort Order:');
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new language with its related data');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this language?');
-define('TEXT_INFO_HEADING_NEW_LANGUAGE', 'New Language');
-define('TEXT_INFO_HEADING_EDIT_LANGUAGE', 'Edit Language');
-define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Delete Language');
+define('TEXT_INFO_EDIT_INTRO', 'Направете необходимите промени');
+define('TEXT_INFO_LANGUAGE_NAME', 'Име:');
+define('TEXT_INFO_LANGUAGE_CODE', 'Код:');
+define('TEXT_INFO_LANGUAGE_IMAGE', 'Снимка:');
+define('TEXT_INFO_LANGUAGE_DIRECTORY', 'Директория:');
+define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Сортиране:');
+define('TEXT_INFO_INSERT_INTRO', 'Въведете новият език и съответната информация за него');
+define('TEXT_INFO_DELETE_INTRO', 'Искате ли да изтриете този език?');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE', 'Нов език');
+define('TEXT_INFO_HEADING_EDIT_LANGUAGE', 'Редактирай език');
+define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Изтрий език');
 
-define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Error: The default language can not be removed. Please set another language as default, and try again.');
-define('ERROR_DUPLICATE_LANGUAGE_CODE', 'Error: A language with that code has already been defined.');
+define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Грешка: Основният език неможе да бъде изтрит. Изберете друг език, като основен и след това опитайте отново.');
+define('ERROR_DUPLICATE_LANGUAGE_CODE', 'Грешка:  вече съществува език с такъв код.');
 ?>

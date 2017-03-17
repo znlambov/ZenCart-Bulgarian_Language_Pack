@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,9 +20,9 @@
 //  $Id: stats_products_lowstock.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Product Stock Report');
+define('HEADING_TITLE', 'Доклад количества');
 
 define('TABLE_HEADING_NUMBER', 'ID#');
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_VIEWED', 'Quantity');
+define('TABLE_HEADING_PRODUCTS', 'Продукти');
+define('TABLE_HEADING_VIEWED', 'Количество');
 ?>

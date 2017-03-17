@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,17 +20,17 @@
 //  $Id: stats_products_purchased.php 4735 2006-10-12 22:37:46Z ajeh $
 //
 
-define('HEADING_TITLE', 'Best Products Purchased');
+define('HEADING_TITLE', 'Най-продавани продукти');
 
 define('TABLE_HEADING_NUMBER', 'ID#');
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_PURCHASED', 'Purchased');
+define('TABLE_HEADING_PRODUCTS', 'Продукти');
+define('TABLE_HEADING_PURCHASED', 'Закупени');
 
-define('TABLE_HEADING_CUSTOMERS_ID', 'Customer<br />ID#');
-define('TABLE_HEADING_ORDERS_ID', 'Order<br />ID#');
-define('TABLE_HEADING_ORDERS_DATE_PURCHASED', 'Date');
-define('TABLE_HEADING_CUSTOMERS_INFO', 'Customer');
-define('TABLE_HEADING_PRODUCTS_QUANTITY', 'QTY');
-define('TABLE_HEADING_PRODUCTS_NAME', 'Product');
-define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
+define('TABLE_HEADING_CUSTOMERS_ID', 'Клиент<br />ID#');
+define('TABLE_HEADING_ORDERS_ID', 'Поръчка<br />ID#');
+define('TABLE_HEADING_ORDERS_DATE_PURCHASED', 'Дата');
+define('TABLE_HEADING_CUSTOMERS_INFO', 'Потребител');
+define('TABLE_HEADING_PRODUCTS_QUANTITY', 'Количество');
+define('TABLE_HEADING_PRODUCTS_NAME', 'Продукт');
+define('TABLE_HEADING_PRODUCTS_MODEL', 'Модел');
 ?>

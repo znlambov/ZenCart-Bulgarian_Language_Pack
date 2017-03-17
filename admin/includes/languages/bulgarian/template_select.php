@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,25 +20,25 @@
 //  $Id: template_select.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE', 'Template Selection');
+define('HEADING_TITLE', 'Избор на шаблон');
 
-define('TABLE_HEADING_LANGUAGE', 'Template Language');
-define('TABLE_HEADING_NAME', 'Template Name');
-define('TABLE_HEADING_DIRECTORY', 'Template Directory');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_LANGUAGE', 'Еизик за шаблона');
+define('TABLE_HEADING_NAME', 'Име на шаблона');
+define('TABLE_HEADING_DIRECTORY', 'Директория на шаблона');
+define('TABLE_HEADING_ACTION', 'Действие');
 
-define('TEXT_INFO_HEADING_EDIT_TEMPLATE', 'Edit Template Settings');
-define('TEXT_INFO_HEADING_DELETE_TEMPLATE', 'Delete Template association');
-define('TEXT_INFO_EDIT_INTRO', 'Change the template');
-define('TEXT_INFO_DELETE_INTRO', 'Delete this association');
-define('TEXT_INFO_TEMPLATE_NAME', 'Template Name');
-define('TEXT_INFO_LANGUAGE_NAME', 'Language Name');
-define('TEXT_INFO_TEMPLATE_VERSION', 'Template Version : ');
-define('TEXT_INFO_TEMPLATE_AUTHOR', 'Template Author : ');
-define('TEXT_INFO_TEMPLATE_DESCRIPTION', 'Template Description');
-define('TEXT_INFO_TEMPLATE_INSTALLED', 'Templates Installed');
-define('TEXT_INFO_HEADING_NEW_TEMPLATE', 'Associate Template with language');
-define('TEXT_INFO_INSERT_INTRO', 'Choose below to associate a template with a language');
-define('IMAGE_NEW_TEMPLATE', 'Create a new template/language association');
+define('TEXT_INFO_HEADING_EDIT_TEMPLATE', 'Редактирай настройките на шаблона');
+define('TEXT_INFO_HEADING_DELETE_TEMPLATE', 'Изтрий асоциациите за шаблона');
+define('TEXT_INFO_EDIT_INTRO', 'Смени шаблона');
+define('TEXT_INFO_DELETE_INTRO', 'Изтрий тази асоциаци');
+define('TEXT_INFO_TEMPLATE_NAME', 'Название на шаблон');
+define('TEXT_INFO_LANGUAGE_NAME', 'Название на език');
+define('TEXT_INFO_TEMPLATE_VERSION', 'Версия на шаблона : ');
+define('TEXT_INFO_TEMPLATE_AUTHOR', 'Автор на шаблона : ');
+define('TEXT_INFO_TEMPLATE_DESCRIPTION', 'Описание за шаблона');
+define('TEXT_INFO_TEMPLATE_INSTALLED', 'Инсталирани шаблони');
+define('TEXT_INFO_HEADING_NEW_TEMPLATE', 'Асоциирай шаблон с език');
+define('TEXT_INFO_INSERT_INTRO', 'Избери по-долу за да асоциираш шаблон с език');
+define('IMAGE_NEW_TEMPLATE', 'Създай нова асоциация шаблон/език');
 
 ?>
