@@ -77,13 +77,13 @@ define('TEXT_PRODUCTS_QTY_BOX_STATUS', 'Кутийката за количест
 define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Наличен от:');
 define('TEXT_PRODUCT_AVAILABLE', 'Наличен');
 define('TEXT_PRODUCT_NOT_AVAILABLE', 'Изчерпан');
-define('TEXT_PRODUCT_IS_VIRTUAL', 'Да, пропусни адрес за доставка');
-define('TEXT_PRODUCT_NOT_VIRTUAL', 'Не, нужен е адрес за доставка');
-define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'Да, винаги безплатна доставка');
-define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'Не, Нормални условия за доставка');
+define('TEXT_PRODUCT_IS_VIRTUAL', 'Пропусни адрес за доставка');
+define('TEXT_PRODUCT_NOT_VIRTUAL', 'Необходим е адрес за доставка');
+define('TEXT_PRODUCT_IS_ALWAYS_FREE_SHIPPING', 'Винаги безплатна доставка');
+define('TEXT_PRODUCT_NOT_ALWAYS_FREE_SHIPPING', 'Нормални условия за доставка');
 
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'Да, показвай кутийка с количества');
-define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'Не, не показвай кутийка с количества');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_ON', 'Показвай кутийка с количества');
+define('TEXT_PRODUCTS_QTY_BOX_STATUS_OFF', 'Не показвай кутийка с количества');
 
 define('TEXT_PRODUCTS_MANUFACTURER', 'Производител на продукта:');
 define('TEXT_PRODUCTS_NAME', 'Име на продукта:');
@@ -137,8 +137,8 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','Специфичният вид прод
   define('TEXT_CATEGORIES_IMAGE_DIR','Качи в директория:');
   define('TEXT_CATEGORIES_IMAGE_MANUAL', '<strong>Или избери съществуващ файл от сървъра:</strong>');
 
-  define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW','Внимание: Не показва кутийка с количества, Default to Qty 1');
-  define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT','Внимание: Не показва кутийка с количества, Default to Qty 1');
+  define('TEXT_PRODUCTS_QTY_BOX_STATUS_PREVIEW','Внимание: Не показва кутийка с количества. По подразбиране е Qty 1');
+  define('TEXT_PRODUCTS_QTY_BOX_STATUS_EDIT','Внимание: Не показва кутийка с количества. По подразбиране е Qty 1');
 
   define('TEXT_PRODUCT_OPTIONS', '<strong>Моля, изберете:</strong>');
   define('TEXT_PRODUCTS_ATTRIBUTES_INFO','Свойства на атрибутите за:');
@@ -147,8 +147,8 @@ define('ERROR_CANNOT_ADD_PRODUCT_TYPE','Специфичният вид прод
   define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES','Ценат на продукта по атрибути:');
   define('TEXT_PRODUCT_IS_PRICED_BY_ATTRIBUTE','Да');
   define('TEXT_PRODUCT_NOT_PRICED_BY_ATTRIBUTE','Не');
-  define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW','*Показваната цена ще включва най-ниската атрибутна цена ПЛЮС основната цена на продукта');
-  define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT','*Показваната цена ще включва най-ниската атрибутна цена ПЛЮС основната цена на продукта');
+  define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_PREVIEW','*Показваната цена ще включва най-ниската цена на атрибут ПЛЮС основната цена на продукта');
+  define('TEXT_PRODUCTS_PRICED_BY_ATTRIBUTES_EDIT','*Показваната цена ще включва най-ниската цена на атрибут ПЛЮС основната цена на продукта');
 
   define('TEXT_PRODUCTS_QUANTITY_MIN_RETAIL','Минимално количество на продукта:');
   define('TEXT_PRODUCTS_QUANTITY_UNITS_RETAIL','Количествени единици за продукта:');
