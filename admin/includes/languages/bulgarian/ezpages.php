@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -19,47 +19,47 @@
 // +----------------------------------------------------------------------+
 //  $Id: ezpages.php 2827 2006-01-08 19:46:40Z ajeh $
 //
-define('HEADING_TITLE', 'EZ-Pages');
-define('TABLE_HEADING_PAGES', 'Page Title');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_VSORT_ORDER', 'Sidebox Sort Order');
-define('TABLE_HEADING_HSORT_ORDER', 'Footer Sort Order');
-define('TEXT_PAGES_TITLE', 'Page Title:');
-define('TEXT_PAGES_HTML_TEXT', 'HTML Content:');
-define('TABLE_HEADING_DATE_ADDED', 'Date Added:');
-define('TEXT_PAGES_STATUS_CHANGE', 'Status Change: %s');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this page?');
-define('SUCCESS_PAGE_INSERTED', 'Success: The page has been inserted.');
-define('SUCCESS_PAGE_UPDATED', 'Success: The page has been updated.');
-define('SUCCESS_PAGE_REMOVED', 'Success: The page has been removed.');
-define('SUCCESS_PAGE_STATUS_UPDATED', 'Success: The status of the page has been updated.');
-define('ERROR_PAGE_TITLE_REQUIRED', 'Error: Page title required.');
-define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Unknown status flag.');
-define('ERROR_MULTIPLE_HTML_URL', 'Error: you have defined multiple settings when only one may be defined per Link ...<br />Only define either: HTML Content -or- Internal Link URL -or- External Link URL');
+define('HEADING_TITLE', 'EZ-Страници');
+define('TABLE_HEADING_PAGES', 'Заглавие');
+define('TABLE_HEADING_ACTION', 'Действие');
+define('TABLE_HEADING_VSORT_ORDER', 'Сортиране на кутийките');
+define('TABLE_HEADING_HSORT_ORDER', 'Сортиране на футъра');
+define('TEXT_PAGES_TITLE', 'Заглавие на страницата:');
+define('TEXT_PAGES_HTML_TEXT', 'HTML съдържание:');
+define('TABLE_HEADING_DATE_ADDED', 'Добавена на:');
+define('TEXT_PAGES_STATUS_CHANGE', 'Промяна в статуса: %s');
+define('TEXT_INFO_DELETE_INTRO', 'Искате ли да изтриете тази страница?');
+define('SUCCESS_PAGE_INSERTED', 'Страницата бе успешно въведена.');
+define('SUCCESS_PAGE_UPDATED', 'Страницата бе успешно обновена.');
+define('SUCCESS_PAGE_REMOVED', 'Страницата бе успешно премахната.');
+define('SUCCESS_PAGE_STATUS_UPDATED', 'Статусът на страницата бе успешно обновен.');
+define('ERROR_PAGE_TITLE_REQUIRED', 'Грешка: необходимо е заглавие за страницата.');
+define('ERROR_UNKNOWN_STATUS_FLAG', 'Грешка: невалиден статус.');
+define('ERROR_MULTIPLE_HTML_URL', 'Грешка: дефинирани са множество настройки, при възможна само една за всяка връзка...<br />Дефинирайте само: HTML съдържание -или- вътрешна URL връзка -или- външна URL връзка');
 
 define('TABLE_HEADING_ID', 'ID');
-define('TABLE_HEADING_STATUS_HEADER', 'Header:');
-define('TABLE_HEADING_STATUS_SIDEBOX', 'Sidebox:');
-define('TABLE_HEADING_STATUS_FOOTER', 'Footer:');
-define('TABLE_HEADING_STATUS_TOC', 'TOC:');
-define('TABLE_HEADING_CHAPTER', 'Chapter:');
+define('TABLE_HEADING_STATUS_HEADER', 'Хедър:');
+define('TABLE_HEADING_STATUS_SIDEBOX', 'Странични кутийки:');
+define('TABLE_HEADING_STATUS_FOOTER', 'Футър:');
+define('TABLE_HEADING_STATUS_TOC', 'Съдържание:');
+define('TABLE_HEADING_CHAPTER', 'Глава:');
 
-define('TABLE_HEADING_PAGE_OPEN_NEW_WINDOW', 'Open New Window:');
-define('TABLE_HEADING_PAGE_IS_SSL', 'Page is SSL:');
+define('TABLE_HEADING_PAGE_OPEN_NEW_WINDOW', 'Отваря нов прозорец:');
+define('TABLE_HEADING_PAGE_IS_SSL', 'Страницата е SSL:');
 
-define('TEXT_DISPLAY_NUMBER_OF_PAGES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> pages)');
-define('IMAGE_NEW_PAGE', 'New Page');
-define('TEXT_INFO_PAGE_IMAGE', 'Image');
-define('TEXT_INFO_CURRENT_IMAGE', 'Current Image:');
+define('TEXT_DISPLAY_NUMBER_OF_PAGES', 'Показва <b>%d</b> до <b>%d</b> (от <b>%d</b> страници)');
+define('IMAGE_NEW_PAGE', 'Нова страница');
+define('TEXT_INFO_PAGE_IMAGE', 'Снимка');
+define('TEXT_INFO_CURRENT_IMAGE', 'Текуща снимка:');
 define('TEXT_INFO_PAGES_ID', 'ID: ');
-define('TEXT_INFO_PAGES_ID_SELECT', 'Select a page ...');
+define('TEXT_INFO_PAGES_ID_SELECT', 'Избери страница...');
 
-define('TEXT_HEADER_SORT_ORDER', 'Order:');
-define('TEXT_SIDEBOX_SORT_ORDER', 'Order:');
-define('TEXT_FOOTER_SORT_ORDER', 'Order:');
-define('TEXT_TOC_SORT_ORDER', 'Order:');
-define('TEXT_CHAPTER', 'Prev/Next Chapter:');
-define('TABLE_HEADING_CHAPTER_PREV_NEXT', 'Chapter:&nbsp;<br />');
+define('TEXT_HEADER_SORT_ORDER', 'Подреди:');
+define('TEXT_SIDEBOX_SORT_ORDER', 'Подреди:');
+define('TEXT_FOOTER_SORT_ORDER', 'Подреди:');
+define('TEXT_TOC_SORT_ORDER', 'Подреди:');
+define('TEXT_CHAPTER', 'Пред./Следв. Глава:');
+define('TABLE_HEADING_CHAPTER_PREV_NEXT', 'Глава:&nbsp;<br />');
 
 define('TEXT_HEADER_SORT_ORDER_EXPLAIN', 'Header Sort Order used while generating pages in single row for the header; Sort order should be greater than zero to enable this page in the row type listing');
 define('TEXT_SIDEBOX_ORDER_EXPLAIN', 'Sidebox Sort order is used when pages are listed in vertical links; Sort order should be greater than zero to enable it in vertical listing, else it will be considered as HTML text for special purposes');

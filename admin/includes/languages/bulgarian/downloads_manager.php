@@ -1,5 +1,5 @@
 <?php
-//
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 // +----------------------------------------------------------------------+
 // |zen-cart Open Source E-commerce                                       |
 // +----------------------------------------------------------------------+
@@ -20,33 +20,33 @@
 //  $Id: downloads_manager.php 1105 2005-04-04 22:05:35Z birdbrain $
 //
 
-define('HEADING_TITLE','Downloads Manager');
-define('TABLE_HEADING_ATTRIBUTES_ID', 'Attr ID');
-define('TABLE_HEADING_PRODUCTS_ID', 'Prod ID');
-define('TABLE_HEADING_PRODUCT', 'Product Name');
-define('TABLE_HEADING_MODEL', 'Model');
-define('TABLE_HEADING_OPT_NAME', 'Option Name');
-define('TABLE_HEADING_OPT_VALUE', 'Option Value Name');
-define('TABLE_TEXT_FILENAME', 'Filename');
-define('TABLE_TEXT_MAX_DAYS', 'Days');
-define('TABLE_TEXT_MAX_COUNT', 'Count');
-define('TABLE_HEADING_ACTION', 'Action');
+define('HEADING_TITLE','Даунлоуд мениджър');
+define('TABLE_HEADING_ATTRIBUTES_ID', 'Атрибут ID');
+define('TABLE_HEADING_PRODUCTS_ID', 'Продукт ID');
+define('TABLE_HEADING_PRODUCT', 'Име на продукт');
+define('TABLE_HEADING_MODEL', 'Модел');
+define('TABLE_HEADING_OPT_NAME', 'Име на опция');
+define('TABLE_HEADING_OPT_VALUE', 'Име на стойност на опция');
+define('TABLE_TEXT_FILENAME', 'Файлово име');
+define('TABLE_TEXT_MAX_DAYS', 'Дни');
+define('TABLE_TEXT_MAX_COUNT', 'Брой');
+define('TABLE_HEADING_ACTION', 'Действие');
 
-define('TABLE_HEADING_OPT_PRICE', 'Price');
-define('TABLE_HEADING_OPT_PRICE_PREFIX', 'Prefix');
+define('TABLE_HEADING_OPT_PRICE', 'Цена');
+define('TABLE_HEADING_OPT_PRICE_PREFIX', 'Представка');
 
-define('TEXT_PRODUCTS_NAME', 'Product: ');
-define('TEXT_PRODUCTS_MODEL', 'Model: ');
+define('TEXT_PRODUCTS_NAME', 'Продукт: ');
+define('TEXT_PRODUCTS_MODEL', 'Модел: ');
 
-define('TEXT_INFO_HEADING_EDIT_PRODUCTS_DOWNLOAD', 'EDITING DOWNLOAD INFORMATION');
-define('TEXT_INFO_HEADING_DELETE_PRODUCTS_DOWNLOAD', 'CONFIRM DELETION OF DOWNLOAD');
-define('TEXT_INFO_EDIT_INTRO', 'Edit the Download information:');
-define('TEXT_DELETE_INTRO', 'The following filename will be removed from the database. This will not delete the file from the server:');
+define('TEXT_INFO_HEADING_EDIT_PRODUCTS_DOWNLOAD', 'РЕДАКТИРАНЕ НА ИНФОРМАЦИЯТА ЗА ДАУНЛОУД');
+define('TEXT_INFO_HEADING_DELETE_PRODUCTS_DOWNLOAD', 'ПОТВЪРДИ ИЗТРИВАНЕТО НА ДАУНЛОУД');
+define('TEXT_INFO_EDIT_INTRO', 'Редактирай информацията за доунлоуд:');
+define('TEXT_DELETE_INTRO', 'Следният файл ще бъде премахнат от базата данни. Това няма да изтрие файла от сървъра:');
 
-define('TEXT_INFO_FILENAME', 'Filename: ');
-define('TEXT_INFO_MAX_DAYS', 'Max Days: ');
-define('TEXT_INFO_MAX_COUNT', 'Max Downloads: ');
+define('TEXT_INFO_FILENAME', 'Име на файла: ');
+define('TEXT_INFO_MAX_DAYS', 'Макс. дни: ');
+define('TEXT_INFO_MAX_COUNT', 'Макс. сваляния: ');
 
-define('TEXT_INFO_FILENAME_MISSING','&nbsp;Missing filename');
-define('TEXT_INFO_FILENAME_GOOD','&nbsp;Valid filename');
+define('TEXT_INFO_FILENAME_MISSING','&nbsp;Липсващо файлово име');
+define('TEXT_INFO_FILENAME_GOOD','&nbsp;Валидно файлово име');
 ?>

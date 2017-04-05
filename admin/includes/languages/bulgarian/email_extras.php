@@ -1,4 +1,5 @@
 <?php
+// Bulgarian Language Pack for Zen Cart - https://github.com/znlambov/ZenCart-Bulgarian_Language_Pack
 /**
  * @package admin
  * @copyright Copyright 2003-2016 Zen Cart Development Team
@@ -19,36 +20,36 @@
   define ('EMAIL_EXTRA_HEADER_INFO', '');
 
 // office use only
-  define('OFFICE_FROM','From:');
-  define('OFFICE_EMAIL','E-mail:');
+  define('OFFICE_FROM','От:');
+  define('OFFICE_EMAIL','е-поща:');
 
-  define('OFFICE_SENT_TO','Sent To:');
-  define('OFFICE_EMAIL_TO','E-mail:');
-  define('OFFICE_USE','Office Use Only:');
-  define('OFFICE_LOGIN_NAME','Login Name:');
-  define('OFFICE_LOGIN_EMAIL','Login e-mail:');
-  define('OFFICE_LOGIN_PHONE','<strong>Telephone:</strong>');
-  define('OFFICE_IP_ADDRESS','IP Address:');
-  define('OFFICE_HOST_ADDRESS','Host Address:');
-  define('OFFICE_DATE_TIME','Date and Time:');
+  define('OFFICE_SENT_TO','Изпрати до:');
+  define('OFFICE_EMAIL_TO','е-поща:');
+  define('OFFICE_USE','Само за офис употреба:');
+  define('OFFICE_LOGIN_NAME','Потребителско име:');
+  define('OFFICE_LOGIN_EMAIL','Потребителска е-поща:');
+  define('OFFICE_LOGIN_PHONE','<strong>Телефон:</strong>');
+  define('OFFICE_IP_ADDRESS','IP адрес:');
+  define('OFFICE_HOST_ADDRESS','Охст адрес:');
+  define('OFFICE_DATE_TIME','Дата и час:');
 
 // email disclaimer
-  define('EMAIL_DISCLAIMER', "\n" . 'This email address was given to us by you or by one of our customers. If you feel that you have received this email in error, please send an email to %s');
-  define('EMAIL_SPAM_DISCLAIMER','This e-mail is sent in accordance with the US CAN-SPAM Law in effect 01/01/2004. Removal requests can be sent to this address and will be honored and respected.');
-  define('EMAIL_FOOTER_COPYRIGHT','Copyright (c) ' . date('Y') . ' <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Powered by <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
-  define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[GV ADMIN SENT]');
-  define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[DISCOUNT COUPONS]');
-  define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[ORDERS STATUS]');
-  define('TEXT_UNSUBSCRIBE', "\n\nTo unsubscribe from future newsletter and promotional mailings, simply click on the following link: \n");
+  define('EMAIL_DISCLAIMER', "\n" . 'Този имейл адрес ни бе предоставен от Вас или някой от нашите клиенти. Ако смятате, че сте получили този имейл по погрешка, моля пишете на %s');
+  define('EMAIL_SPAM_DISCLAIMER','Този имейл е изпратен според Закона US CAN-SPAM в сила от 01/01/2004. Запитвания за отписване могат да бъдат изпращани и ще бъдат уважени.');
+  define('EMAIL_FOOTER_COPYRIGHT','Авторски права (c) ' . date('Y') . ' <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>. Задвижван от <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
+  define('SEND_EXTRA_GV_ADMIN_EMAILS_TO_SUBJECT','[ПВ АДМИН ИЗПРАТЕН]');
+  define('SEND_EXTRA_DISCOUNT_COUPON_ADMIN_EMAILS_TO_SUBJECT','[КУПОН ЗА ОТСТЪПКА]');
+  define('SEND_EXTRA_ORDERS_STATUS_ADMIN_EMAILS_TO_SUBJECT','[СТАТУС ПОРЪЧКА]');
+  define('TEXT_UNSUBSCRIBE', "\n\nЗа да се отпишете от новини, натиснете тази връзка: \n");
 
 // for whos_online when gethost is off
-  define('OFFICE_IP_TO_HOST_ADDRESS', 'Disabled');
+  define('OFFICE_IP_TO_HOST_ADDRESS', 'Изключено');
 
-define('TEXT_EMAIL_SUBJECT_ADMIN_USER_ADDED', 'Admin Alert: New admin user added.');
-define('TEXT_EMAIL_MESSAGE_ADMIN_USER_ADDED', 'Administrative alert: A new admin user (%s) has been ADDED to your store by %s.' . "\n\n" . 'If you or an authorized administrator did not initiate this change, it is advised that you verify your site security immediately.');
-define('TEXT_EMAIL_SUBJECT_ADMIN_USER_DELETED', 'Admin Alert: An admin user has been deleted.');
-define('TEXT_EMAIL_MESSAGE_ADMIN_USER_DELETED', 'Administrative alert: An admin user (%s) has been DELETED from your store by %s.' . "\n\n" . 'If you or an authorized administrator did not initiate this change, it is advised that you verify your site security immediately.');
-define('TEXT_EMAIL_SUBJECT_ADMIN_USER_CHANGED', 'Admin Alert: Admin user details have been changed.');
-define('TEXT_EMAIL_ALERT_ADM_EMAIL_CHANGED', 'Admin alert: Admin user (%s) email address has been changed from (%s) to (%s) by (%s)');
-define('TEXT_EMAIL_ALERT_ADM_NAME_CHANGED', 'Admin alert: Admin user (%s) username has been changed from (%s) to (%s) by (%s)');
-define('TEXT_EMAIL_ALERT_ADM_PROFILE_CHANGED', 'Admin alert: Admin user (%s) security profile has been changed from (%s) to (%s) by (%s)');
+define('TEXT_EMAIL_SUBJECT_ADMIN_USER_ADDED', 'Админ сигнал: Добавен е нов админ потребител.');
+define('TEXT_EMAIL_MESSAGE_ADMIN_USER_ADDED', 'Административен сигнал: Бе добавен административен потребител (%s) в магазина от %s.' . "\n\n" . 'Ако сте оторизиран администратор, но не сте извършили тези промени е препоръчително да проверите сигурността на сайта незабавно.');
+define('TEXT_EMAIL_SUBJECT_ADMIN_USER_DELETED', 'Админ сигнал: Беше изтрит админ потребител.');
+define('TEXT_EMAIL_MESSAGE_ADMIN_USER_DELETED', 'Административен сигнал: Бе изтрит административен потребител (%s) в магазина от %s.' . "\n\n" . 'Ако сте оторизиран администратор, но не сте извършили тези промени е препоръчително да проверите сигурността на сайта незабавно.');
+define('TEXT_EMAIL_SUBJECT_ADMIN_USER_CHANGED', 'Админ сигнал: Беше променен админ потребител.');
+define('TEXT_EMAIL_ALERT_ADM_EMAIL_CHANGED', 'Админ сигнал: Имайл адресът на админ потребител (%s) беше променен от (%s) на (%s) от потребителя (%s)');
+define('TEXT_EMAIL_ALERT_ADM_NAME_CHANGED', 'Админ сигнал: Потребителското име на админ потребител (%s) беше променено от (%s) на (%s) от потребитля (%s)');
+define('TEXT_EMAIL_ALERT_ADM_PROFILE_CHANGED', 'Админ сигнал: Профилът на дмин потребител (%s) бе променен от (%s) на (%s) от потребителя (%s)');
