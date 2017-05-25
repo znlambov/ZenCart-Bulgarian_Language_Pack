@@ -83,7 +83,7 @@ ZenCart versions 1.5.5e, 1.5.5d, 1.5.5c
 
 ## Current status ##
 
-includes/languages/bulgarian - **fully translated**  
+includes/languages/bulgarian - **fully translated** (except some payment modules)  
 admin/includes/languages/bulgarian - **partially translated**  
 includes/templates/template_default/buttons/bulgarian - **not translated**  
 
