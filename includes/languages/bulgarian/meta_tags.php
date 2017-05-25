@@ -15,10 +15,10 @@
 define('TITLE', 'Zen Cart!');
 
 // Site Tagline
-define('SITE_TAGLINE', 'The Art of E-commerce');
+define('SITE_TAGLINE', 'Изкуството на е-търговията');
 
 // Custom Keywords
-define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store');
+define('CUSTOM_KEYWORDS', 'електронна търговия, отворен код, магазин, онлайн пазаруване, склад');
 
 // Home Page Only:
   define('HOME_PAGE_META_DESCRIPTION', '');

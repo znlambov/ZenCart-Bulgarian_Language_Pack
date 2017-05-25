@@ -15,14 +15,14 @@ define('TEXT_MAIN','This is the main define statement for the page for bulgarian
 
 // Showcase vs Store
 if (STORE_STATUS == '0') {
-  define('TEXT_GREETING_GUEST', 'Добре дошъл <span class="greetUser">Посетителю!</span> Бихте ли желали да <a href="%s">влезете в профила си</a>?');
+  define('TEXT_GREETING_GUEST', 'Добре дошъл <span class="greetUser">гост!</span> Бихте ли желали да <a href="%s">влезете в профила си</a>?');
 } else {
   define('TEXT_GREETING_GUEST', 'Добре дошли и приятно прекарвне в нашия онлайн каталог.');
 }
 
 define('TEXT_GREETING_PERSONAL', 'Привет <span class="greetUser">%s</span>! Искате ли да видите нашите <a href="%s">нови попълнения</a>?');
 
-define('TEXT_INFORMATION', 'Define your main Index page copy here.');
+define('TEXT_INFORMATION', 'Дефинирайте копието на своята основна Index страница тук.');
 
 //moved to english
 //define('TABLE_HEADING_FEATURED_PRODUCTS','Featured Products');
@@ -53,10 +53,10 @@ if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
 } elseif ($category_depth == 'top') {
   // This section deals with the "home" page at the top level with no options/products selected
   /*Replace this text with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
-  define('HEADING_TITLE', 'Поздравления! Вие успешно инсталирахте Zen Cart&reg; E-Commerce Solution.');
+  define('HEADING_TITLE', 'Поздравления! Вие успешно инсталирахте Zen Cart&reg; решение за е-търговия!.');
 } elseif ($category_depth == 'nested') {
   // This section deals with displaying a subcategory
   /*Replace this line with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
-  define('HEADING_TITLE', 'Поздравления! Вие успешно инсталирахте Zen Cart&reg; E-Commerce Solution.'); 
+  define('HEADING_TITLE', 'Поздравления! Вие успешно инсталирахте Zen Cart&reg; решение за е-търговия.'); 
 }
 ?>

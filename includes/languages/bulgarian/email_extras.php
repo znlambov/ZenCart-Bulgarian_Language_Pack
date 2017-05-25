@@ -14,7 +14,7 @@
   define ('EMAIL_LOGO_FILENAME', 'header.jpg');  //-File is present in /email folder
   define ('EMAIL_LOGO_WIDTH', '550');
   define ('EMAIL_LOGO_HEIGHT', '110');
-  define ('EMAIL_LOGO_ALT_TITLE_TEXT', 'Zen Cart! The Art of E-commerce');
+  define ('EMAIL_LOGO_ALT_TITLE_TEXT', 'Zen Cart! Изкуството на е-търговията!');
   
   // -----
   // If you want to include some extra information in each email's header information (like perhaps the store address and/or phone number),
