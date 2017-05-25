@@ -94,4 +94,4 @@ jung [at] abv [dot] bg
 or Zen-Cart forum username: znlambov  
 
 
-*Полседна редакция: 17 март 2017*  
+*Полседна редакция: 25 май 2017*  
