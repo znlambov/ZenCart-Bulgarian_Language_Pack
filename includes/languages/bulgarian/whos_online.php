@@ -22,14 +22,14 @@
 // +----------------------------------------------------------------------+
 // $Id: whos_online.php 1969 2005-09-13 06:57:21Z drbyte $
 //
-define('BOX_HEADING_WHOS_ONLINE', 'Кой е на линиа');
+define('BOX_HEADING_WHOS_ONLINE', 'Кой е на линия');
 define('BOX_WHOS_ONLINE_THEREIS', 'В момента има');
 define('BOX_WHOS_ONLINE_THEREARE', 'В момента има');
 define('BOX_WHOS_ONLINE_GUEST', 'гост');
 define('BOX_WHOS_ONLINE_GUESTS', 'госта');
 define('BOX_WHOS_ONLINE_AND', 'и');
-define('BOX_WHOS_ONLINE_MEMBER', 'член');
-define('BOX_WHOS_ONLINE_MEMBERS', 'члена');
+define('BOX_WHOS_ONLINE_MEMBER', 'регистриран');
+define('BOX_WHOS_ONLINE_MEMBERS', 'регистрирани');
 
 define('BOX_WHOS_ONLINE_ONLINE', 'онлайн.');
 ?>
