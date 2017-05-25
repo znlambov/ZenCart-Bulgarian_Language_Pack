@@ -615,7 +615,7 @@
   define('ERROR_DATABASE_MAINTENANCE_NEEDED', '<a href="http://www.zen-cart.com/content.php?334-ERROR-0071-There-appears-to-be-a-problem-with-the-database-Maintenance-is-required" target="_blank">Грешка 0071: Изглежда има проблем с базата данни. Необходима е поддръжка.</a>');
 
   // EZ-PAGES Alerts
-  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'Внимание: EZ-PAGES HEADER - Включвно само за Admin IP');
+  define('TEXT_EZPAGES_STATUS_HEADER_ADMIN', 'Внимание: EZ-PAGES HEADER - Включено само за Admin IP');
   define('TEXT_EZPAGES_STATUS_FOOTER_ADMIN', 'Внимание: EZ-PAGES FOOTER - Включено само за Admin IP');
   define('TEXT_EZPAGES_STATUS_SIDEBOX_ADMIN', 'Внимание: EZ-PAGES SIDEBOX - Включено само за Admin IP');
 
