@@ -597,7 +597,7 @@
 // create account - login shared
   define('TABLE_HEADING_PRIVACY_CONDITIONS', 'Декларазия за поверителност');
   define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Моля, потвърдете, че сте съгласни с декларацията за поверителност, като маркирате кутийката долу. Можете да прочетете Декларацията за поверителност <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">тук</span></a>.');
-  define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'Прочетох и съм съгласен с Декларацията за съответствие.');
+  define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'Прочетох и съм съгласен с Декларацията за поверителност.');
   define('TABLE_HEADING_ADDRESS_DETAILS', 'Детайли за адреса');
   define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Допълнителни контакти');
   define('TABLE_HEADING_DATE_OF_BIRTH', 'Потвърди възрастта си');
