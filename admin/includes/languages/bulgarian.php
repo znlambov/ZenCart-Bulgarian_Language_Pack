@@ -65,9 +65,9 @@ define('HTML_PARAMS','dir="ltr" lang="bg"');
 define('CHARSET', 'utf-8');
 
 // header text in includes/header.php
-define('HEADER_TITLE_TOP', 'Админ начало');
+define('HEADER_TITLE_TOP', 'Начало');
 define('HEADER_TITLE_SUPPORT_SITE', 'Подкрепи');
-define('HEADER_TITLE_ONLINE_CATALOG', 'Магазин');
+define('HEADER_TITLE_ONLINE_CATALOG', 'Сайт');
 define('HEADER_TITLE_VERSION', 'Версия');
 define('HEADER_TITLE_ACCOUNT', 'Профил');
 define('HEADER_TITLE_LOGOFF', 'Изход');
