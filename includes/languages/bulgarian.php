@@ -17,7 +17,7 @@
   define('FOOTER_TEXT_BODY', 'Авторски права &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Задвижвано от <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-  $locales = array('bg_BG', 'bg_BG.utf8', 'bg', 'Bulgarian_Bulgaria.1251');
+  $locales = array('bg_BG.utf8', 'bg_BG', 'bg', 'Bulgarian_Bulgaria.1251');
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
