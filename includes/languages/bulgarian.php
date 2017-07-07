@@ -135,7 +135,7 @@
 // information box text in sideboxes/information.php
   define('BOX_HEADING_INFORMATION', 'Информация');
   define('BOX_INFORMATION_PRIVACY', 'Защита на личните данни');
-  define('BOX_INFORMATION_CONDITIONS', 'Условия за ползване');
+  define('BOX_INFORMATION_CONDITIONS', 'Общи условия');
   define('BOX_INFORMATION_SHIPPING', 'Доставка и рекламации');
   define('BOX_INFORMATION_CONTACT', 'Контакти');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Отписване от новини');
