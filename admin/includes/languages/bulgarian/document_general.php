@@ -34,7 +34,7 @@ define('TEXT_LAST_MODIFIED', 'Последна промяна:');
 define('TEXT_IMAGE_NONEXISTENT', 'СНИМКАТА НЕ СЪЩЕСТВУВА');
 define('TEXT_NO_CHILD_CATEGORIES_OR_PRODUCTS', 'Моля, въведете нова категория или продукт на това ниво.');
 define('TEXT_PRODUCT_MORE_INFORMATION', 'За повече информация, посетете страницата на <a href="http://%s" target="blank">продукта</a>.');
-define('TEXT_PRODUCT_DATE_ADDED', 'Продуктът бе въведен на %s.');
+define('TEXT_PRODUCT_DATE_ADDED', 'Продуктът бе въведен в %s.');
 define('TEXT_PRODUCT_DATE_AVAILABLE', 'Прдуктът ще бъде наличен от %s.');
 
 define('TEXT_EDIT_INTRO', 'Направете необходимите промени');

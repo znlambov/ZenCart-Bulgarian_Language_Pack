@@ -14,7 +14,7 @@
 define('TEXT_PRODUCT_NOT_FOUND', 'Продуктът не беше намерен.');
 define('TEXT_CURRENT_REVIEWS', 'Текущи отзиви:');
 define('TEXT_MORE_INFORMATION', 'За повече информация, посетете <a href="%s" target="_blank">страницата на продукта</a>.');
-define('TEXT_DATE_ADDED', 'Продуктът бе въведен на %s.');
+define('TEXT_DATE_ADDED', 'Продуктът бе въведен в %s.');
 define('TEXT_DATE_AVAILABLE', 'Продуктът ще бъде наличен на %s.');
 define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Клиенти, които закупиха това, закупиха също и...');
 define('TEXT_PRODUCT_OPTIONS', 'Моля, изберете: ');
