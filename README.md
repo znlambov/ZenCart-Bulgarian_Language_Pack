@@ -45,8 +45,8 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
    includes/languages/bulgarian/  
    admin/includes/languages/bulgarian.php  
    admin/includes/languages/bulgarian/  
-   includes/templates/template_default/buttons/bulgarian/
-   includes/templates/responsive_classic/buttons/bulgarian/button_update_cart.png>  
+   includes/templates/template_default/buttons/bulgarian/  
+   includes/templates/responsive_classic/buttons/bulgarian/button_update_cart.png  
 
 ## Инсталиране ##
 
@@ -69,7 +69,7 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
    admin/includes/languages/bulgarian.php  
    admin/includes/languages/bulgarian/  
    includes/templates/template_default/buttons/bulgarian/  
-   includes/templates/responsive_classic/buttons/bulgarian/button_update_cart.png>  
+   includes/templates/responsive_classic/buttons/bulgarian/button_update_cart.png  
 
 
 ## Compatibility ##
