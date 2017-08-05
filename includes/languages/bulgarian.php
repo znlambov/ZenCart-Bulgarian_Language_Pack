@@ -17,7 +17,7 @@
   define('FOOTER_TEXT_BODY', 'Авторски права &copy; ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Задвижвано от <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-  $locales = array('bg_BG', 'bg_BG.utf8', 'bg', 'Bulgarian_Bulgaria.1251');
+  $locales = array('bg_BG.utf8', 'bg_BG', 'bg', 'Bulgarian_Bulgaria.1251');
   @setlocale(LC_TIME, $locales);
   define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
   define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
@@ -134,8 +134,8 @@
 
 // information box text in sideboxes/information.php
   define('BOX_HEADING_INFORMATION', 'Информация');
-  define('BOX_INFORMATION_PRIVACY', 'Защита на личните данни');
-  define('BOX_INFORMATION_CONDITIONS', 'Условия за ползване');
+  define('BOX_INFORMATION_PRIVACY', 'Декларация за поверителност');
+  define('BOX_INFORMATION_CONDITIONS', 'Общи условия');
   define('BOX_INFORMATION_SHIPPING', 'Доставка и рекламации');
   define('BOX_INFORMATION_CONTACT', 'Контакти');
   define('BOX_INFORMATION_UNSUBSCRIBE', 'Отписване от новини');
@@ -597,7 +597,7 @@
 // create account - login shared
   define('TABLE_HEADING_PRIVACY_CONDITIONS', 'Декларазия за поверителност');
   define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', 'Моля, потвърдете, че сте съгласни с декларацията за поверителност, като маркирате кутийката долу. Можете да прочетете Декларацията за поверителност <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">тук</span></a>.');
-  define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'Прочетох и съм съгласен с Декларацията за съответствие.');
+  define('TEXT_PRIVACY_CONDITIONS_CONFIRM', 'Прочетох и съм съгласен с Декларацията за поверителност.');
   define('TABLE_HEADING_ADDRESS_DETAILS', 'Детайли за адреса');
   define('TABLE_HEADING_PHONE_FAX_DETAILS', 'Допълнителни контакти');
   define('TABLE_HEADING_DATE_OF_BIRTH', 'Потвърди възрастта си');

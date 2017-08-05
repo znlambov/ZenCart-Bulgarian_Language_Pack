@@ -19,7 +19,7 @@ define('HEADER_LOGO_HEIGHT', '70px');
 define('HEADER_LOGO_IMAGE', 'logo.gif');
 
 // look in your $PATH_LOCALE/locale directory for available locales..
-$locales = array('bg_BG', 'bg_BG.utf8', 'bg', 'Bulgarian_Bulgaria.1251');
+$locales = array('bg_BG.utf8', 'bg_BG', 'bg', 'Bulgarian_Bulgaria.1251');
 @setlocale(LC_TIME, $locales);
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
@@ -65,9 +65,9 @@ define('HTML_PARAMS','dir="ltr" lang="bg"');
 define('CHARSET', 'utf-8');
 
 // header text in includes/header.php
-define('HEADER_TITLE_TOP', 'Админ начало');
+define('HEADER_TITLE_TOP', 'Начало');
 define('HEADER_TITLE_SUPPORT_SITE', 'Подкрепи');
-define('HEADER_TITLE_ONLINE_CATALOG', 'Магазин');
+define('HEADER_TITLE_ONLINE_CATALOG', 'Сайт');
 define('HEADER_TITLE_VERSION', 'Версия');
 define('HEADER_TITLE_ACCOUNT', 'Профил');
 define('HEADER_TITLE_LOGOFF', 'Изход');
@@ -92,7 +92,7 @@ define('NONE', 'Нищо');
 define('TEXT_UNKNOWN', 'Неизвестен');
 
 // configuration box text
-define('BOX_HEADING_CONFIGURATION', 'Конфигурация');
+define('BOX_HEADING_CONFIGURATION', 'Настройки');
 define('BOX_CONFIGURATION_MY_STORE', 'Моят магазин');
 define('BOX_CONFIGURATION_MINIMUM_VALUES', 'Минимални стойности');
 define('BOX_CONFIGURATION_MAXIMUM_VALUES', 'Максимални стойности');
@@ -183,7 +183,7 @@ define('BOX_TOOLS_DEVELOPERS_TOOL_KIT', 'Инструменти за разра�
 define('BOX_TOOLS_SQLPATCH','Инсталиране SQL пачове');
 define('BOX_TOOLS_EZPAGES','EZ-страници');
 
-define('BOX_HEADING_EXTRAS', 'Допълнителни');
+define('BOX_HEADING_EXTRAS', 'Други');
 
 // define pages editor files
 define('BOX_TOOLS_DEFINE_PAGES_EDITOR','Редактор дефинирани страници');
@@ -212,7 +212,7 @@ define('BOX_COUPON_ADMIN','Админ купони');
 define('BOX_COUPON_RESTRICT','Ограничения за купони');
 
 // admin access box text
-define('BOX_HEADING_ADMIN_ACCESS', 'Администратори');
+define('BOX_HEADING_ADMIN_ACCESS', 'Админи');
 define('BOX_ADMIN_ACCESS_USERS',  'Админ потребители');
 define('BOX_ADMIN_ACCESS_PROFILES', 'Админ профили');
 define('BOX_ADMIN_ACCESS_PAGE_REGISTRATION', 'Регистрация на Админ страница');

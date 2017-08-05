@@ -45,8 +45,8 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
    includes/languages/bulgarian/  
    admin/includes/languages/bulgarian.php  
    admin/includes/languages/bulgarian/  
-   includes/templates/template_default/buttons/bulgarian/>  
-
+   includes/templates/template_default/buttons/bulgarian/  
+   includes/templates/responsive_classic/buttons/bulgarian/button_update_cart.png  
 
 ## Инсталиране ##
 
@@ -68,7 +68,8 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
    includes/languages/bulgarian/  
    admin/includes/languages/bulgarian.php  
    admin/includes/languages/bulgarian/  
-   includes/templates/template_default/buttons/bulgarian/>  
+   includes/templates/template_default/buttons/bulgarian/  
+   includes/templates/responsive_classic/buttons/bulgarian/button_update_cart.png  
 
 
 ## Compatibility ##
@@ -87,6 +88,8 @@ includes/languages/bulgarian - **fully translated** (except some payment modules
 admin/includes/languages/bulgarian - **partially translated**  
 includes/templates/template_default/buttons/bulgarian - **not translated**  
 
+For the buttons you can use https://dabuttonfactory.com  
+
 
 ## Contacts ##
 
@@ -94,4 +97,4 @@ jung [at] abv [dot] bg
 or Zen-Cart forum username: znlambov  
 
 
-*Полседна редакция: 25 май 2017*  
+*Полседна редакция: 11 юли 2017*  
