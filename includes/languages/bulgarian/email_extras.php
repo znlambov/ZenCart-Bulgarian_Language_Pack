@@ -40,7 +40,7 @@
   if (!defined('OFFICE_IP_TO_HOST_ADDRESS')) define('OFFICE_IP_TO_HOST_ADDRESS', 'OFF');
 
 // email disclaimer
-  define('EMAIL_DISCLAIMER', 'Този имейл ни бе предоставен от Вас или някой от нашите клиенти. Ако считате, че сте получили това съобщение ои оигрешка, моля изпратете имейл на %s ');
+  define('EMAIL_DISCLAIMER', 'Този имейл ни бе предоставен от Вас или някой от нашите клиенти. Ако считате, че сте получили това съобщение по погрешка, моля изпратете имейл на %s ');
   define('EMAIL_SPAM_DISCLAIMER','Това съобщение е изпратено в съответствие със закона US CAN-SPAM от 01/01/2004. Можете да изпратите искане за премахване от базата ни данни. Всички искания ще бъдат уважени.');
   define('EMAIL_FOOTER_COPYRIGHT','Авторски права (c) ' . date('Y') . ' <a href="' . zen_href_link(FILENAME_DEFAULT) . '" target="_blank">' . STORE_NAME . '</a>. Задвижван от <a href="http://www.zen-cart.com" target="_blank">Zen Cart</a>');
   define('TEXT_UNSUBSCRIBE', "\n\nЗа да се отпишете от следващи новини и промоции, просто натиснете следната връзка: \n");
