@@ -21,7 +21,7 @@
 //
 
 define('EMAIL_TEXT_SUBJECT', 'Потвърди поръчката');
-define('EMAIL_TEXT_HEADER', 'Потвърждаване на поръчката');
+define('EMAIL_TEXT_HEADER', 'Автоматично потвърждение на поръчка');
 define('EMAIL_TEXT_FROM',' от ');  //added to the EMAIL_TEXT_HEADER, above on text-only emails
 define('EMAIL_THANKS_FOR_SHOPPING','Благодарим Ви, че пазарувахте при нас!');
 define('EMAIL_DETAILS_FOLLOW','Следват детайли за Вашата поръчка.');
