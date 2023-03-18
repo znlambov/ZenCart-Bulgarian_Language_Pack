@@ -36,7 +36,7 @@ https://www.zen-cart.com/docs/changed_files-v1-5-5.html#v155e
 3. You should first try this in a separete testing machine (e.g. [VirtualMachine](https://www.virtualbox.org/))!
 4. Upload the files and directories to your server. Copy to your ZenCart folder keeping this structure (if your /admin/ folder name is different, change it!).
 5. Go to admin panel, Admin > Localization > Languages and click the new language button.
-6. If you are using different Template, you have to copy the whole directory **includes/templates/YOUR_TEMPLATE/buttons/english**, rename it to **/bulgarian** and copy it back there in order to have the new directory **includes/templates/YOUR_TEMPLATE/buttons/bulgarian**. Do the same thing with other similar English language parts form YOUR_TEMPLATE.
+6. If you are using different Template, you have to copy the whole directory **includes/templates/YOUR_TEMPLATE/buttons/english**, rename it to **/bulgarian** and copy it back there in order to have the new directory **includes/templates/YOUR_TEMPLATE/buttons/bulgarian**. Do the same thing with other similar English language parts from YOUR_TEMPLATE.
 7. If you or the add-ons you installed to your ZenCart have made any changes to some of the English langauage core files, you should apply the same changes to the Bulgarian files.
 
 **This is the structure of the directories of the package:**
