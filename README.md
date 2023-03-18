@@ -93,8 +93,8 @@ For the buttons you can use https://dabuttonfactory.com
 
 ## Contacts ##
 
-jung [at] abv [dot] bg  
+znlambov [at] gmail [dot] com  
 or Zen-Cart forum username: znlambov  
 
 
-*Полседна редакция: 11 юли 2017*  
+*Полседна редакция: 18 март 2023*  
