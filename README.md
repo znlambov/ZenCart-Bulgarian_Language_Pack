@@ -20,7 +20,7 @@ Like other open source projects, this is voluntary maintained. I am not obligate
 Just sharing my own work with all of you (GPL).  
 You have the freedom to run, study, share and modify the files.  
 There may be some grammer or syntax errors.    
-Please write to me, if you have any suggestions, criticism, questions, etc.: jung (at) abv [dot] bg  
+Please write to me, if you have any suggestions, criticism, questions, etc.: znlambov <at> gmail [dot] com  
 Thank you in advance for your cooperation!  
 
 Information from here was used:  
