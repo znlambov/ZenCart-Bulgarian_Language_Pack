@@ -17,7 +17,7 @@ define('HEADING_TITLE', 'Информация за провила ми');
 define('OVERVIEW_TITLE', 'Преглед');
 define('OVERVIEW_SHOW_ALL_ORDERS', '(покажи всички поръчки)');
 define('OVERVIEW_PREVIOUS_ORDERS', 'Предишни поръчки');
-define('TABLE_HEADING_DATE', 'Дат');
+define('TABLE_HEADING_DATE', 'Дата');
 define('TABLE_HEADING_ORDER_NUMBER', '№');
 define('TABLE_HEADING_SHIPPED_TO', 'Изпратена до');
 define('TABLE_HEADING_STATUS', 'Статус');
